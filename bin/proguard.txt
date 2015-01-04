@@ -1,0 +1,61 @@
+# view res/layout/director.xml #generated:9
+# view res/layout/search_foods.xml #generated:57
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.android.eatingornot.activitys.DirectorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.android.eatingornot.activitys.EaterApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.android.eatingornot.activitys.EattingOrNotMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.android.eatingornot.activitys.FavorFoodDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.android.eatingornot.activitys.FavorListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.android.eatingornot.activitys.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.android.eatingornot.activitys.FoodDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.android.eatingornot.activitys.ForgetPswActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.android.eatingornot.activitys.SeachFoodsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.android.eatingornot.activitys.SearchResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.android.eatingornot.activitys.ShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.android.eatingornot.activitys.UserCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.android.eatingornot.activitys.UserLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.android.eatingornot.activitys.WelcomeActivity { <init>(...); }
+
+# view res/layout/food_details.xml #generated:8
+-keep class com.android.eatingornot.widget.CustomsScrollView { <init>(...); }
+
+# view res/layout/search_foods.xml #generated:2
+-keep class com.android.eatingornot.widget.ResizeLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.umeng.common.net.DownloadingService { <init>(...); }
+
+# view res/layout/umeng_fb_conversation.xml #generated:11
+-keep class com.umeng.fb.ui.ThreadView { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.weibo.net.ShareActivity { <init>(...); }
+
