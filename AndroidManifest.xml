@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.eatingornot.activitys"
+      android:versionCode="3"
+      android:versionName="1.0.2">
+    <supports-screens android:smallScreens="true" android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"/>
+	<uses-sdk android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application 
+	    android:icon="@drawable/icon" 
+	    android:label="@string/eating_or_not"
+	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	android:name="com.android.eatingornot.activitys.EaterApplication"
+    	
+    >
+        <activity android:name=".WelcomeActivity"
+                  android:label="@string/eating_or_not"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTask"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name=".FoodDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SeachFoodsActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name=".EattingOrNotMainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"></activity>
+         <activity android:name=".SearchResultActivity"
+            android:screenOrientation="portrait"></activity>
+         <activity android:name=".DirectorActivity"
+            android:screenOrientation="portrait"></activity>
+         <activity android:name=".FavorFoodDetailsActivity"
+             android:screenOrientation="portrait"
+             ></activity>
+         <activity android:name=".FavorListActivity"
+             android:screenOrientation="portrait"
+             android:launchMode="singleTask"></activity>
+         <activity android:name=".UserLoginActivity"
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="adjustPan"
+             ></activity>
+         <activity android:name=".FeedbackActivity"
+             android:screenOrientation="portrait"
+             ></activity>
+         <activity android:name=".UserCenterActivity"
+             android:screenOrientation="portrait"></activity>
+         <activity android:name=".ForgetPswActivity"
+             android:screenOrientation="portrait"></activity>
+        <activity android:theme="@style/ContentOverlay"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" android:name="com.weibo.net.ShareActivity">
+            </activity>
+        <activity android:theme="@style/ContentOverlay"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustNothing" android:name=".ShareActivity">
+            </activity>
+         <service
+		    android:name="com.umeng.common.net.DownloadingService"
+		    android:exported="true"
+		    android:process=":DownloadingService" >
+		</service>
+    <meta-data android:value="50f4fb2f5270153c0e00008d" android:name="UMENG_APPKEY"></meta-data>
+	<meta-data android:value="@string/MARKET_NAME" android:name="UMENG_CHANNEL"/>
+    </application>
+	
+    
+</manifest>

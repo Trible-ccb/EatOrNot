@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+
+  >
+
+	<LinearLayout 
+        	    android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:background="@drawable/bg_search_box"
+		  		android:layout_marginRight="10dip"
+				android:layout_gravity="left|center_vertical"
+				android:layout_weight="1.0"
+				android:paddingLeft="14dp"
+				android:paddingRight="5dp"
+    	>
+	<AutoCompleteTextView 
+    	    android:layout_width="0dp"
+		  	android:layout_height="wrap_content"
+		  	android:id="@+id/auto_cpl_text_view"
+		  	android:hint="@string/tip_food_name"
+		  	android:singleLine="true"
+			android:drawableLeft="@drawable/search_icon"
+			android:background="#0000"
+			android:layout_marginRight="10dip"
+			android:layout_gravity="left|center_vertical"
+			android:completionThreshold="1"
+			android:layout_weight="1.0"
+			android:dropDownHeight="200dp"
+			android:textColor="#000"
+			android:dropDownVerticalOffset="7dp"
+
+			
+		/>
+	</LinearLayout>
+    	<Button
+	  	  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/btn_search"
+		  android:background="@drawable/search_btn_seletor"
+		  android:textColor="#FFF"
+		  android:layout_gravity="right|center_vertical"
+		  android:layout_marginLeft="5dp"
+		  android:text="@string/search"
+		  android:textSize="16sp"
+		  android:shadowColor="#000"
+		  android:shadowRadius="2"
+		  android:shadowDx="0"
+		  android:shadowDy="1"
+		  android:layout_weight="0.1"
+ 		 ></Button>
+</LinearLayout>

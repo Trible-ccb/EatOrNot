@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LFT_marginTop_offset">20dp</dimen>
+    <dimen name="MIN_marginTop_offset">16dp</dimen>
+    <dimen name="RIT_marginTop_offset">14dp</dimen>
+    <dimen name="LFT_marginRight_offset">18dp</dimen>
+    <dimen name="MIN_marginLeft_offset">3dp</dimen>
+    <dimen name="RIT_marginLeft_offset">10dp</dimen>
+    <dimen name="TEXT_SIZE_FOR_IMGDESP">32sp</dimen>
+    
+        <dimen name="LFT_LAYOUT_WIDTH">120dp</dimen>
+    <dimen name="MIN_LAYOUT_HEIGHT">90dp</dimen>
+    <dimen name="RIT_LAYOUT_WIDTH">90dp</dimen>
+    <dimen name="LFT_LAYOUT_HEIGHT">120dp</dimen>
+    <dimen name="MIN_LAYOUT_WIDTH">90dp</dimen>
+    <dimen name="RIT_LAYOUT_HEIGHT">90dp</dimen>
+    <dimen name="rope_margin">2dp</dimen>
+</resources>

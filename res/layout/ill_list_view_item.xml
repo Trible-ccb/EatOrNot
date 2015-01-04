@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    			<TextView 
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+						android:background="@drawable/ill_item_seletor"
+						android:text="类风湿 "
+						android:gravity="center"
+						android:textSize="18sp"
+						android:id="@+id/ill_item"
+						android:textColor="#FFF"        
+						/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+@echo off
+
+@echo the batch for build hotel finder project
+@echo create by HotelFinder-DevTeam
+@echo 2011-07-25
+
+@echo verify build environment 
+
+@echo verify local android sdk dir
+if %ANDROID_SDK% == "" (
+	@echo please set your local android sdk dir
+	goto :EOF
+	)
+
+@echo verify hotel finder project dir	
+if %PROJECT_HOTELFINDER_HOME% == "" (
+	@echo please set your local hotel finder project dir
+	goto :EOF
+	)
+
+if not "%1" == "" (
+	call :build %1
+) else (
+	for /f "eol=# delims=" %%i in (./market.txt) do call :build %%i
+)
+
+:build
+	if not "%1" == "" ( 
+		if "%1" == "LePhone" (
+		COPY /V /B /Y "..\build-resources\lephone_icon.png" "..\res\drawable-hdpi\icon.png" /B
+		ant -buildfile auto-build.xml hotel_finder -Dmarket=%1
+		COPY /B /Y "..\build-resources\default_hidp_icon.png" "..\res\drawable-hdpi\icon.png" /B
+		) else (
+		ant -buildfile auto-build.xml hotel_finder -Dmarket=%1
+		)
+	)
+	goto :EOF
+	
+@echo build ok
+pause

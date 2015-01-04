@@ -1,0 +1,988 @@
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs:
+    26:26:AccessibilityServiceInfoCompatIcs()
+android.support.v4.app.ActivityCompatHoneycomb:
+    28:28:ActivityCompatHoneycomb()
+    39:40:static void dump(android.app.Activity,java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    712:712:public int getTransition()
+    716:716:public int getTransitionStyle()
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+android.support.v4.app.FragmentActivity:
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+android.support.v4.app.FragmentActivity$FragmentTag:
+    public static final int Fragment_id
+    public static final int Fragment_name
+    public static final int Fragment_tag
+    121:121:FragmentActivity$FragmentTag()
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final java.lang.String USER_VISIBLE_HINT_TAG
+    static final int ANIM_DUR
+    public static final int ANIM_STYLE_OPEN_ENTER
+    public static final int ANIM_STYLE_OPEN_EXIT
+    public static final int ANIM_STYLE_CLOSE_ENTER
+    public static final int ANIM_STYLE_CLOSE_EXIT
+    public static final int ANIM_STYLE_FADE_ENTER
+    public static final int ANIM_STYLE_FADE_EXIT
+    1286:1294:public android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.HCSparseArray:
+    223:228:public void setValueAt(int,java.lang.Object)
+    252:260:public int indexOfValue(java.lang.Object)
+    283:310:public void append(int,java.lang.Object)
+android.support.v4.app.ListFragment:
+    static final int INTERNAL_EMPTY_ID
+    static final int INTERNAL_PROGRESS_CONTAINER_ID
+    static final int INTERNAL_LIST_CONTAINER_ID
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+android.support.v4.app.NotificationCompatHoneycomb:
+    25:25:NotificationCompatHoneycomb()
+android.support.v4.app.ShareCompatICS:
+    private static final java.lang.String HISTORY_FILENAME_PREFIX
+    25:25:ShareCompatICS()
+android.support.v4.content.AsyncTaskLoader:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+android.support.v4.content.LocalBroadcastManager:
+    static final int MSG_EXEC_PENDING_BROADCASTS
+android.support.v4.content.ModernAsyncTask:
+    private static final java.lang.String LOG_TAG
+    private static final int CORE_POOL_SIZE
+    private static final int MAXIMUM_POOL_SIZE
+    private static final int KEEP_ALIVE
+    private static final int MESSAGE_POST_RESULT
+    private static final int MESSAGE_POST_PROGRESS
+    106:107:public static void init()
+    111:112:public static void setDefaultExecutor(java.util.concurrent.Executor)
+    169:169:public final android.support.v4.content.ModernAsyncTask$Status getStatus()
+    321:321:public final java.lang.Object get()
+    341:341:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)
+    371:371:public final varargs android.support.v4.content.ModernAsyncTask execute(java.lang.Object[])
+    433:434:public static void execute(java.lang.Runnable)
+    451:455:protected final varargs void publishProgress(java.lang.Object[])
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub:
+    22:22:ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.view.AccessibilityDelegateCompatIcs:
+    28:30:AccessibilityDelegateCompatIcs()
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+android.support.v4.view.MenuItemCompatHoneycomb:
+    25:25:MenuItemCompatHoneycomb()
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+android.support.v4.view.ViewCompatGingerbread:
+    21:21:ViewCompatGingerbread()
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+android.support.v4.view.ViewConfigurationCompatFroyo:
+    24:24:ViewConfigurationCompatFroyo()
+android.support.v4.view.ViewGroupCompatIcs:
+    26:26:ViewGroupCompatIcs()
+android.support.v4.view.ViewPager:
+    596:597:void smoothScrollTo(int,int)
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs:
+    25:25:AccessibilityEventCompatIcs()
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl:
+    120:120:public boolean isTouchExplorationEnabled(android.view.accessibility.AccessibilityManager)
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl:
+    74:74:public boolean isTouchExplorationEnabled(android.view.accessibility.AccessibilityManager)
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl:
+    public abstract boolean isTouchExplorationEnabled(android.view.accessibility.AccessibilityManager)
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs:
+    28:30:AccessibilityManagerCompatIcs()
+    67:67:public static boolean isTouchExplorationEnabled(android.view.accessibility.AccessibilityManager)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl:
+    421:422:public void setBoundsInScreen(java.lang.Object,android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl:
+    public abstract void setBoundsInScreen(java.lang.Object,android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl:
+    202:202:public void setBoundsInScreen(java.lang.Object,android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs:
+    28:28:AccessibilityNodeInfoCompatIcs()
+    69:69:public static java.lang.Object getChild(java.lang.Object,int)
+    89:89:public static java.lang.Object getParent(java.lang.Object)
+    149:150:public static void setBoundsInScreen(java.lang.Object,android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl:
+    301:301:public int getMaxScrollX(java.lang.Object)
+    306:306:public int getMaxScrollY(java.lang.Object)
+    408:408:public void setMaxScrollX(java.lang.Object,int)
+    413:413:public void setMaxScrollY(java.lang.Object,int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl:
+    public abstract int getMaxScrollX(java.lang.Object)
+    public abstract void setMaxScrollX(java.lang.Object,int)
+    public abstract int getMaxScrollY(java.lang.Object)
+    public abstract void setMaxScrollY(java.lang.Object,int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl:
+    118:118:public int getMaxScrollX(java.lang.Object)
+    122:122:public int getMaxScrollY(java.lang.Object)
+    223:223:public void setMaxScrollX(java.lang.Object,int)
+    227:227:public void setMaxScrollY(java.lang.Object,int)
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs:
+    28:28:AccessibilityRecordCompatIcs()
+android.support.v4.widget.EdgeEffectCompatIcs:
+    28:28:EdgeEffectCompatIcs()
+android.support.v4.widget.SearchViewCompatHoneycomb:
+    27:29:SearchViewCompatHoneycomb()
+ccb.android.net.framkwork.BaseHttpParams:
+    35:54:public org.apache.http.client.methods.HttpUriRequest getHttpUriRequest()
+ccb.android.net.framkwork.HttpLoader:
+    public static final java.lang.String DOWLOAD_SUCCESS
+    public static final java.lang.String DOWLOAD_ERROR
+    java.lang.String message
+    54:59:public static void destoryLoader()
+    185:185:public ccb.android.net.framkwork.HttpLoader$Task getTask(ccb.android.net.framkwork.BaseHttpParams,ccb.android.net.framkwork.HttpLoader$downLoadListener,ccb.android.net.framkwork.HttpLoader$dataParser,ccb.android.net.framkwork.HttpLoader$CacheHelper)
+    194:199:public void delTask(int)
+ccb.android.net.framkwork.HttpLoader$Task:
+    155:160:private HttpLoader$Task(ccb.android.net.framkwork.HttpLoader,ccb.android.net.framkwork.BaseHttpParams,ccb.android.net.framkwork.HttpLoader$downLoadListener,ccb.android.net.framkwork.HttpLoader$dataParser,ccb.android.net.framkwork.HttpLoader$CacheHelper)
+    162:162:public java.lang.String getStoreCachePath()
+    177:178:public void setCacheHelper(ccb.android.net.framkwork.HttpLoader$CacheHelper)
+    153:153:synthetic HttpLoader$Task(ccb.android.net.framkwork.HttpLoader,ccb.android.net.framkwork.BaseHttpParams,ccb.android.net.framkwork.HttpLoader$downLoadListener,ccb.android.net.framkwork.HttpLoader$dataParser,ccb.android.net.framkwork.HttpLoader$CacheHelper,ccb.android.net.framkwork.HttpLoader$Task)
+ccb.android.net.framkwork.ImageLoader:
+    74:79:public void cancelAll()
+    82:93:public void cancel(java.lang.String)
+ccb.java.android.utils.FileUtils
+ccb.java.android.utils.LogWorker:
+    15:15:public LogWorker()
+    66:68:public static void printException(java.lang.Exception)
+ccb.java.android.utils.StorageManager:
+    private ccb.java.android.utils.StorageManager$SaveData mSaveData
+    private static final java.lang.String APP_NAME
+    115:116:public static void destory()
+    129:141:public static java.lang.String convertStreamToString(java.io.InputStream)
+    152:152:public java.io.File getDownLoadCache(java.lang.String)
+    156:175:public java.io.File setDownLoadCache(int,java.io.InputStream)
+    179:188:public java.io.InputStream getDownLoadCache(int)
+    238:245:public boolean setImageCache(java.lang.String,java.io.InputStream)
+    267:295:public void setSearchHistoy(java.util.List,int)
+    297:312:public java.util.List getSearchHistoy()
+    337:347:private java.io.InputStream getFile(java.io.File)
+    351:386:private boolean setFile(java.io.File,java.io.InputStream,boolean)
+    390:392:private java.io.InputStream readFile(java.io.File)
+    397:406:private void writeFile(java.io.File,java.io.InputStream,boolean)
+    459:463:public java.lang.String getDebugPath()
+    514:518:private java.lang.String getFavorDir()
+    632:634:private static void saveBmpToFile(java.io.File,android.graphics.Bitmap)
+    638:643:private static void pipe(java.io.InputStream,java.io.OutputStream)
+    649:664:private static android.graphics.Bitmap resizeBmp(android.graphics.Bitmap,int,int)
+    670:670:public static void wipeOldDataOnSDCard()
+ccb.java.android.utils.StorageManager$SaveData
+ccb.java.android.utils.StorageManager$SaveDataElement
+ccb.java.android.utils.StringUtil:
+    public static final int DEFAULT
+    public static final int NO_PADDING
+    public static final int NO_WRAP
+    public static final int CRLF
+    public static final int URL_SAFE
+    public static final int NO_CLOSE
+    21:27:public static boolean isValidPhoneNumber(java.lang.String)
+    71:95:public static java.lang.String MD5(java.lang.String)
+    101:107:public static java.lang.String native_encrypt(java.lang.String)
+    113:120:public static java.lang.String native_decryption(java.lang.String)
+    123:152:public static byte[] encode(byte[],int,int,int)
+    157:172:public static byte[] decode(byte[],int,int,int)
+ccb.java.android.utils.StringUtil$Coder
+ccb.java.android.utils.StringUtil$Decoder
+ccb.java.android.utils.StringUtil$Encoder
+ccb.java.android.utils.encoder.CharacterDecoder:
+    222:224:public byte[] decodeBuffer(java.io.InputStream)
+    233:233:public java.nio.ByteBuffer decodeBufferToByteBuffer(java.lang.String)
+    242:242:public java.nio.ByteBuffer decodeBufferToByteBuffer(java.io.InputStream)
+ccb.java.android.utils.encoder.CharacterEncoder:
+    145:177:public void encode(java.io.InputStream,java.io.OutputStream)
+    185:187:public void encode(byte[],java.io.OutputStream)
+    195:208:public java.lang.String encode(byte[])
+    228:259:private byte[] getBytes(java.nio.ByteBuffer)
+    272:274:public void encode(java.nio.ByteBuffer,java.io.OutputStream)
+    285:286:public java.lang.String encode(java.nio.ByteBuffer)
+    339:341:public void encodeBuffer(byte[],java.io.OutputStream)
+    372:374:public void encodeBuffer(java.nio.ByteBuffer,java.io.OutputStream)
+    385:386:public java.lang.String encodeBuffer(java.nio.ByteBuffer)
+com.android.eatingornot.DBTables.DBHelper
+com.android.eatingornot.DBTables.FavorFoodOfDieaseService
+com.android.eatingornot.DBTables.FavorFoodOfDiseaseTB
+com.android.eatingornot.activitys.BuildConfig
+com.android.eatingornot.activitys.EattingApplication:
+    public static final java.lang.String IP
+    public static final java.lang.String SERVER_IP
+    public static final int YI
+    public static final int JI
+    public static final int KE
+    public static final boolean READ_HTTP_CACHE
+    public static final boolean LOCAL_DEBUG
+    183:197:public void setUserInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    281:284:public boolean clearWeiboData()
+com.android.eatingornot.activitys.EattingOrNotMainActivity:
+    android.widget.Button btnHome
+    android.widget.Button btnMyFavor
+    java.util.List mNavibars
+    java.util.List hotFoods
+    ccb.android.net.framkwork.HttpLoader$Task hotFoodTask
+com.android.eatingornot.activitys.FavorListActivity$FavorListAdater$ViewHoder:
+    android.widget.ImageView fit
+com.android.eatingornot.activitys.FoodDetailsActivity:
+    android.support.v4.view.ViewPager viewPaper
+    com.android.eatingornot.service.DieseaseWithFoodService mDieseaseWithFoodService
+com.android.eatingornot.activitys.FoodDetailsActivity$FoodKind
+com.android.eatingornot.activitys.ForgetPswActivity:
+    166:170:private void showDialog(java.lang.String,java.lang.String)
+com.android.eatingornot.activitys.R:
+    10:10:public R()
+com.android.eatingornot.activitys.SeachFoodsActivity:
+    static java.lang.String curShowedDisease
+    502:503:private void reflashHotFoods()
+com.android.eatingornot.activitys.SearchResultActivity:
+    224:224:private void doSearch()
+    347:359:private void showErrorDlg(java.lang.String,java.lang.String)
+com.android.eatingornot.activitys.SearchResultActivity$ListAdater$ViewHoder:
+    android.widget.ImageView fit
+com.android.eatingornot.activitys.ShareActivity:
+    public static final java.lang.String EXTRA_WEIBO_CONTENT
+    public static final java.lang.String EXTRA_PIC_URI
+    public static final java.lang.String EXTRA_ACCESS_TOKEN
+    public static final java.lang.String EXTRA_TOKEN_SECRET
+    public static final int WEIBO_MAX_LENGTH
+    481:492:public void onIOException(java.io.IOException)
+com.android.eatingornot.activitys.ShareActivity$7
+com.android.eatingornot.activitys.UserCenterActivity:
+    287:298:private void showErrorDlg(java.lang.String,java.lang.String)
+com.android.eatingornot.activitys.UserLoger:
+    14:14:public UserLoger()
+com.android.eatingornot.activitys.UserLoginActivity:
+    com.android.eatingornot.datamodel.RequestRetMsg sendEmailMsg
+    154:164:private void showDialog(java.lang.String,java.lang.String,android.content.DialogInterface$OnCancelListener)
+com.android.eatingornot.data.FoodMix:
+    31:32:public void setFirstFood(com.android.eatingornot.datamodel.Food)
+    37:38:public void setSecondFood(com.android.eatingornot.datamodel.Food)
+com.android.eatingornot.data.ParseFoodMix:
+    37:37:public java.util.ArrayList getReommendFoodMix()
+    53:53:public int getmCanMix()
+    57:57:public java.lang.String getmMixReason()
+com.android.eatingornot.data.ParseRecommendFood:
+    36:36:public java.util.ArrayList getReommendFood()
+com.android.eatingornot.datapraser.HttpDataPraser:
+    17:17:public HttpDataPraser()
+com.android.eatingornot.httpparams.UpdateVersion
+com.android.eatingornot.service.DBOpenHelper:
+    private static final java.lang.String name
+    private static final int version
+com.android.eatingornot.service.DieseaseWithFoodService
+com.android.eatingornot.service.FoodService:
+    35:41:public void closeDataBase()
+    51:57:public com.android.eatingornot.datamodel.FoodDBEntity find(java.lang.String)
+    66:69:public long getCount()
+    80:101:public java.util.ArrayList getScrollDataByname(java.lang.String,android.content.Context)
+    147:154:public java.util.ArrayList getFoodArrayByName(java.lang.String)
+    158:165:public java.util.ArrayList getAllFoodArray()
+    175:183:public boolean upDateFoodSearchTime(java.lang.String)
+    197:219:public java.util.ArrayList getScrollDataBySearchTime(int,android.content.Context)
+com.android.eatingornot.tool.Tool:
+    21:21:public Tool()
+    34:35:public static int px2dip(android.content.Context,float)
+    39:39:public static float getHeighBywidth(android.graphics.drawable.Drawable,float)
+    65:80:private static int calInSampleSize(android.content.Context,android.graphics.BitmapFactory$Options,float)
+    85:94:public static android.graphics.Bitmap convertDrawable2BitmapByCanvas(android.graphics.drawable.Drawable)
+    123:141:public static android.graphics.Bitmap getScaleImageByScaleOfWinWidthAndHeight(android.content.Context,android.graphics.Bitmap,float,float)
+com.android.eatingornot.weibo.WeiBoData:
+    3:3:public WeiBoData()
+com.android.eatingornot.weibo.WeiboEntity:
+    89:94:public java.lang.String getPublicTimeline(com.weibo.net.Weibo)
+    130:148:public java.lang.String upload(com.weibo.net.Weibo,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    154:167:public java.lang.String update(com.weibo.net.Weibo,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.android.eatingornot.weibo.WeiboHandler
+com.android.eatingornot.widget.CustomNaviBar:
+    96:97:public void setBar1Listener(android.view.View$OnClickListener)
+    99:100:public void setBar2Listener(android.view.View$OnClickListener)
+com.android.eatingornot.widget.CustomsScrollView:
+    android.view.View$OnTouchListener mGestureListener
+com.android.eatingornot.widget.ImageViewWithText:
+    int imgWidthIndp
+    44:48:public void setImageAndText(android.graphics.drawable.Drawable,java.lang.String,float)
+com.google.gson.DefaultDateTypeAdapter
+com.google.gson.FieldAttributes:
+    53:53:public java.lang.Class getDeclaringClass()
+    60:60:public java.lang.String getName()
+    80:80:public java.lang.reflect.Type getDeclaredType()
+    100:100:public java.lang.Class getDeclaredClass()
+    111:111:public java.lang.annotation.Annotation getAnnotation(java.lang.Class)
+    121:121:public java.util.Collection getAnnotations()
+    135:135:public boolean hasModifier(int)
+    146:146:java.lang.Object get(java.lang.Object)
+    155:155:boolean isSynthetic()
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    455:458:public com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    478:480:public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    497:500:public java.lang.String toJson(java.lang.Object)
+    519:521:public java.lang.String toJson(java.lang.Object,java.lang.reflect.Type)
+    539:544:public void toJson(java.lang.Object,java.lang.Appendable)
+    564:569:public void toJson(java.lang.Object,java.lang.reflect.Type,java.lang.Appendable)
+    578:594:public void toJson(java.lang.Object,java.lang.reflect.Type,com.google.gson.stream.JsonWriter)
+    604:606:public java.lang.String toJson(com.google.gson.JsonElement)
+    619:624:public void toJson(com.google.gson.JsonElement,java.lang.Appendable)
+    631:639:private com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer)
+    647:662:public void toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)
+    832:833:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.Class)
+    856:859:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$2:
+    131:131:public java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$3:
+    137:137:public com.google.gson.JsonElement serialize(java.lang.Object)
+    140:140:public com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.GsonBuilder
+com.google.gson.JsonArray:
+    61:62:public void addAll(com.google.gson.JsonArray)
+    70:70:public int size()
+    92:92:public com.google.gson.JsonElement get(int)
+    154:157:public java.math.BigDecimal getAsBigDecimal()
+    171:174:public java.math.BigInteger getAsBigInteger()
+    187:190:public float getAsFloat()
+    227:230:public byte getAsByte()
+    235:238:public char getAsCharacter()
+    251:254:public short getAsShort()
+com.google.gson.JsonDeserializationContext:
+    public abstract java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.JsonDeserializer
+com.google.gson.JsonElement:
+    130:133:public com.google.gson.JsonNull getAsJsonNull()
+    211:211:public float getAsFloat()
+    251:251:public byte getAsByte()
+    265:265:public char getAsCharacter()
+    279:279:public java.math.BigDecimal getAsBigDecimal()
+    293:293:public java.math.BigInteger getAsBigInteger()
+    306:306:public short getAsShort()
+com.google.gson.JsonIOException:
+    private static final long serialVersionUID
+    33:34:public JsonIOException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonObject:
+    68:68:public com.google.gson.JsonElement remove(java.lang.String)
+    79:80:public void addProperty(java.lang.String,java.lang.String)
+    90:91:public void addProperty(java.lang.String,java.lang.Number)
+    101:102:public void addProperty(java.lang.String,java.lang.Boolean)
+    112:113:public void addProperty(java.lang.String,java.lang.Character)
+    122:122:private com.google.gson.JsonElement createJsonElement(java.lang.Object)
+    142:142:public boolean has(java.lang.String)
+    152:156:public com.google.gson.JsonElement get(java.lang.String)
+    166:166:public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    176:176:public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    186:186:public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
+com.google.gson.JsonParseException:
+    static final long serialVersionUID
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive:
+    74:76:public JsonPrimitive(java.lang.Character)
+    84:86:JsonPrimitive(java.lang.Object)
+    199:199:public java.math.BigDecimal getAsBigDecimal()
+    210:210:public java.math.BigInteger getAsBigInteger()
+    222:222:public float getAsFloat()
+    244:244:public short getAsShort()
+    260:260:public byte getAsByte()
+    265:265:public char getAsCharacter()
+com.google.gson.JsonSerializationContext:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object)
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.JsonSyntaxException:
+    private static final long serialVersionUID
+com.google.gson.LongSerializationPolicy:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$1:
+    36:36:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$2:
+    47:47:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.TreeTypeAdapter
+com.google.gson.TreeTypeAdapter$1
+com.google.gson.TreeTypeAdapter$SingleTypeFactory
+com.google.gson.TypeAdapter:
+    141:143:public final void toJson(java.io.Writer,java.lang.Object)
+    186:186:public final com.google.gson.TypeAdapter nullSafe()
+    215:217:public final java.lang.String toJson(java.lang.Object)
+    255:256:public final java.lang.Object fromJson(java.io.Reader)
+    269:269:public final java.lang.Object fromJson(java.lang.String)
+    280:283:public final java.lang.Object fromJsonTree(com.google.gson.JsonElement)
+com.google.gson.TypeAdapter$1
+com.google.gson.internal.$Gson$Preconditions:
+    32:32:public $Gson$Preconditions()
+com.google.gson.internal.$Gson$Types:
+    45:45:private $Gson$Types()
+com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.$Gson$Types$WildcardTypeImpl:
+    private static final long serialVersionUID
+com.google.gson.internal.Excluder:
+    private static final double IGNORE_VERSIONS
+    70:72:public com.google.gson.internal.Excluder withVersion(double)
+    76:81:public varargs com.google.gson.internal.Excluder withModifiers(int[])
+    85:87:public com.google.gson.internal.Excluder disableInnerClassSerialization()
+    91:93:public com.google.gson.internal.Excluder excludeFieldsWithoutExposeAnnotation()
+    98:108:public com.google.gson.internal.Excluder withExclusionStrategy(com.google.gson.ExclusionStrategy,boolean,boolean)
+com.google.gson.internal.Primitives:
+    32:32:private Primitives()
+    80:80:public static boolean isWrapperType(java.lang.reflect.Type)
+    113:115:public static java.lang.Class unwrap(java.lang.Class)
+com.google.gson.internal.Streams:
+    35:79:public Streams()
+    40:60:public static com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader)
+    72:72:public static java.io.Writer writerForAppendable(java.lang.Appendable)
+com.google.gson.internal.Streams$1
+com.google.gson.internal.Streams$AppendableWriter
+com.google.gson.internal.Streams$AppendableWriter$CurrentWrite
+com.google.gson.internal.StringMap:
+    private static final int MINIMUM_CAPACITY
+    private static final int MAXIMUM_CAPACITY
+com.google.gson.internal.bind.JsonTreeReader:
+    53:55:public JsonTreeReader(com.google.gson.JsonElement)
+com.google.gson.internal.bind.TypeAdapters:
+    58:58:private TypeAdapters()
+    760:760:public static com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken,com.google.gson.TypeAdapter)
+com.google.gson.internal.bind.TypeAdapters$23:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.internal.bind.TypeAdapters$27
+com.google.gson.reflect.TypeToken:
+    112:112:public boolean isAssignableFrom(java.lang.Class)
+    123:140:public boolean isAssignableFrom(java.lang.reflect.Type)
+    153:153:public boolean isAssignableFrom(com.google.gson.reflect.TypeToken)
+    161:178:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    188:231:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    240:250:private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    257:265:private static varargs java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type,java.lang.Class[])
+    273:273:private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+com.umeng.analytics.Gender
+com.umeng.analytics.MobclickAgent:
+    private static synthetic int[] b
+    public MobclickAgent()
+    public static void setAutoLocation(boolean)
+    public static void setSessionContinueMillis(long)
+    public static void setEnableEventBuffer(boolean)
+    public static void setOnlineConfigureListener(com.umeng.analytics.UmengOnlineConfigureListener)
+    static com.umeng.analytics.b a()
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static void openActivityDurationTrack(boolean)
+    public static void setDebugMode(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void onResume(android.content.Context,java.lang.String,java.lang.String)
+    public static void onError(android.content.Context,java.lang.String)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void flush(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.util.Map)
+    public static void onEventDuration(android.content.Context,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.util.Map,long)
+    public static void onEventBegin(android.content.Context,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String)
+    public static void onEventBegin(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    public static void onKVEventBegin(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+    public static void onKVEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context,java.lang.String,java.lang.String)
+    public void setGender(android.content.Context,com.umeng.analytics.Gender)
+    public void setAge(android.content.Context,int)
+    public void setUserID(android.content.Context,java.lang.String,java.lang.String)
+    static synthetic int[] b()
+com.umeng.analytics.MobclickAgentJSInterface
+com.umeng.analytics.MobclickAgentJSInterface$a
+com.umeng.analytics.ReportPolicy:
+    public static final int REALTIME
+    public static final int BATCH_AT_LAUNCH
+    static final int a
+    static final int b
+    public static final int DAILY
+    public static final int WIFIONLY
+    public static final int BATCH_BY_INTERVAL
+    static void a(android.content.Context,int)
+    static void b(android.content.Context,int,long)
+com.umeng.analytics.a:
+    private static final java.lang.String d
+com.umeng.analytics.b:
+    void a(android.content.Context,java.lang.String)
+    void d(android.content.Context)
+    void a(android.content.Context,java.lang.String,java.util.Map,long)
+    private synchronized void l(android.content.Context)
+    private void p(android.content.Context)
+    private org.json.JSONArray a(org.json.JSONObject,org.json.JSONArray)
+    void b(android.content.Context,java.lang.String)
+    void c(android.content.Context,java.lang.String)
+    void a(android.content.Context,java.lang.String,java.lang.String)
+    void b(android.content.Context,java.lang.String,java.lang.String)
+    void a(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+    void c(android.content.Context,java.lang.String,java.lang.String)
+com.umeng.analytics.b$a:
+    b$a(com.umeng.analytics.b,android.content.Context,java.lang.String,java.util.Map,long,int)
+    b$a(com.umeng.analytics.b,android.content.Context,java.lang.String,java.util.Map,java.lang.String,int)
+com.umeng.analytics.d:
+    public void a(int)
+    public void a(java.lang.String,java.util.Map)
+    public java.util.Map c(java.lang.String)
+    public synchronized boolean a(android.content.Context,java.lang.String,java.util.Map,long)
+com.umeng.analytics.e:
+    static final java.lang.String a
+    static final java.lang.String b
+    static final java.lang.String c
+    static final int e
+    static final int f
+    static final java.lang.String l
+    static final java.lang.String m
+    static final java.lang.String o
+    static final java.lang.String q
+    static final java.lang.String r
+    static final java.lang.String t
+    static final java.lang.String u
+    static final java.lang.String v
+    static final java.lang.String w
+    static final java.lang.String x
+    static final java.lang.String y
+    static final java.lang.String z
+    static final java.lang.String A
+    static final java.lang.String B
+    static final java.lang.String C
+    e()
+com.umeng.analytics.f:
+    f()
+com.umeng.analytics.h:
+    h()
+com.umeng.analytics.i:
+    private static final int b
+    public i(java.lang.String,int)
+    public int b()
+com.umeng.common.Log:
+    public Log()
+    public static void d(java.lang.String,java.lang.String)
+    public static void d(java.lang.String,java.lang.String,java.lang.Exception)
+    public static void e(java.lang.String,java.lang.String,java.lang.Exception)
+com.umeng.common.a
+com.umeng.common.a.a:
+    public a()
+    public static int g(android.content.Context)
+com.umeng.common.a.b:
+    public b()
+com.umeng.common.a.c:
+    public c()
+    public static int b(android.content.Context)
+    public static int c(android.content.Context)
+    public static int f(android.content.Context)
+com.umeng.common.b:
+    protected static final java.lang.String b
+    private static final java.lang.String d
+    private static final java.lang.String e
+    public static final int c
+    public static boolean a(java.lang.String,android.content.Context)
+    public static boolean a(android.content.Context)
+    public static java.util.Set b(android.content.Context)
+    public static boolean c(android.content.Context)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String h(android.content.Context)
+    public static java.lang.String i(android.content.Context)
+    public static java.lang.String a(java.util.Date)
+    public static java.util.Date a(java.lang.String)
+    public static int a(java.util.Date,java.util.Date)
+com.umeng.common.b.a
+com.umeng.common.b.b
+com.umeng.common.b.c
+com.umeng.common.b.d
+com.umeng.common.b.e
+com.umeng.common.b.f:
+    public f()
+    public static java.lang.String a(byte[],java.lang.String)
+com.umeng.common.b.g:
+    private static final java.lang.String b
+    public g()
+    public static java.lang.String a(android.content.Context,long)
+    public static void a(android.content.Context,java.lang.String)
+    public static boolean b(android.content.Context,java.lang.String)
+    public static boolean d(java.lang.String)
+com.umeng.common.b.h
+com.umeng.common.b.i
+com.umeng.common.c:
+    public int a(java.lang.String)
+    public int e(java.lang.String)
+com.umeng.common.net.DownloadingService:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+    static final int e
+    static final int f
+    static final java.lang.String g
+    private static final int l
+    private static final long p
+    private void d()
+com.umeng.common.net.a:
+    public void a(java.lang.String[])
+    public void a(boolean)
+com.umeng.common.net.c:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String j
+    public void a(java.lang.String,java.lang.String,java.lang.String)
+    public int b(java.lang.String,java.lang.String)
+    public java.lang.String c(java.lang.String,java.lang.String)
+    public java.util.Date d(java.lang.String,java.lang.String)
+    public void e(java.lang.String,java.lang.String)
+    public java.util.List a(java.lang.String)
+com.umeng.common.net.c$a:
+    private static final int b
+    private static final java.lang.String c
+com.umeng.common.net.c$b:
+    private c$b()
+com.umeng.common.net.f
+com.umeng.common.net.l:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final java.lang.String e
+    public l()
+    public static int a(com.umeng.common.net.a$a)
+    public static android.app.PendingIntent a(android.content.Context,java.lang.String)
+com.umeng.common.net.m
+com.umeng.common.net.m$a
+com.umeng.common.net.m$b
+com.umeng.common.net.n
+com.umeng.common.net.o
+com.umeng.common.net.o$a
+com.umeng.common.net.p
+com.umeng.common.net.p$a
+com.umeng.common.net.p$b
+com.umeng.common.net.p$c
+com.umeng.common.net.q
+com.umeng.common.net.r:
+    public com.umeng.common.net.r a(java.util.Map)
+com.umeng.common.net.s:
+    public java.lang.String d()
+com.umeng.fb.NotificationType
+com.umeng.fb.UMFeedbackService:
+    private static com.umeng.fb.NotificationType a
+    private static android.content.Context b
+    public UMFeedbackService()
+    private static void b(java.lang.String)
+    public static void openUmengFeedbackSDK(android.content.Context)
+    public static void setGoBackButtonVisible()
+    public static void setContactMap(java.util.Map)
+    public static void setRemarkMap(java.util.Map)
+    public static void enableNewReplyNotification(android.content.Context,com.umeng.fb.NotificationType)
+    public static void setFeedBackListener(com.umeng.fb.util.FeedBackListener)
+    static synthetic android.content.Context a()
+    static synthetic void a(java.lang.String)
+com.umeng.fb.a:
+    public java.lang.String d
+com.umeng.fb.a.a:
+    private static final int b
+com.umeng.fb.a.b:
+    public b(java.lang.String)
+com.umeng.fb.a.e:
+    public e(android.content.Context,android.os.Handler)
+com.umeng.fb.b.a:
+    public a()
+com.umeng.fb.b.b:
+    public b()
+    public static int d(android.content.Context)
+com.umeng.fb.b.c:
+    public c()
+    public static int l(android.content.Context)
+    public static int v(android.content.Context)
+    public static int w(android.content.Context)
+    public static int x(android.content.Context)
+    public static int y(android.content.Context)
+com.umeng.fb.b.d:
+    public d()
+    public static int f(android.content.Context)
+com.umeng.fb.b.e:
+    public e()
+    public static int c(android.content.Context)
+    public static int k(android.content.Context)
+    public static int w(android.content.Context)
+    public static int x(android.content.Context)
+    public static int y(android.content.Context)
+    public static int z(android.content.Context)
+    public static int A(android.content.Context)
+com.umeng.fb.c
+com.umeng.fb.d
+com.umeng.fb.e
+com.umeng.fb.f:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final int f
+    static final int g
+    public static final java.lang.String p
+    public static final java.lang.String s
+    public static final java.lang.String t
+    public static final java.lang.String v
+    public static final java.lang.String w
+    public static final java.lang.String x
+    public static final java.lang.String y
+    public static final java.lang.String z
+    public static final java.lang.String A
+    public static final java.lang.String B
+    public static final java.lang.String C
+    public static final java.lang.String D
+    public static final java.lang.String E
+    public static final java.lang.String F
+    public static final java.lang.String G
+    public static final java.lang.String H
+    public static final java.lang.String I
+    public static final java.lang.String J
+    public static final java.lang.String K
+    public static final java.lang.String L
+    public static final java.lang.String M
+    static final java.lang.String N
+    static final java.lang.String O
+    static final java.lang.String P
+    static final java.lang.String Q
+    static final java.lang.String R
+    public static final java.lang.String S
+    public static final java.lang.String T
+    public static final java.lang.String U
+    public static final java.lang.String V
+    public static final java.lang.String W
+    public static final java.lang.String X
+    public static final java.lang.String Y
+    public static final java.lang.String Z
+    public static final java.lang.String aa
+    public static final java.lang.String ab
+    public static final java.lang.String ac
+    public static final java.lang.String ad
+    public static final java.lang.String ae
+    public static final java.lang.String af
+    public static final java.lang.String ag
+    public static final java.lang.String ah
+    public static final java.lang.String ai
+    public static final java.lang.String aj
+    public static final java.lang.String ak
+    public static final java.lang.String al
+    public static final java.lang.String am
+    public static final java.lang.String an
+    public static final java.lang.String ao
+    public static final java.lang.String ap
+    public static final java.lang.String aq
+    public static final java.lang.String ar
+    public static final java.lang.String as
+    public static final java.lang.String at
+    public static final java.lang.String au
+    public static final java.lang.String av
+    public static final java.lang.String aw
+    public static final java.lang.String ax
+    public static final java.lang.String ay
+    public static final java.lang.String az
+    public static final java.lang.String aA
+    public static final int aB
+    public static final int aC
+    public static final int aD
+    public static final java.lang.String aE
+    public static final int aF
+    public static final int aG
+    public static final java.lang.String aH
+    public static final java.lang.String aI
+    public static final int aJ
+    public static final int aK
+    public static final java.lang.String aL
+    public static final java.lang.String aM
+    public static final java.lang.String aN
+    public static final java.lang.String aO
+    public static final java.lang.String aP
+    public static final java.lang.String aQ
+    public f()
+com.umeng.fb.g:
+    public g()
+    public static void a(android.content.Context)
+    public static java.lang.String a()
+    public static int a(java.util.Date,java.util.Date)
+    public static java.util.Date b(android.content.Context)
+    public static void a(android.content.Context,java.util.Date)
+    public static java.lang.String a(org.json.JSONObject)
+    public static java.lang.String b(org.json.JSONObject)
+com.umeng.fb.ui.FeedbackConversations:
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final int f
+    private static final int g
+com.umeng.fb.ui.b:
+    java.lang.String c
+com.umeng.fb.ui.d:
+    org.json.JSONArray d
+    java.lang.String[] e
+    public com.umeng.fb.b$a a(int)
+com.umeng.fb.util.ActivityStarter:
+    public ActivityStarter()
+com.umeng.fb.util.a:
+    static final java.lang.String a
+    private static final int b
+    public a()
+com.umeng.fb.util.b:
+    public b()
+    public static synchronized boolean b(org.json.JSONObject)
+com.umeng.fb.util.c:
+    public c()
+com.umeng.update.UmengUpdateAgent:
+    private static final java.lang.String e
+    private static final java.lang.String g
+    private static final java.lang.String h
+    public static final java.lang.String a
+    public static void setOnDownloadListener(com.umeng.update.UmengDownloadListener)
+    public static void update(android.content.Context,java.lang.String)
+    public static void setUpdateOnlyWifi(boolean)
+    public static void destroy()
+    public static void setUpdateAutoPopup(boolean)
+    public static void setUpdateListener(com.umeng.update.UmengUpdateListener)
+    public static void update(android.content.Context,long)
+    private static android.content.SharedPreferences a(android.content.Context)
+com.umeng.update.UpdateStatus
+com.weibo.android.R:
+    9:9:public R()
+com.weibo.android.R$color
+com.weibo.android.R$dimen
+com.weibo.android.R$drawable:
+    25:25:public R$drawable()
+com.weibo.android.R$id:
+    54:54:public R$id()
+com.weibo.android.R$layout:
+    70:70:public R$layout()
+com.weibo.android.R$string:
+    74:74:public R$string()
+com.weibo.android.R$style:
+    90:90:public R$style()
+com.weibo.net.AccessToken:
+    28:29:public AccessToken(java.lang.String)
+com.weibo.net.AccessTokenHeader
+com.weibo.net.AsyncWeiboRunner$RequestListener:
+    public abstract void onIOException(java.io.IOException)
+com.weibo.net.DialogError:
+    private static final long serialVersionUID
+    34:34:int getErrorCode()
+    38:38:java.lang.String getFailingUrl()
+com.weibo.net.HttpHeaderFactory:
+    public static final java.lang.String CONST_HMAC_SHA1
+    public static final java.lang.String CONST_SIGNATURE_METHOD
+    public static final java.lang.String CONST_OAUTH_VERSION
+    151:171:public static java.lang.String encodeParameters(android.os.Bundle,java.lang.String,boolean)
+com.weibo.net.Oauth2AccessToken
+com.weibo.net.OldShareActivity:
+    public static final java.lang.String EXTRA_WEIBO_CONTENT
+    public static final java.lang.String EXTRA_PIC_URI
+    public static final java.lang.String EXTRA_ACCESS_TOKEN
+    public static final java.lang.String EXTRA_TOKEN_SECRET
+    public static final int WEIBO_MAX_LENGTH
+    259:259:public void onIOException(java.io.IOException)
+com.weibo.net.RequestHeader
+com.weibo.net.RequestToken:
+    31:32:public RequestToken(java.lang.String)
+com.weibo.net.RequestTokenHeader
+com.weibo.net.ShareActivity:
+    public static final java.lang.String EXTRA_WEIBO_CONTENT
+    public static final java.lang.String EXTRA_PIC_URI
+    public static final java.lang.String EXTRA_ACCESS_TOKEN
+    public static final java.lang.String EXTRA_TOKEN_SECRET
+    public static final int WEIBO_MAX_LENGTH
+    247:247:public void onIOException(java.io.IOException)
+com.weibo.net.Token:
+    protected javax.crypto.spec.SecretKeySpec mSecretKeySpec
+    49:49:public java.lang.String getRefreshToken()
+    53:54:public void setRefreshToken(java.lang.String)
+    75:76:public void setVerifier(java.lang.String)
+    79:79:public java.lang.String getVerifier()
+    86:90:public Token(java.lang.String)
+    98:105:public java.lang.String getParameter(java.lang.String)
+    109:110:protected void setSecretKeySpec(javax.crypto.spec.SecretKeySpec)
+    113:113:protected javax.crypto.spec.SecretKeySpec getSecretKeySpec()
+com.weibo.net.Utility:
+    public static final java.lang.String BOUNDARY
+    public static final java.lang.String MP_BOUNDARY
+    public static final java.lang.String END_MP_BOUNDARY
+    public static final java.lang.String MULTIPART_FORM_DATA
+    public static final java.lang.String HTTPMETHOD_POST
+    public static final java.lang.String HTTPMETHOD_GET
+    public static final java.lang.String HTTPMETHOD_DELETE
+    private static final int SET_CONNECTION_TIMEOUT
+    private static final int SET_SOCKET_TIMEOUT
+    99:99:public Utility()
+    160:161:public static void setRequestHeader(com.weibo.net.WeiboParameters)
+    164:166:public static void clearRequestHeader()
+    169:183:public static java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+    244:255:public static org.apache.http.client.entity.UrlEncodedFormEntity getPostParamters(android.os.Bundle)
+    453:474:public static org.apache.http.client.HttpClient getHttpClient(android.content.Context)
+    589:595:private static java.lang.String read(java.io.InputStream)
+    608:611:public static void clearCookies(android.content.Context)
+    660:685:public static char[] base64Encode(byte[])
+com.weibo.net.Weibo:
+    private static final int DEFAULT_AUTH_ACTIVITY_CODE
+    public static final java.lang.String TOKEN
+    public static final java.lang.String EXPIRES
+    public static final java.lang.String DEFAULT_REDIRECT_URI
+    public static final java.lang.String DEFAULT_CANCEL_URI
+    108:109:public void setRequestToken(com.weibo.net.RequestToken)
+    112:112:public static java.lang.String getSERVER()
+    116:117:public static void setSERVER(java.lang.String)
+    121:122:public void addOauthverifier(java.lang.String)
+    156:163:public com.weibo.net.RequestToken getRequestToken(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+    168:176:public com.weibo.net.AccessToken generateAccessToken(android.content.Context,com.weibo.net.RequestToken)
+    181:189:public com.weibo.net.AccessToken getXauthAccessToken(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    209:220:public com.weibo.net.Oauth2AccessToken getOauth2AccessToken(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    313:314:private void authorize(android.app.Activity,java.lang.String[],com.weibo.net.WeiboDialogListener)
+    336:336:private void authorizeCallBack(int,int,android.content.Intent)
+com.weibo.net.WeiboDialog:
+    static final int MARGIN
+    static final int PADDING
+    private android.widget.ImageView mBtnClose
+    private static final java.lang.String TAG
+    63:68:public static void dispaly(com.weibo.net.Weibo,android.content.Context,java.lang.String,com.weibo.net.WeiboDialogListener)
+    116:140:private void setUpCloseBtn()
+    225:255:private static java.lang.String getHtml(java.lang.String)
+com.weibo.net.WeiboDialog$1
+com.weibo.net.WeiboDialog$WeiboWebViewClient:
+    200:201:public void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.weibo.SslError)
+com.weibo.net.WeiboException:
+    private static final long serialVersionUID
+    145:146:public WeiboException(java.lang.String,java.lang.Exception)
+    149:151:public WeiboException(java.lang.String,java.lang.Exception,int)
+    163:164:public WeiboException(java.lang.String,java.lang.Throwable)
+    167:168:public WeiboException(java.lang.Throwable)
+    171:173:public WeiboException(int)
+    176:177:public void setStatusCode(int)
+com.weibo.net.WeiboParameters:
+    58:61:public void remove(int)
+    65:68:public int getLocation(java.lang.String)
+    103:105:public void clear()
+com.weibo.net.XAuthHeader

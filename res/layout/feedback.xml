@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     >
+
+  <include layout="@layout/customs_title" android:id="@+id/title"/>
+  
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:layout_below="@id/title"
+  android:padding="10dp"
+  >
+	  			<LinearLayout
+	  			  	android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:orientation="horizontal"
+	  				android:layout_marginLeft="20dip"
+	  				android:layout_marginTop="10dip"
+	  				android:id="@+id/tip_laout"
+	  				>
+	  				
+		  			<ImageView 
+				  			android:layout_width="wrap_content"
+				  			android:layout_height="wrap_content"
+				  			android:src="@drawable/feedback"
+				  			android:scaleType="centerInside"
+				  			
+				  		></ImageView>
+
+  				</LinearLayout>
+  				
+	  			<LinearLayout 
+	  			    android:layout_width="fill_parent"
+	  			    android:layout_height="fill_parent"
+	  			    android:background="@drawable/bg1"
+	  			    android:layout_marginTop="10dp"	  			    
+	  			    android:orientation="vertical"
+	  			    android:padding="20dp"
+	  			    >
+	  			    <TextView 
+	  			        android:layout_width="wrap_content"
+	  			        android:layout_height="wrap_content"
+	  			        android:text="@string/your_feedback"
+	  			        android:layout_marginTop="10dp"
+	  			        android:layout_marginBottom="10dp"
+	  			        android:textSize="18sp"
+	  			        />
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:hint="@string/hint_for_feedback"
+	  			        android:background="@drawable/bg_editor"
+	  			        android:minLines="5"
+	  			        android:maxLines="5"
+	  			        android:id="@+id/edit_feedback"
+	  			        android:gravity="top"
+	  			        />
+	  			   	<TextView 
+	  			        android:layout_width="wrap_content"
+	  			        android:layout_height="wrap_content"
+	  			        android:text="@string/your_contact"
+	  			        android:layout_marginTop="10dp"
+	  			        android:layout_marginBottom="10dp"
+	  			        android:textSize="18sp"
+	  			        />
+	  			     c<EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:hint="@string/hint_for_contact"
+	  			        android:background="@drawable/bg_editor"
+	  			        android:minLines="3"
+	  			        android:maxLines="3"
+	  			        android:id="@+id/edit_contact"
+	  			        android:gravity="top"
+	  			        /> 
+	  			    <Button 
+	  			        android:layout_width="wrap_content"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/btn_submit"
+	  			        android:background="@drawable/search_btn_seletor"
+	  			        android:text="@string/submit"
+	  			        android:layout_gravity="center"
+	  			        android:layout_marginTop="10dp"
+	  			        android:paddingLeft="20dp"
+	  			        android:paddingRight="20dp"
+	  			        />
+	  			</LinearLayout>
+
+  </LinearLayout>
+<LinearLayout 
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+    <include layout="@layout/customs_navibar"/>    
+</LinearLayout>
+</RelativeLayout>

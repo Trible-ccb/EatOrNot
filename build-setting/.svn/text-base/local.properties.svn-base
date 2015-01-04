@@ -1,0 +1,6 @@
+# the file for build hotel finder project
+# set local property, use system enviroment
+# create by HotelFinder-DevTeam
+# 2011-08-04
+
+sdk.dir=${env.ANDROID_SDK}

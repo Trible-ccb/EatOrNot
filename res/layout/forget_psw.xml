@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    
+
+    <include layout="@layout/customs_title" />
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"    
+        >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg1"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        >              
+		<EditText 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:id="@+id/edt_email"
+		    android:inputType="textEmailAddress"
+		    android:background="@drawable/bg_editor"
+		    android:hint="@string/email_name"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="30dp"
+		    />
+	    	<Button 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:paddingLeft="40dp"
+					    android:paddingRight="40dp"
+					    android:textColor="#FFF"
+					    android:id="@+id/submit_forget_psw"
+					    android:text="@string/submit"
+					    android:layout_marginTop="10dp"
+					    android:layout_gravity="center"
+					    android:background="@drawable/title_btn_seletor"
+					    android:shadowColor="#000"
+						android:shadowDx="0"
+						android:shadowDy="1"
+						android:shadowRadius="1"
+					    />
+        </LinearLayout>
+     <LinearLayout
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentBottom="true"
+  	    android:visibility="gone" >
+  	    <include layout="@layout/customs_navibar" />
+  	</LinearLayout>
+  	</RelativeLayout>
+</LinearLayout>

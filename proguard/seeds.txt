@@ -1,0 +1,2191 @@
+android.annotation.SuppressLint
+android.annotation.SuppressLint: java.lang.String[] value()
+android.annotation.TargetApi
+android.annotation.TargetApi: int value()
+android.net.http.weibo.SslError
+android.net.http.weibo.SslError: int SSL_NOTYETVALID
+android.net.http.weibo.SslError: int SSL_EXPIRED
+android.net.http.weibo.SslError: int SSL_IDMISMATCH
+android.net.http.weibo.SslError: int SSL_UNTRUSTED
+android.net.http.weibo.SslError: int SSL_MAX_ERROR
+android.net.http.weibo.SslError: SslError(int,android.net.http.SslCertificate)
+android.net.http.weibo.SslError: SslError(int,java.security.cert.X509Certificate)
+android.net.http.weibo.SslError: android.net.http.SslCertificate getCertificate()
+android.net.http.weibo.SslError: boolean addError(int)
+android.net.http.weibo.SslError: boolean hasError(int)
+android.net.http.weibo.SslError: int getPrimaryError()
+android.net.http.weibo.SslError: java.lang.String toString()
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl IMPL
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: int FEEDBACK_ALL_MASK
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: AccessibilityServiceInfoCompat()
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: java.lang.String getId(android.accessibilityservice.AccessibilityServiceInfo)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: android.content.pm.ResolveInfo getResolveInfo(android.accessibilityservice.AccessibilityServiceInfo)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: java.lang.String getSettingsActivityName(android.accessibilityservice.AccessibilityServiceInfo)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: boolean getCanRetrieveWindowContent(android.accessibilityservice.AccessibilityServiceInfo)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: java.lang.String getDescription(android.accessibilityservice.AccessibilityServiceInfo)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: java.lang.String feedbackTypeToString(int)
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat: java.lang.String flagToString(int)
+android.support.v4.app.ActivityCompat
+android.support.v4.app.ActivityCompat: ActivityCompat()
+android.support.v4.app.ActivityCompat: boolean invalidateOptionsMenu(android.app.Activity)
+android.support.v4.app.ActivityCompat: boolean startActivities(android.app.Activity,android.content.Intent[])
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.DialogFragment
+android.support.v4.app.DialogFragment: int STYLE_NORMAL
+android.support.v4.app.DialogFragment: int STYLE_NO_TITLE
+android.support.v4.app.DialogFragment: int STYLE_NO_FRAME
+android.support.v4.app.DialogFragment: int STYLE_NO_INPUT
+android.support.v4.app.DialogFragment: java.lang.String SAVED_DIALOG_STATE_TAG
+android.support.v4.app.DialogFragment: java.lang.String SAVED_STYLE
+android.support.v4.app.DialogFragment: java.lang.String SAVED_THEME
+android.support.v4.app.DialogFragment: java.lang.String SAVED_CANCELABLE
+android.support.v4.app.DialogFragment: java.lang.String SAVED_SHOWS_DIALOG
+android.support.v4.app.DialogFragment: java.lang.String SAVED_BACK_STACK_ID
+android.support.v4.app.DialogFragment: DialogFragment()
+android.support.v4.app.DialogFragment: void setStyle(int,int)
+android.support.v4.app.DialogFragment: void show(android.support.v4.app.FragmentManager,java.lang.String)
+android.support.v4.app.DialogFragment: int show(android.support.v4.app.FragmentTransaction,java.lang.String)
+android.support.v4.app.DialogFragment: void dismiss()
+android.support.v4.app.DialogFragment: android.app.Dialog getDialog()
+android.support.v4.app.DialogFragment: int getTheme()
+android.support.v4.app.DialogFragment: void setCancelable(boolean)
+android.support.v4.app.DialogFragment: boolean isCancelable()
+android.support.v4.app.DialogFragment: void setShowsDialog(boolean)
+android.support.v4.app.DialogFragment: boolean getShowsDialog()
+android.support.v4.app.DialogFragment: void onCreate(android.os.Bundle)
+android.support.v4.app.DialogFragment: android.view.LayoutInflater getLayoutInflater(android.os.Bundle)
+android.support.v4.app.DialogFragment: android.app.Dialog onCreateDialog(android.os.Bundle)
+android.support.v4.app.DialogFragment: void onCancel(android.content.DialogInterface)
+android.support.v4.app.DialogFragment: void onDismiss(android.content.DialogInterface)
+android.support.v4.app.DialogFragment: void onActivityCreated(android.os.Bundle)
+android.support.v4.app.DialogFragment: void onStart()
+android.support.v4.app.DialogFragment: void onSaveInstanceState(android.os.Bundle)
+android.support.v4.app.DialogFragment: void onStop()
+android.support.v4.app.DialogFragment: void onDestroyView()
+android.support.v4.app.Fragment
+android.support.v4.app.Fragment: java.util.HashMap sClassMap
+android.support.v4.app.Fragment: Fragment()
+android.support.v4.app.Fragment: android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String)
+android.support.v4.app.Fragment: android.support.v4.app.Fragment instantiate(android.content.Context,java.lang.String,android.os.Bundle)
+android.support.v4.app.Fragment: boolean equals(java.lang.Object)
+android.support.v4.app.Fragment: int hashCode()
+android.support.v4.app.Fragment: java.lang.String toString()
+android.support.v4.app.Fragment: int getId()
+android.support.v4.app.Fragment: java.lang.String getTag()
+android.support.v4.app.Fragment: void setArguments(android.os.Bundle)
+android.support.v4.app.Fragment: android.os.Bundle getArguments()
+android.support.v4.app.Fragment: void setInitialSavedState(android.support.v4.app.Fragment$SavedState)
+android.support.v4.app.Fragment: void setTargetFragment(android.support.v4.app.Fragment,int)
+android.support.v4.app.Fragment: android.support.v4.app.Fragment getTargetFragment()
+android.support.v4.app.Fragment: int getTargetRequestCode()
+android.support.v4.app.Fragment: android.support.v4.app.FragmentActivity getActivity()
+android.support.v4.app.Fragment: android.content.res.Resources getResources()
+android.support.v4.app.Fragment: java.lang.CharSequence getText(int)
+android.support.v4.app.Fragment: java.lang.String getString(int)
+android.support.v4.app.Fragment: java.lang.String getString(int,java.lang.Object[])
+android.support.v4.app.Fragment: android.support.v4.app.FragmentManager getFragmentManager()
+android.support.v4.app.Fragment: boolean isAdded()
+android.support.v4.app.Fragment: boolean isDetached()
+android.support.v4.app.Fragment: boolean isRemoving()
+android.support.v4.app.Fragment: boolean isInLayout()
+android.support.v4.app.Fragment: boolean isResumed()
+android.support.v4.app.Fragment: boolean isVisible()
+android.support.v4.app.Fragment: boolean isHidden()
+android.support.v4.app.Fragment: void onHiddenChanged(boolean)
+android.support.v4.app.Fragment: void setRetainInstance(boolean)
+android.support.v4.app.Fragment: boolean getRetainInstance()
+android.support.v4.app.Fragment: void setHasOptionsMenu(boolean)
+android.support.v4.app.Fragment: void setMenuVisibility(boolean)
+android.support.v4.app.Fragment: void setUserVisibleHint(boolean)
+android.support.v4.app.Fragment: boolean getUserVisibleHint()
+android.support.v4.app.Fragment: android.support.v4.app.LoaderManager getLoaderManager()
+android.support.v4.app.Fragment: void startActivity(android.content.Intent)
+android.support.v4.app.Fragment: void startActivityForResult(android.content.Intent,int)
+android.support.v4.app.Fragment: void onActivityResult(int,int,android.content.Intent)
+android.support.v4.app.Fragment: android.view.LayoutInflater getLayoutInflater(android.os.Bundle)
+android.support.v4.app.Fragment: void onInflate(android.app.Activity,android.util.AttributeSet,android.os.Bundle)
+android.support.v4.app.Fragment: void onAttach(android.app.Activity)
+android.support.v4.app.Fragment: android.view.animation.Animation onCreateAnimation(int,boolean,int)
+android.support.v4.app.Fragment: void onCreate(android.os.Bundle)
+android.support.v4.app.Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+android.support.v4.app.Fragment: void onViewCreated(android.view.View,android.os.Bundle)
+android.support.v4.app.Fragment: android.view.View getView()
+android.support.v4.app.Fragment: void onActivityCreated(android.os.Bundle)
+android.support.v4.app.Fragment: void onStart()
+android.support.v4.app.Fragment: void onResume()
+android.support.v4.app.Fragment: void onSaveInstanceState(android.os.Bundle)
+android.support.v4.app.Fragment: void onConfigurationChanged(android.content.res.Configuration)
+android.support.v4.app.Fragment: void onPause()
+android.support.v4.app.Fragment: void onStop()
+android.support.v4.app.Fragment: void onLowMemory()
+android.support.v4.app.Fragment: void onDestroyView()
+android.support.v4.app.Fragment: void onDestroy()
+android.support.v4.app.Fragment: void onDetach()
+android.support.v4.app.Fragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+android.support.v4.app.Fragment: void onPrepareOptionsMenu(android.view.Menu)
+android.support.v4.app.Fragment: void onDestroyOptionsMenu()
+android.support.v4.app.Fragment: boolean onOptionsItemSelected(android.view.MenuItem)
+android.support.v4.app.Fragment: void onOptionsMenuClosed(android.view.Menu)
+android.support.v4.app.Fragment: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+android.support.v4.app.Fragment: void registerForContextMenu(android.view.View)
+android.support.v4.app.Fragment: void unregisterForContextMenu(android.view.View)
+android.support.v4.app.Fragment: boolean onContextItemSelected(android.view.MenuItem)
+android.support.v4.app.Fragment: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.Fragment$InstantiationException
+android.support.v4.app.Fragment$InstantiationException: Fragment$InstantiationException(java.lang.String,java.lang.Exception)
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState: int describeContents()
+android.support.v4.app.Fragment$SavedState: void writeToParcel(android.os.Parcel,int)
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity: java.lang.String TAG
+android.support.v4.app.FragmentActivity: java.lang.String FRAGMENTS_TAG
+android.support.v4.app.FragmentActivity: int HONEYCOMB
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentActivity: void onActivityResult(int,int,android.content.Intent)
+android.support.v4.app.FragmentActivity: void onBackPressed()
+android.support.v4.app.FragmentActivity: void onConfigurationChanged(android.content.res.Configuration)
+android.support.v4.app.FragmentActivity: void onCreate(android.os.Bundle)
+android.support.v4.app.FragmentActivity: boolean onCreatePanelMenu(int,android.view.Menu)
+android.support.v4.app.FragmentActivity: android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentActivity: void onDestroy()
+android.support.v4.app.FragmentActivity: boolean onKeyDown(int,android.view.KeyEvent)
+android.support.v4.app.FragmentActivity: void onLowMemory()
+android.support.v4.app.FragmentActivity: boolean onMenuItemSelected(int,android.view.MenuItem)
+android.support.v4.app.FragmentActivity: void onPanelClosed(int,android.view.Menu)
+android.support.v4.app.FragmentActivity: void onPause()
+android.support.v4.app.FragmentActivity: void onResume()
+android.support.v4.app.FragmentActivity: void onPostResume()
+android.support.v4.app.FragmentActivity: boolean onPreparePanel(int,android.view.View,android.view.Menu)
+android.support.v4.app.FragmentActivity: java.lang.Object onRetainNonConfigurationInstance()
+android.support.v4.app.FragmentActivity: void onSaveInstanceState(android.os.Bundle)
+android.support.v4.app.FragmentActivity: void onStart()
+android.support.v4.app.FragmentActivity: void onStop()
+android.support.v4.app.FragmentActivity: java.lang.Object onRetainCustomNonConfigurationInstance()
+android.support.v4.app.FragmentActivity: java.lang.Object getLastCustomNonConfigurationInstance()
+android.support.v4.app.FragmentActivity: void supportInvalidateOptionsMenu()
+android.support.v4.app.FragmentActivity: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.FragmentActivity: void onAttachFragment(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentActivity: android.support.v4.app.FragmentManager getSupportFragmentManager()
+android.support.v4.app.FragmentActivity: void startActivityForResult(android.content.Intent,int)
+android.support.v4.app.FragmentActivity: void startActivityFromFragment(android.support.v4.app.Fragment,android.content.Intent,int)
+android.support.v4.app.FragmentActivity: android.support.v4.app.LoaderManager getSupportLoaderManager()
+android.support.v4.app.FragmentManager
+android.support.v4.app.FragmentManager: int POP_BACK_STACK_INCLUSIVE
+android.support.v4.app.FragmentManager: FragmentManager()
+android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()
+android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction openTransaction()
+android.support.v4.app.FragmentManager: boolean executePendingTransactions()
+android.support.v4.app.FragmentManager: android.support.v4.app.Fragment findFragmentById(int)
+android.support.v4.app.FragmentManager: android.support.v4.app.Fragment findFragmentByTag(java.lang.String)
+android.support.v4.app.FragmentManager: void popBackStack()
+android.support.v4.app.FragmentManager: boolean popBackStackImmediate()
+android.support.v4.app.FragmentManager: void popBackStack(java.lang.String,int)
+android.support.v4.app.FragmentManager: boolean popBackStackImmediate(java.lang.String,int)
+android.support.v4.app.FragmentManager: void popBackStack(int,int)
+android.support.v4.app.FragmentManager: boolean popBackStackImmediate(int,int)
+android.support.v4.app.FragmentManager: int getBackStackEntryCount()
+android.support.v4.app.FragmentManager: android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+android.support.v4.app.FragmentManager: void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+android.support.v4.app.FragmentManager: void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+android.support.v4.app.FragmentManager: void putFragment(android.os.Bundle,java.lang.String,android.support.v4.app.Fragment)
+android.support.v4.app.FragmentManager: android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String)
+android.support.v4.app.FragmentManager: android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentManager: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.FragmentManager: void enableDebugLogging(boolean)
+android.support.v4.app.FragmentManager$BackStackEntry
+android.support.v4.app.FragmentManager$BackStackEntry: int getId()
+android.support.v4.app.FragmentManager$BackStackEntry: java.lang.String getName()
+android.support.v4.app.FragmentManager$BackStackEntry: int getBreadCrumbTitleRes()
+android.support.v4.app.FragmentManager$BackStackEntry: int getBreadCrumbShortTitleRes()
+android.support.v4.app.FragmentManager$BackStackEntry: java.lang.CharSequence getBreadCrumbTitle()
+android.support.v4.app.FragmentManager$BackStackEntry: java.lang.CharSequence getBreadCrumbShortTitle()
+android.support.v4.app.FragmentManager$OnBackStackChangedListener
+android.support.v4.app.FragmentManager$OnBackStackChangedListener: void onBackStackChanged()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentPagerAdapter: java.lang.String TAG
+android.support.v4.app.FragmentPagerAdapter: boolean DEBUG
+android.support.v4.app.FragmentPagerAdapter: android.support.v4.app.FragmentManager mFragmentManager
+android.support.v4.app.FragmentPagerAdapter: android.support.v4.app.FragmentTransaction mCurTransaction
+android.support.v4.app.FragmentPagerAdapter: android.support.v4.app.Fragment mCurrentPrimaryItem
+android.support.v4.app.FragmentPagerAdapter: FragmentPagerAdapter(android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentPagerAdapter: android.support.v4.app.Fragment getItem(int)
+android.support.v4.app.FragmentPagerAdapter: void startUpdate(android.view.ViewGroup)
+android.support.v4.app.FragmentPagerAdapter: java.lang.Object instantiateItem(android.view.ViewGroup,int)
+android.support.v4.app.FragmentPagerAdapter: void destroyItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.app.FragmentPagerAdapter: void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.app.FragmentPagerAdapter: void finishUpdate(android.view.ViewGroup)
+android.support.v4.app.FragmentPagerAdapter: boolean isViewFromObject(android.view.View,java.lang.Object)
+android.support.v4.app.FragmentPagerAdapter: android.os.Parcelable saveState()
+android.support.v4.app.FragmentPagerAdapter: void restoreState(android.os.Parcelable,java.lang.ClassLoader)
+android.support.v4.app.FragmentPagerAdapter: java.lang.String makeFragmentName(int,int)
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentStatePagerAdapter: java.lang.String TAG
+android.support.v4.app.FragmentStatePagerAdapter: boolean DEBUG
+android.support.v4.app.FragmentStatePagerAdapter: android.support.v4.app.FragmentManager mFragmentManager
+android.support.v4.app.FragmentStatePagerAdapter: android.support.v4.app.FragmentTransaction mCurTransaction
+android.support.v4.app.FragmentStatePagerAdapter: java.util.ArrayList mSavedState
+android.support.v4.app.FragmentStatePagerAdapter: java.util.ArrayList mFragments
+android.support.v4.app.FragmentStatePagerAdapter: android.support.v4.app.Fragment mCurrentPrimaryItem
+android.support.v4.app.FragmentStatePagerAdapter: FragmentStatePagerAdapter(android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentStatePagerAdapter: android.support.v4.app.Fragment getItem(int)
+android.support.v4.app.FragmentStatePagerAdapter: void startUpdate(android.view.ViewGroup)
+android.support.v4.app.FragmentStatePagerAdapter: java.lang.Object instantiateItem(android.view.ViewGroup,int)
+android.support.v4.app.FragmentStatePagerAdapter: void destroyItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.app.FragmentStatePagerAdapter: void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.app.FragmentStatePagerAdapter: void finishUpdate(android.view.ViewGroup)
+android.support.v4.app.FragmentStatePagerAdapter: boolean isViewFromObject(android.view.View,java.lang.Object)
+android.support.v4.app.FragmentStatePagerAdapter: android.os.Parcelable saveState()
+android.support.v4.app.FragmentStatePagerAdapter: void restoreState(android.os.Parcelable,java.lang.ClassLoader)
+android.support.v4.app.FragmentTransaction
+android.support.v4.app.FragmentTransaction: int TRANSIT_ENTER_MASK
+android.support.v4.app.FragmentTransaction: int TRANSIT_EXIT_MASK
+android.support.v4.app.FragmentTransaction: int TRANSIT_UNSET
+android.support.v4.app.FragmentTransaction: int TRANSIT_NONE
+android.support.v4.app.FragmentTransaction: int TRANSIT_FRAGMENT_OPEN
+android.support.v4.app.FragmentTransaction: int TRANSIT_FRAGMENT_CLOSE
+android.support.v4.app.FragmentTransaction: int TRANSIT_FRAGMENT_FADE
+android.support.v4.app.FragmentTransaction: FragmentTransaction()
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(android.support.v4.app.Fragment,java.lang.String)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment,java.lang.String)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction remove(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction detach(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction attach(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentTransaction: boolean isEmpty()
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setTransition(int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+android.support.v4.app.FragmentTransaction: boolean isAddToBackStackAllowed()
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+android.support.v4.app.FragmentTransaction: int commit()
+android.support.v4.app.FragmentTransaction: int commitAllowingStateLoss()
+android.support.v4.app.ListFragment
+android.support.v4.app.ListFragment: android.os.Handler mHandler
+android.support.v4.app.ListFragment: java.lang.Runnable mRequestFocus
+android.support.v4.app.ListFragment: android.widget.AdapterView$OnItemClickListener mOnClickListener
+android.support.v4.app.ListFragment: ListFragment()
+android.support.v4.app.ListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+android.support.v4.app.ListFragment: void onViewCreated(android.view.View,android.os.Bundle)
+android.support.v4.app.ListFragment: void onDestroyView()
+android.support.v4.app.ListFragment: void onListItemClick(android.widget.ListView,android.view.View,int,long)
+android.support.v4.app.ListFragment: void setListAdapter(android.widget.ListAdapter)
+android.support.v4.app.ListFragment: void setSelection(int)
+android.support.v4.app.ListFragment: int getSelectedItemPosition()
+android.support.v4.app.ListFragment: long getSelectedItemId()
+android.support.v4.app.ListFragment: android.widget.ListView getListView()
+android.support.v4.app.ListFragment: void setEmptyText(java.lang.CharSequence)
+android.support.v4.app.ListFragment: void setListShown(boolean)
+android.support.v4.app.ListFragment: void setListShownNoAnimation(boolean)
+android.support.v4.app.ListFragment: void setListShown(boolean,boolean)
+android.support.v4.app.ListFragment: android.widget.ListAdapter getListAdapter()
+android.support.v4.app.ListFragment: void ensureList()
+android.support.v4.app.LoaderManager
+android.support.v4.app.LoaderManager: LoaderManager()
+android.support.v4.app.LoaderManager: android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+android.support.v4.app.LoaderManager: android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+android.support.v4.app.LoaderManager: void destroyLoader(int)
+android.support.v4.app.LoaderManager: android.support.v4.content.Loader getLoader(int)
+android.support.v4.app.LoaderManager: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.LoaderManager: void enableDebugLogging(boolean)
+android.support.v4.app.LoaderManager: boolean hasRunningLoaders()
+android.support.v4.app.LoaderManager$LoaderCallbacks
+android.support.v4.app.LoaderManager$LoaderCallbacks: android.support.v4.content.Loader onCreateLoader(int,android.os.Bundle)
+android.support.v4.app.LoaderManager$LoaderCallbacks: void onLoadFinished(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.app.LoaderManager$LoaderCallbacks: void onLoaderReset(android.support.v4.content.Loader)
+android.support.v4.app.NavUtils
+android.support.v4.app.NavUtils: java.lang.String TAG
+android.support.v4.app.NavUtils: java.lang.String PARENT_ACTIVITY
+android.support.v4.app.NavUtils: boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+android.support.v4.app.NavUtils: void navigateUpFromSameTask(android.app.Activity)
+android.support.v4.app.NavUtils: void navigateUpTo(android.app.Activity,android.content.Intent)
+android.support.v4.app.NavUtils: android.content.Intent getParentActivityIntent(android.app.Activity)
+android.support.v4.app.NavUtils: android.content.Intent getParentActivityIntent(android.content.Context,java.lang.Class)
+android.support.v4.app.NavUtils: android.content.Intent getParentActivityIntent(android.content.Context,android.content.ComponentName)
+android.support.v4.app.NavUtils: java.lang.String getParentActivityName(android.app.Activity)
+android.support.v4.app.NavUtils: java.lang.String getParentActivityName(android.content.Context,android.content.ComponentName)
+android.support.v4.app.NavUtils: NavUtils()
+android.support.v4.app.NotificationCompat
+android.support.v4.app.NotificationCompat: int FLAG_HIGH_PRIORITY
+android.support.v4.app.NotificationCompat: android.support.v4.app.NotificationCompat$NotificationCompatImpl IMPL
+android.support.v4.app.NotificationCompat: NotificationCompat()
+android.support.v4.app.NotificationCompat$Builder
+android.support.v4.app.NotificationCompat$Builder: NotificationCompat$Builder(android.content.Context)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setWhen(long)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int,int)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setNumber(int)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentInfo(java.lang.CharSequence)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContent(android.widget.RemoteViews)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setDeleteIntent(android.app.PendingIntent)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setFullScreenIntent(android.app.PendingIntent,boolean)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setTicker(java.lang.CharSequence)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setTicker(java.lang.CharSequence,android.widget.RemoteViews)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setLargeIcon(android.graphics.Bitmap)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSound(android.net.Uri)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSound(android.net.Uri,int)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setVibrate(long[])
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setLights(int,int,int)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setOngoing(boolean)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setOnlyAlertOnce(boolean)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setAutoCancel(boolean)
+android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setDefaults(int)
+android.support.v4.app.NotificationCompat$Builder: void setFlag(int,boolean)
+android.support.v4.app.NotificationCompat$Builder: android.app.Notification getNotification()
+android.support.v4.app.ServiceCompat
+android.support.v4.app.ServiceCompat: int START_STICKY
+android.support.v4.app.ServiceCompat: ServiceCompat()
+android.support.v4.app.ShareCompat
+android.support.v4.app.ShareCompat: java.lang.String EXTRA_CALLING_PACKAGE
+android.support.v4.app.ShareCompat: java.lang.String EXTRA_CALLING_ACTIVITY
+android.support.v4.app.ShareCompat: android.support.v4.app.ShareCompat$ShareCompatImpl IMPL
+android.support.v4.app.ShareCompat: ShareCompat()
+android.support.v4.app.ShareCompat: java.lang.String getCallingPackage(android.app.Activity)
+android.support.v4.app.ShareCompat: android.content.ComponentName getCallingActivity(android.app.Activity)
+android.support.v4.app.ShareCompat: void configureMenuItem(android.view.MenuItem,android.support.v4.app.ShareCompat$IntentBuilder)
+android.support.v4.app.ShareCompat: void configureMenuItem(android.view.Menu,int,android.support.v4.app.ShareCompat$IntentBuilder)
+android.support.v4.app.ShareCompat$IntentBuilder
+android.support.v4.app.ShareCompat$IntentBuilder: android.app.Activity mActivity
+android.support.v4.app.ShareCompat$IntentBuilder: android.content.Intent mIntent
+android.support.v4.app.ShareCompat$IntentBuilder: java.lang.CharSequence mChooserTitle
+android.support.v4.app.ShareCompat$IntentBuilder: java.util.ArrayList mToAddresses
+android.support.v4.app.ShareCompat$IntentBuilder: java.util.ArrayList mCcAddresses
+android.support.v4.app.ShareCompat$IntentBuilder: java.util.ArrayList mBccAddresses
+android.support.v4.app.ShareCompat$IntentBuilder: java.util.ArrayList mStreams
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder from(android.app.Activity)
+android.support.v4.app.ShareCompat$IntentBuilder: ShareCompat$IntentBuilder(android.app.Activity)
+android.support.v4.app.ShareCompat$IntentBuilder: android.content.Intent getIntent()
+android.support.v4.app.ShareCompat$IntentBuilder: void combineArrayExtra(java.lang.String,java.util.ArrayList)
+android.support.v4.app.ShareCompat$IntentBuilder: void combineArrayExtra(java.lang.String,java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.content.Intent createChooserIntent()
+android.support.v4.app.ShareCompat$IntentBuilder: void startChooser()
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setChooserTitle(java.lang.CharSequence)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setChooserTitle(int)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setType(java.lang.String)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setText(java.lang.CharSequence)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setStream(android.net.Uri)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addStream(android.net.Uri)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setEmailTo(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailTo(java.lang.String)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailTo(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setEmailCc(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailCc(java.lang.String)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailCc(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setEmailBcc(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailBcc(java.lang.String)
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder addEmailBcc(java.lang.String[])
+android.support.v4.app.ShareCompat$IntentBuilder: android.support.v4.app.ShareCompat$IntentBuilder setSubject(java.lang.String)
+android.support.v4.app.ShareCompat$IntentReader
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String TAG
+android.support.v4.app.ShareCompat$IntentReader: android.app.Activity mActivity
+android.support.v4.app.ShareCompat$IntentReader: android.content.Intent mIntent
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String mCallingPackage
+android.support.v4.app.ShareCompat$IntentReader: android.content.ComponentName mCallingActivity
+android.support.v4.app.ShareCompat$IntentReader: java.util.ArrayList mStreams
+android.support.v4.app.ShareCompat$IntentReader: android.support.v4.app.ShareCompat$IntentReader from(android.app.Activity)
+android.support.v4.app.ShareCompat$IntentReader: ShareCompat$IntentReader(android.app.Activity)
+android.support.v4.app.ShareCompat$IntentReader: boolean isShareIntent()
+android.support.v4.app.ShareCompat$IntentReader: boolean isSingleShare()
+android.support.v4.app.ShareCompat$IntentReader: boolean isMultipleShare()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String getType()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.CharSequence getText()
+android.support.v4.app.ShareCompat$IntentReader: android.net.Uri getStream()
+android.support.v4.app.ShareCompat$IntentReader: android.net.Uri getStream(int)
+android.support.v4.app.ShareCompat$IntentReader: int getStreamCount()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String[] getEmailTo()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String[] getEmailCc()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String[] getEmailBcc()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String getSubject()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.String getCallingPackage()
+android.support.v4.app.ShareCompat$IntentReader: android.content.ComponentName getCallingActivity()
+android.support.v4.app.ShareCompat$IntentReader: android.graphics.drawable.Drawable getCallingActivityIcon()
+android.support.v4.app.ShareCompat$IntentReader: android.graphics.drawable.Drawable getCallingApplicationIcon()
+android.support.v4.app.ShareCompat$IntentReader: java.lang.CharSequence getCallingApplicationLabel()
+android.support.v4.app.TaskStackBuilder
+android.support.v4.app.TaskStackBuilder: java.lang.String TAG
+android.support.v4.app.TaskStackBuilder: android.support.v4.app.TaskStackBuilder$TaskStackBuilderImpl IMPL
+android.support.v4.app.TaskStackBuilder: java.util.ArrayList mIntents
+android.support.v4.app.TaskStackBuilder: android.content.Context mSourceContext
+android.support.v4.app.TaskStackBuilder: TaskStackBuilder(android.content.Context)
+android.support.v4.app.TaskStackBuilder: android.support.v4.app.TaskStackBuilder from(android.content.Context)
+android.support.v4.app.TaskStackBuilder: android.support.v4.app.TaskStackBuilder addNextIntent(android.content.Intent)
+android.support.v4.app.TaskStackBuilder: android.support.v4.app.TaskStackBuilder addParentStack(android.app.Activity)
+android.support.v4.app.TaskStackBuilder: android.support.v4.app.TaskStackBuilder addParentStack(java.lang.Class)
+android.support.v4.app.TaskStackBuilder: int getIntentCount()
+android.support.v4.app.TaskStackBuilder: android.content.Intent getIntent(int)
+android.support.v4.app.TaskStackBuilder: java.util.Iterator iterator()
+android.support.v4.app.TaskStackBuilder: void startActivities()
+android.support.v4.app.TaskStackBuilder: android.app.PendingIntent getPendingIntent(int,int)
+android.support.v4.app.TaskStackBuilderHoneycomb
+android.support.v4.app.TaskStackBuilderHoneycomb: TaskStackBuilderHoneycomb()
+android.support.v4.app.TaskStackBuilderHoneycomb: android.app.PendingIntent getActivitiesPendingIntent(android.content.Context,int,android.content.Intent[],int)
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.AsyncTaskLoader: AsyncTaskLoader(android.content.Context)
+android.support.v4.content.AsyncTaskLoader: void setUpdateThrottle(long)
+android.support.v4.content.AsyncTaskLoader: void onForceLoad()
+android.support.v4.content.AsyncTaskLoader: boolean cancelLoad()
+android.support.v4.content.AsyncTaskLoader: void onCanceled(java.lang.Object)
+android.support.v4.content.AsyncTaskLoader: java.lang.Object loadInBackground()
+android.support.v4.content.AsyncTaskLoader: java.lang.Object onLoadInBackground()
+android.support.v4.content.AsyncTaskLoader: void waitForLoader()
+android.support.v4.content.AsyncTaskLoader: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.content.CursorLoader
+android.support.v4.content.CursorLoader: android.database.Cursor loadInBackground()
+android.support.v4.content.CursorLoader: void deliverResult(android.database.Cursor)
+android.support.v4.content.CursorLoader: CursorLoader(android.content.Context)
+android.support.v4.content.CursorLoader: CursorLoader(android.content.Context,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+android.support.v4.content.CursorLoader: void onStartLoading()
+android.support.v4.content.CursorLoader: void onStopLoading()
+android.support.v4.content.CursorLoader: void onCanceled(android.database.Cursor)
+android.support.v4.content.CursorLoader: void onReset()
+android.support.v4.content.CursorLoader: android.net.Uri getUri()
+android.support.v4.content.CursorLoader: void setUri(android.net.Uri)
+android.support.v4.content.CursorLoader: java.lang.String[] getProjection()
+android.support.v4.content.CursorLoader: void setProjection(java.lang.String[])
+android.support.v4.content.CursorLoader: java.lang.String getSelection()
+android.support.v4.content.CursorLoader: void setSelection(java.lang.String)
+android.support.v4.content.CursorLoader: java.lang.String[] getSelectionArgs()
+android.support.v4.content.CursorLoader: void setSelectionArgs(java.lang.String[])
+android.support.v4.content.CursorLoader: java.lang.String getSortOrder()
+android.support.v4.content.CursorLoader: void setSortOrder(java.lang.String)
+android.support.v4.content.CursorLoader: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.content.CursorLoader: java.lang.Object loadInBackground()
+android.support.v4.content.CursorLoader: void onCanceled(java.lang.Object)
+android.support.v4.content.CursorLoader: void deliverResult(java.lang.Object)
+android.support.v4.content.IntentCompat
+android.support.v4.content.IntentCompat: java.lang.String ACTION_EXTERNAL_APPLICATIONS_AVAILABLE
+android.support.v4.content.IntentCompat: java.lang.String ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE
+android.support.v4.content.IntentCompat: java.lang.String EXTRA_CHANGED_PACKAGE_LIST
+android.support.v4.content.IntentCompat: java.lang.String EXTRA_CHANGED_UID_LIST
+android.support.v4.content.IntentCompat: int FLAG_ACTIVITY_TASK_ON_HOME
+android.support.v4.content.IntentCompat: int FLAG_ACTIVITY_CLEAR_TASK
+android.support.v4.content.IntentCompat: IntentCompat()
+android.support.v4.content.Loader
+android.support.v4.content.Loader: Loader(android.content.Context)
+android.support.v4.content.Loader: void deliverResult(java.lang.Object)
+android.support.v4.content.Loader: android.content.Context getContext()
+android.support.v4.content.Loader: int getId()
+android.support.v4.content.Loader: void registerListener(int,android.support.v4.content.Loader$OnLoadCompleteListener)
+android.support.v4.content.Loader: void unregisterListener(android.support.v4.content.Loader$OnLoadCompleteListener)
+android.support.v4.content.Loader: boolean isStarted()
+android.support.v4.content.Loader: boolean isAbandoned()
+android.support.v4.content.Loader: boolean isReset()
+android.support.v4.content.Loader: void startLoading()
+android.support.v4.content.Loader: void onStartLoading()
+android.support.v4.content.Loader: void forceLoad()
+android.support.v4.content.Loader: void onForceLoad()
+android.support.v4.content.Loader: void stopLoading()
+android.support.v4.content.Loader: void onStopLoading()
+android.support.v4.content.Loader: void abandon()
+android.support.v4.content.Loader: void onAbandon()
+android.support.v4.content.Loader: void reset()
+android.support.v4.content.Loader: void onReset()
+android.support.v4.content.Loader: boolean takeContentChanged()
+android.support.v4.content.Loader: void onContentChanged()
+android.support.v4.content.Loader: java.lang.String dataToString(java.lang.Object)
+android.support.v4.content.Loader: java.lang.String toString()
+android.support.v4.content.Loader: void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.content.Loader$ForceLoadContentObserver
+android.support.v4.content.Loader$ForceLoadContentObserver: Loader$ForceLoadContentObserver(android.support.v4.content.Loader)
+android.support.v4.content.Loader$ForceLoadContentObserver: boolean deliverSelfNotifications()
+android.support.v4.content.Loader$ForceLoadContentObserver: void onChange(boolean)
+android.support.v4.content.Loader$OnLoadCompleteListener
+android.support.v4.content.Loader$OnLoadCompleteListener: void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager: java.lang.String TAG
+android.support.v4.content.LocalBroadcastManager: boolean DEBUG
+android.support.v4.content.LocalBroadcastManager: android.content.Context mAppContext
+android.support.v4.content.LocalBroadcastManager: java.util.HashMap mReceivers
+android.support.v4.content.LocalBroadcastManager: java.util.HashMap mActions
+android.support.v4.content.LocalBroadcastManager: java.util.ArrayList mPendingBroadcasts
+android.support.v4.content.LocalBroadcastManager: android.os.Handler mHandler
+android.support.v4.content.LocalBroadcastManager: java.lang.Object mLock
+android.support.v4.content.LocalBroadcastManager: android.support.v4.content.LocalBroadcastManager mInstance
+android.support.v4.content.LocalBroadcastManager: android.support.v4.content.LocalBroadcastManager getInstance(android.content.Context)
+android.support.v4.content.LocalBroadcastManager: LocalBroadcastManager(android.content.Context)
+android.support.v4.content.LocalBroadcastManager: void registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)
+android.support.v4.content.LocalBroadcastManager: void unregisterReceiver(android.content.BroadcastReceiver)
+android.support.v4.content.LocalBroadcastManager: boolean sendBroadcast(android.content.Intent)
+android.support.v4.content.LocalBroadcastManager: void sendBroadcastSync(android.content.Intent)
+android.support.v4.content.LocalBroadcastManager: void executePendingBroadcasts()
+android.support.v4.content.ModernAsyncTask$Status
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status PENDING
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status RUNNING
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status FINISHED
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] $VALUES
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.ModernAsyncTask$Status: ModernAsyncTask$Status(java.lang.String,int)
+android.support.v4.content.pm.ActivityInfoCompat
+android.support.v4.content.pm.ActivityInfoCompat: int CONFIG_UI_MODE
+android.support.v4.content.pm.ActivityInfoCompat: ActivityInfoCompat()
+android.support.v4.database.DatabaseUtilsCompat
+android.support.v4.database.DatabaseUtilsCompat: DatabaseUtilsCompat()
+android.support.v4.database.DatabaseUtilsCompat: java.lang.String concatenateWhere(java.lang.String,java.lang.String)
+android.support.v4.database.DatabaseUtilsCompat: java.lang.String[] appendSelectionArgs(java.lang.String[],java.lang.String[])
+android.support.v4.os.ParcelableCompat
+android.support.v4.os.ParcelableCompat: ParcelableCompat()
+android.support.v4.os.ParcelableCompat: android.os.Parcelable$Creator newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks)
+android.support.v4.os.ParcelableCompatCreatorCallbacks
+android.support.v4.os.ParcelableCompatCreatorCallbacks: java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader)
+android.support.v4.os.ParcelableCompatCreatorCallbacks: java.lang.Object[] newArray(int)
+android.support.v4.util.DebugUtils
+android.support.v4.util.DebugUtils: DebugUtils()
+android.support.v4.util.DebugUtils: void buildShortClassTag(java.lang.Object,java.lang.StringBuilder)
+android.support.v4.util.LogWriter
+android.support.v4.util.LogWriter: java.lang.String mTag
+android.support.v4.util.LogWriter: java.lang.StringBuilder mBuilder
+android.support.v4.util.LogWriter: LogWriter(java.lang.String)
+android.support.v4.util.LogWriter: void close()
+android.support.v4.util.LogWriter: void flush()
+android.support.v4.util.LogWriter: void write(char[],int,int)
+android.support.v4.util.LogWriter: void flushBuilder()
+android.support.v4.util.LruCache
+android.support.v4.util.LruCache: java.util.LinkedHashMap map
+android.support.v4.util.LruCache: int size
+android.support.v4.util.LruCache: int maxSize
+android.support.v4.util.LruCache: int putCount
+android.support.v4.util.LruCache: int createCount
+android.support.v4.util.LruCache: int evictionCount
+android.support.v4.util.LruCache: int hitCount
+android.support.v4.util.LruCache: int missCount
+android.support.v4.util.LruCache: LruCache(int)
+android.support.v4.util.LruCache: java.lang.Object get(java.lang.Object)
+android.support.v4.util.LruCache: java.lang.Object put(java.lang.Object,java.lang.Object)
+android.support.v4.util.LruCache: void trimToSize(int)
+android.support.v4.util.LruCache: java.lang.Object remove(java.lang.Object)
+android.support.v4.util.LruCache: void entryRemoved(boolean,java.lang.Object,java.lang.Object,java.lang.Object)
+android.support.v4.util.LruCache: java.lang.Object create(java.lang.Object)
+android.support.v4.util.LruCache: int safeSizeOf(java.lang.Object,java.lang.Object)
+android.support.v4.util.LruCache: int sizeOf(java.lang.Object,java.lang.Object)
+android.support.v4.util.LruCache: void evictAll()
+android.support.v4.util.LruCache: int size()
+android.support.v4.util.LruCache: int maxSize()
+android.support.v4.util.LruCache: int hitCount()
+android.support.v4.util.LruCache: int missCount()
+android.support.v4.util.LruCache: int createCount()
+android.support.v4.util.LruCache: int putCount()
+android.support.v4.util.LruCache: int evictionCount()
+android.support.v4.util.LruCache: java.util.Map snapshot()
+android.support.v4.util.LruCache: java.lang.String toString()
+android.support.v4.util.TimeUtils
+android.support.v4.util.TimeUtils: int HUNDRED_DAY_FIELD_LEN
+android.support.v4.util.TimeUtils: int SECONDS_PER_MINUTE
+android.support.v4.util.TimeUtils: int SECONDS_PER_HOUR
+android.support.v4.util.TimeUtils: int SECONDS_PER_DAY
+android.support.v4.util.TimeUtils: java.lang.Object sFormatSync
+android.support.v4.util.TimeUtils: char[] sFormatStr
+android.support.v4.util.TimeUtils: TimeUtils()
+android.support.v4.util.TimeUtils: int accumField(int,int,boolean,int)
+android.support.v4.util.TimeUtils: int printField(char[],int,char,int,boolean,int)
+android.support.v4.util.TimeUtils: int formatDurationLocked(long,int)
+android.support.v4.util.TimeUtils: void formatDuration(long,java.lang.StringBuilder)
+android.support.v4.util.TimeUtils: void formatDuration(long,java.io.PrintWriter,int)
+android.support.v4.util.TimeUtils: void formatDuration(long,java.io.PrintWriter)
+android.support.v4.util.TimeUtils: void formatDuration(long,long,java.io.PrintWriter)
+android.support.v4.view.AccessibilityDelegateCompat
+android.support.v4.view.AccessibilityDelegateCompat: android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl IMPL
+android.support.v4.view.AccessibilityDelegateCompat: java.lang.Object DEFAULT_DELEGATE
+android.support.v4.view.AccessibilityDelegateCompat: AccessibilityDelegateCompat()
+android.support.v4.view.AccessibilityDelegateCompat: void sendAccessibilityEvent(android.view.View,int)
+android.support.v4.view.AccessibilityDelegateCompat: void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompat: boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompat: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompat: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompat: void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+android.support.v4.view.AccessibilityDelegateCompat: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: void sendAccessibilityEvent(android.view.View,int)
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge: void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.KeyEventCompat
+android.support.v4.view.KeyEventCompat: KeyEventCompat()
+android.support.v4.view.KeyEventCompat: int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompat: boolean metaStateHasModifiers(int,int)
+android.support.v4.view.KeyEventCompat: boolean metaStateHasNoModifiers(int)
+android.support.v4.view.KeyEventCompat: boolean hasModifiers(android.view.KeyEvent,int)
+android.support.v4.view.KeyEventCompat: boolean hasNoModifiers(android.view.KeyEvent)
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat: MenuCompat()
+android.support.v4.view.MenuCompat: boolean setShowAsAction(android.view.MenuItem,int)
+android.support.v4.view.MenuItemCompat
+android.support.v4.view.MenuItemCompat: int SHOW_AS_ACTION_NEVER
+android.support.v4.view.MenuItemCompat: int SHOW_AS_ACTION_IF_ROOM
+android.support.v4.view.MenuItemCompat: int SHOW_AS_ACTION_ALWAYS
+android.support.v4.view.MenuItemCompat: int SHOW_AS_ACTION_WITH_TEXT
+android.support.v4.view.MenuItemCompat: int SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW
+android.support.v4.view.MenuItemCompat: MenuItemCompat()
+android.support.v4.view.MenuItemCompat: boolean setShowAsAction(android.view.MenuItem,int)
+android.support.v4.view.MenuItemCompat: android.view.MenuItem setActionView(android.view.MenuItem,android.view.View)
+android.support.v4.view.MotionEventCompat
+android.support.v4.view.MotionEventCompat: int ACTION_MASK
+android.support.v4.view.MotionEventCompat: int ACTION_POINTER_DOWN
+android.support.v4.view.MotionEventCompat: int ACTION_POINTER_UP
+android.support.v4.view.MotionEventCompat: int ACTION_HOVER_MOVE
+android.support.v4.view.MotionEventCompat: int ACTION_SCROLL
+android.support.v4.view.MotionEventCompat: int ACTION_POINTER_INDEX_MASK
+android.support.v4.view.MotionEventCompat: int ACTION_POINTER_INDEX_SHIFT
+android.support.v4.view.MotionEventCompat: MotionEventCompat()
+android.support.v4.view.MotionEventCompat: int getActionMasked(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat: int getActionIndex(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat: int findPointerIndex(android.view.MotionEvent,int)
+android.support.v4.view.MotionEventCompat: int getPointerId(android.view.MotionEvent,int)
+android.support.v4.view.MotionEventCompat: float getX(android.view.MotionEvent,int)
+android.support.v4.view.MotionEventCompat: float getY(android.view.MotionEvent,int)
+android.support.v4.view.PagerAdapter
+android.support.v4.view.PagerAdapter: android.database.DataSetObservable mObservable
+android.support.v4.view.PagerAdapter: int POSITION_UNCHANGED
+android.support.v4.view.PagerAdapter: int POSITION_NONE
+android.support.v4.view.PagerAdapter: PagerAdapter()
+android.support.v4.view.PagerAdapter: int getCount()
+android.support.v4.view.PagerAdapter: void startUpdate(android.view.ViewGroup)
+android.support.v4.view.PagerAdapter: java.lang.Object instantiateItem(android.view.ViewGroup,int)
+android.support.v4.view.PagerAdapter: void destroyItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.view.PagerAdapter: void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)
+android.support.v4.view.PagerAdapter: void finishUpdate(android.view.ViewGroup)
+android.support.v4.view.PagerAdapter: void startUpdate(android.view.View)
+android.support.v4.view.PagerAdapter: java.lang.Object instantiateItem(android.view.View,int)
+android.support.v4.view.PagerAdapter: void destroyItem(android.view.View,int,java.lang.Object)
+android.support.v4.view.PagerAdapter: void setPrimaryItem(android.view.View,int,java.lang.Object)
+android.support.v4.view.PagerAdapter: void finishUpdate(android.view.View)
+android.support.v4.view.PagerAdapter: boolean isViewFromObject(android.view.View,java.lang.Object)
+android.support.v4.view.PagerAdapter: android.os.Parcelable saveState()
+android.support.v4.view.PagerAdapter: void restoreState(android.os.Parcelable,java.lang.ClassLoader)
+android.support.v4.view.PagerAdapter: int getItemPosition(java.lang.Object)
+android.support.v4.view.PagerAdapter: void notifyDataSetChanged()
+android.support.v4.view.PagerAdapter: java.lang.CharSequence getPageTitle(int)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: java.lang.String TAG
+android.support.v4.view.PagerTitleStrip: android.widget.TextView mPrevText
+android.support.v4.view.PagerTitleStrip: android.widget.TextView mCurrText
+android.support.v4.view.PagerTitleStrip: android.widget.TextView mNextText
+android.support.v4.view.PagerTitleStrip: int mLastKnownCurrentPage
+android.support.v4.view.PagerTitleStrip: float mLastKnownPositionOffset
+android.support.v4.view.PagerTitleStrip: int mScaledTextSpacing
+android.support.v4.view.PagerTitleStrip: boolean mUpdatingText
+android.support.v4.view.PagerTitleStrip: boolean mUpdatingPositions
+android.support.v4.view.PagerTitleStrip: android.support.v4.view.PagerTitleStrip$PageListener mPageListener
+android.support.v4.view.PagerTitleStrip: int[] ATTRS
+android.support.v4.view.PagerTitleStrip: int SIDE_ALPHA
+android.support.v4.view.PagerTitleStrip: int TEXT_SPACING
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void onAttachedToWindow()
+android.support.v4.view.PagerTitleStrip: void onDetachedFromWindow()
+android.support.v4.view.PagerTitleStrip: void requestLayout()
+android.support.v4.view.PagerTitleStrip: void onMeasure(int,int)
+android.support.v4.view.PagerTitleStrip: void onLayout(boolean,int,int,int,int)
+android.support.v4.view.VelocityTrackerCompat
+android.support.v4.view.VelocityTrackerCompat: VelocityTrackerCompat()
+android.support.v4.view.VelocityTrackerCompat: float getXVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat: float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.ViewCompat
+android.support.v4.view.ViewCompat: int OVER_SCROLL_ALWAYS
+android.support.v4.view.ViewCompat: int OVER_SCROLL_IF_CONTENT_SCROLLS
+android.support.v4.view.ViewCompat: int OVER_SCROLL_NEVER
+android.support.v4.view.ViewCompat: ViewCompat()
+android.support.v4.view.ViewCompat: boolean canScrollHorizontally(android.view.View,int)
+android.support.v4.view.ViewCompat: boolean canScrollVertically(android.view.View,int)
+android.support.v4.view.ViewCompat: int getOverScrollMode(android.view.View)
+android.support.v4.view.ViewCompat: void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompat: void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewCompat: void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewCompat: void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+android.support.v4.view.ViewCompat: void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewConfigurationCompat
+android.support.v4.view.ViewConfigurationCompat: ViewConfigurationCompat()
+android.support.v4.view.ViewConfigurationCompat: int getScaledPagingTouchSlop(android.view.ViewConfiguration)
+android.support.v4.view.ViewGroupCompat
+android.support.v4.view.ViewGroupCompat: ViewGroupCompat()
+android.support.v4.view.ViewGroupCompat: boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: java.lang.String TAG
+android.support.v4.view.ViewPager: boolean DEBUG
+android.support.v4.view.ViewPager: boolean USE_CACHE
+android.support.v4.view.ViewPager: int DEFAULT_OFFSCREEN_PAGES
+android.support.v4.view.ViewPager: int MAX_SETTLE_DURATION
+android.support.v4.view.ViewPager: int MIN_DISTANCE_FOR_FLING
+android.support.v4.view.ViewPager: int[] LAYOUT_ATTRS
+android.support.v4.view.ViewPager: java.util.Comparator COMPARATOR
+android.support.v4.view.ViewPager: android.view.animation.Interpolator sInterpolator
+android.support.v4.view.ViewPager: java.util.ArrayList mItems
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter mAdapter
+android.support.v4.view.ViewPager: int mCurItem
+android.support.v4.view.ViewPager: int mRestoredCurItem
+android.support.v4.view.ViewPager: android.os.Parcelable mRestoredAdapterState
+android.support.v4.view.ViewPager: java.lang.ClassLoader mRestoredClassLoader
+android.support.v4.view.ViewPager: android.widget.Scroller mScroller
+android.support.v4.view.ViewPager: android.support.v4.view.ViewPager$PagerObserver mObserver
+android.support.v4.view.ViewPager: int mPageMargin
+android.support.v4.view.ViewPager: android.graphics.drawable.Drawable mMarginDrawable
+android.support.v4.view.ViewPager: int mTopPageBounds
+android.support.v4.view.ViewPager: int mBottomPageBounds
+android.support.v4.view.ViewPager: int mChildWidthMeasureSpec
+android.support.v4.view.ViewPager: int mChildHeightMeasureSpec
+android.support.v4.view.ViewPager: boolean mInLayout
+android.support.v4.view.ViewPager: boolean mScrollingCacheEnabled
+android.support.v4.view.ViewPager: boolean mPopulatePending
+android.support.v4.view.ViewPager: boolean mScrolling
+android.support.v4.view.ViewPager: int mOffscreenPageLimit
+android.support.v4.view.ViewPager: boolean mIsBeingDragged
+android.support.v4.view.ViewPager: boolean mIsUnableToDrag
+android.support.v4.view.ViewPager: int mTouchSlop
+android.support.v4.view.ViewPager: float mInitialMotionX
+android.support.v4.view.ViewPager: float mLastMotionX
+android.support.v4.view.ViewPager: float mLastMotionY
+android.support.v4.view.ViewPager: int mActivePointerId
+android.support.v4.view.ViewPager: int INVALID_POINTER
+android.support.v4.view.ViewPager: android.view.VelocityTracker mVelocityTracker
+android.support.v4.view.ViewPager: int mMinimumVelocity
+android.support.v4.view.ViewPager: int mMaximumVelocity
+android.support.v4.view.ViewPager: int mFlingDistance
+android.support.v4.view.ViewPager: boolean mFakeDragging
+android.support.v4.view.ViewPager: long mFakeDragBeginTime
+android.support.v4.view.ViewPager: android.support.v4.widget.EdgeEffectCompat mLeftEdge
+android.support.v4.view.ViewPager: android.support.v4.widget.EdgeEffectCompat mRightEdge
+android.support.v4.view.ViewPager: boolean mFirstLayout
+android.support.v4.view.ViewPager: boolean mCalledSuper
+android.support.v4.view.ViewPager: int mDecorChildCount
+android.support.v4.view.ViewPager: android.support.v4.view.ViewPager$OnPageChangeListener mOnPageChangeListener
+android.support.v4.view.ViewPager: android.support.v4.view.ViewPager$OnPageChangeListener mInternalPageChangeListener
+android.support.v4.view.ViewPager: android.support.v4.view.ViewPager$OnAdapterChangeListener mAdapterChangeListener
+android.support.v4.view.ViewPager: int SCROLL_STATE_IDLE
+android.support.v4.view.ViewPager: int SCROLL_STATE_DRAGGING
+android.support.v4.view.ViewPager: int SCROLL_STATE_SETTLING
+android.support.v4.view.ViewPager: int mScrollState
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: void removeNonDecorViews()
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: boolean verifyDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void drawableStateChanged()
+android.support.v4.view.ViewPager: android.os.Parcelable onSaveInstanceState()
+android.support.v4.view.ViewPager: void onRestoreInstanceState(android.os.Parcelable)
+android.support.v4.view.ViewPager: void addView(android.view.View,int,android.view.ViewGroup$LayoutParams)
+android.support.v4.view.ViewPager: void onAttachedToWindow()
+android.support.v4.view.ViewPager: void onMeasure(int,int)
+android.support.v4.view.ViewPager: void onSizeChanged(int,int,int,int)
+android.support.v4.view.ViewPager: void recomputeScrollPosition(int,int,int,int)
+android.support.v4.view.ViewPager: void onLayout(boolean,int,int,int,int)
+android.support.v4.view.ViewPager: void computeScroll()
+android.support.v4.view.ViewPager: void pageScrolled(int)
+android.support.v4.view.ViewPager: void onPageScrolled(int,float,int)
+android.support.v4.view.ViewPager: void completeScroll()
+android.support.v4.view.ViewPager: boolean onInterceptTouchEvent(android.view.MotionEvent)
+android.support.v4.view.ViewPager: boolean onTouchEvent(android.view.MotionEvent)
+android.support.v4.view.ViewPager: int determineTargetPage(int,float,int,int)
+android.support.v4.view.ViewPager: void draw(android.graphics.Canvas)
+android.support.v4.view.ViewPager: void onDraw(android.graphics.Canvas)
+android.support.v4.view.ViewPager: boolean beginFakeDrag()
+android.support.v4.view.ViewPager: void endFakeDrag()
+android.support.v4.view.ViewPager: void fakeDragBy(float)
+android.support.v4.view.ViewPager: boolean isFakeDragging()
+android.support.v4.view.ViewPager: void onSecondaryPointerUp(android.view.MotionEvent)
+android.support.v4.view.ViewPager: void endDrag()
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager: boolean canScroll(android.view.View,boolean,int,int,int)
+android.support.v4.view.ViewPager: boolean dispatchKeyEvent(android.view.KeyEvent)
+android.support.v4.view.ViewPager: boolean executeKeyEvent(android.view.KeyEvent)
+android.support.v4.view.ViewPager: boolean arrowScroll(int)
+android.support.v4.view.ViewPager: void addFocusables(java.util.ArrayList,int,int)
+android.support.v4.view.ViewPager: void addTouchables(java.util.ArrayList)
+android.support.v4.view.ViewPager: boolean onRequestFocusInDescendants(int,android.graphics.Rect)
+android.support.v4.view.ViewPager: boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewPager: android.view.ViewGroup$LayoutParams generateDefaultLayoutParams()
+android.support.v4.view.ViewPager: android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams)
+android.support.v4.view.ViewPager: boolean checkLayoutParams(android.view.ViewGroup$LayoutParams)
+android.support.v4.view.ViewPager: android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: boolean isDecor
+android.support.v4.view.ViewPager$LayoutParams: int gravity
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams()
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$OnPageChangeListener
+android.support.v4.view.ViewPager$OnPageChangeListener: void onPageScrolled(int,float,int)
+android.support.v4.view.ViewPager$OnPageChangeListener: void onPageSelected(int)
+android.support.v4.view.ViewPager$OnPageChangeListener: void onPageScrollStateChanged(int)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.ViewPager$SavedState: ViewPager$SavedState(android.os.Parcelable)
+android.support.v4.view.ViewPager$SavedState: void writeToParcel(android.os.Parcel,int)
+android.support.v4.view.ViewPager$SavedState: java.lang.String toString()
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener: ViewPager$SimpleOnPageChangeListener()
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener: void onPageScrolled(int,float,int)
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener: void onPageSelected(int)
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener: void onPageScrollStateChanged(int)
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat: android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl IMPL
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_VIEW_HOVER_ENTER
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_VIEW_HOVER_EXIT
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_TOUCH_EXPLORATION_GESTURE_START
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_TOUCH_EXPLORATION_GESTURE_END
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_WINDOW_CONTENT_CHANGED
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_VIEW_SCROLLED
+android.support.v4.view.accessibility.AccessibilityEventCompat: int TYPE_VIEW_TEXT_SELECTION_CHANGED
+android.support.v4.view.accessibility.AccessibilityEventCompat: AccessibilityEventCompat()
+android.support.v4.view.accessibility.AccessibilityEventCompat: int getRecordCount(android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.accessibility.AccessibilityEventCompat: void appendRecord(android.view.accessibility.AccessibilityEvent,android.support.v4.view.accessibility.AccessibilityRecordCompat)
+android.support.v4.view.accessibility.AccessibilityEventCompat: android.support.v4.view.accessibility.AccessibilityRecordCompat getRecord(android.view.accessibility.AccessibilityEvent,int)
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat: android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl IMPL
+android.support.v4.view.accessibility.AccessibilityManagerCompat: AccessibilityManagerCompat()
+android.support.v4.view.accessibility.AccessibilityManagerCompat: boolean addAccessibilityStateChangeListener(android.view.accessibility.AccessibilityManager,android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat)
+android.support.v4.view.accessibility.AccessibilityManagerCompat: boolean removeAccessibilityStateChangeListener(android.view.accessibility.AccessibilityManager,android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat)
+android.support.v4.view.accessibility.AccessibilityManagerCompat: java.util.List getInstalledAccessibilityServiceList(android.view.accessibility.AccessibilityManager)
+android.support.v4.view.accessibility.AccessibilityManagerCompat: java.util.List getEnabledAccessibilityServiceList(android.view.accessibility.AccessibilityManager,int)
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat: AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat()
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat: void onAccessibilityStateChanged(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl IMPL
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.Object mInfo
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int ACTION_FOCUS
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int ACTION_CLEAR_FOCUS
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int ACTION_SELECT
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int ACTION_CLEAR_SELECTION
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: AccessibilityNodeInfoCompat(java.lang.Object)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.Object getImpl()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain(android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setSource(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int getWindowId()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int getChildCount()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat getChild(int)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void addChild(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int getActions()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void addAction(int)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean performAction(int)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.util.List findAccessibilityNodeInfosByText(java.lang.String)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat getParent()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setParent(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void getBoundsInParent(android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setBoundsInParent(android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void getBoundsInScreen(android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setBoundsInScreen(android.graphics.Rect)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isCheckable()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setCheckable(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isChecked()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setChecked(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isFocusable()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setFocusable(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isFocused()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setFocused(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isSelected()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setSelected(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isClickable()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setClickable(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isLongClickable()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setLongClickable(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isEnabled()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setEnabled(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isPassword()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setPassword(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean isScrollable()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setScrollable(boolean)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.CharSequence getPackageName()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setPackageName(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.CharSequence getClassName()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setClassName(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.CharSequence getText()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setText(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.CharSequence getContentDescription()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setContentDescription(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void recycle()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: int hashCode()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: boolean equals(java.lang.Object)
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat: android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl IMPL
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.lang.Object mRecord
+android.support.v4.view.accessibility.AccessibilityRecordCompat: AccessibilityRecordCompat(java.lang.Object)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.lang.Object getImpl()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: android.support.v4.view.accessibility.AccessibilityRecordCompat obtain(android.support.v4.view.accessibility.AccessibilityRecordCompat)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: android.support.v4.view.accessibility.AccessibilityRecordCompat obtain()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setSource(android.view.View)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: android.support.v4.view.accessibility.AccessibilityNodeInfoCompat getSource()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getWindowId()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean isChecked()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setChecked(boolean)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean isEnabled()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setEnabled(boolean)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean isPassword()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setPassword(boolean)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean isFullScreen()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setFullScreen(boolean)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean isScrollable()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setScrollable(boolean)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getItemCount()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setItemCount(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getCurrentItemIndex()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setCurrentItemIndex(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getFromIndex()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setFromIndex(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getToIndex()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setToIndex(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getScrollX()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setScrollX(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getScrollY()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setScrollY(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getAddedCount()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setAddedCount(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int getRemovedCount()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setRemovedCount(int)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.lang.CharSequence getClassName()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setClassName(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.util.List getText()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.lang.CharSequence getBeforeText()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setBeforeText(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: java.lang.CharSequence getContentDescription()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setContentDescription(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: android.os.Parcelable getParcelableData()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setParcelableData(android.os.Parcelable)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void recycle()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: int hashCode()
+android.support.v4.view.accessibility.AccessibilityRecordCompat: boolean equals(java.lang.Object)
+android.support.v4.widget.CursorAdapter
+android.support.v4.widget.CursorAdapter: boolean mDataValid
+android.support.v4.widget.CursorAdapter: boolean mAutoRequery
+android.support.v4.widget.CursorAdapter: android.database.Cursor mCursor
+android.support.v4.widget.CursorAdapter: android.content.Context mContext
+android.support.v4.widget.CursorAdapter: int mRowIDColumn
+android.support.v4.widget.CursorAdapter: android.support.v4.widget.CursorAdapter$ChangeObserver mChangeObserver
+android.support.v4.widget.CursorAdapter: android.database.DataSetObserver mDataSetObserver
+android.support.v4.widget.CursorAdapter: android.support.v4.widget.CursorFilter mCursorFilter
+android.support.v4.widget.CursorAdapter: android.widget.FilterQueryProvider mFilterQueryProvider
+android.support.v4.widget.CursorAdapter: int FLAG_AUTO_REQUERY
+android.support.v4.widget.CursorAdapter: int FLAG_REGISTER_CONTENT_OBSERVER
+android.support.v4.widget.CursorAdapter: CursorAdapter(android.content.Context,android.database.Cursor)
+android.support.v4.widget.CursorAdapter: CursorAdapter(android.content.Context,android.database.Cursor,boolean)
+android.support.v4.widget.CursorAdapter: CursorAdapter(android.content.Context,android.database.Cursor,int)
+android.support.v4.widget.CursorAdapter: void init(android.content.Context,android.database.Cursor,boolean)
+android.support.v4.widget.CursorAdapter: android.database.Cursor getCursor()
+android.support.v4.widget.CursorAdapter: int getCount()
+android.support.v4.widget.CursorAdapter: java.lang.Object getItem(int)
+android.support.v4.widget.CursorAdapter: long getItemId(int)
+android.support.v4.widget.CursorAdapter: boolean hasStableIds()
+android.support.v4.widget.CursorAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)
+android.support.v4.widget.CursorAdapter: android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup)
+android.support.v4.widget.CursorAdapter: android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+android.support.v4.widget.CursorAdapter: android.view.View newDropDownView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+android.support.v4.widget.CursorAdapter: void bindView(android.view.View,android.content.Context,android.database.Cursor)
+android.support.v4.widget.CursorAdapter: void changeCursor(android.database.Cursor)
+android.support.v4.widget.CursorAdapter: android.database.Cursor swapCursor(android.database.Cursor)
+android.support.v4.widget.CursorAdapter: java.lang.CharSequence convertToString(android.database.Cursor)
+android.support.v4.widget.CursorAdapter: android.database.Cursor runQueryOnBackgroundThread(java.lang.CharSequence)
+android.support.v4.widget.CursorAdapter: android.widget.Filter getFilter()
+android.support.v4.widget.CursorAdapter: android.widget.FilterQueryProvider getFilterQueryProvider()
+android.support.v4.widget.CursorAdapter: void setFilterQueryProvider(android.widget.FilterQueryProvider)
+android.support.v4.widget.CursorAdapter: void onContentChanged()
+android.support.v4.widget.EdgeEffectCompat
+android.support.v4.widget.EdgeEffectCompat: java.lang.Object mEdgeEffect
+android.support.v4.widget.EdgeEffectCompat: android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl IMPL
+android.support.v4.widget.EdgeEffectCompat: EdgeEffectCompat(android.content.Context)
+android.support.v4.widget.EdgeEffectCompat: void setSize(int,int)
+android.support.v4.widget.EdgeEffectCompat: boolean isFinished()
+android.support.v4.widget.EdgeEffectCompat: void finish()
+android.support.v4.widget.EdgeEffectCompat: boolean onPull(float)
+android.support.v4.widget.EdgeEffectCompat: boolean onRelease()
+android.support.v4.widget.EdgeEffectCompat: boolean onAbsorb(int)
+android.support.v4.widget.EdgeEffectCompat: boolean draw(android.graphics.Canvas)
+android.support.v4.widget.ResourceCursorAdapter
+android.support.v4.widget.ResourceCursorAdapter: int mLayout
+android.support.v4.widget.ResourceCursorAdapter: int mDropDownLayout
+android.support.v4.widget.ResourceCursorAdapter: android.view.LayoutInflater mInflater
+android.support.v4.widget.ResourceCursorAdapter: ResourceCursorAdapter(android.content.Context,int,android.database.Cursor)
+android.support.v4.widget.ResourceCursorAdapter: ResourceCursorAdapter(android.content.Context,int,android.database.Cursor,boolean)
+android.support.v4.widget.ResourceCursorAdapter: ResourceCursorAdapter(android.content.Context,int,android.database.Cursor,int)
+android.support.v4.widget.ResourceCursorAdapter: android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+android.support.v4.widget.ResourceCursorAdapter: android.view.View newDropDownView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+android.support.v4.widget.ResourceCursorAdapter: void setViewResource(int)
+android.support.v4.widget.ResourceCursorAdapter: void setDropDownViewResource(int)
+android.support.v4.widget.SearchViewCompat
+android.support.v4.widget.SearchViewCompat: android.support.v4.widget.SearchViewCompat$SearchViewCompatImpl IMPL
+android.support.v4.widget.SearchViewCompat: SearchViewCompat(android.content.Context)
+android.support.v4.widget.SearchViewCompat: android.view.View newSearchView(android.content.Context)
+android.support.v4.widget.SearchViewCompat: void setOnQueryTextListener(android.view.View,android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat)
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat: SearchViewCompat$OnQueryTextListenerCompat()
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat: boolean onQueryTextSubmit(java.lang.String)
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat: boolean onQueryTextChange(java.lang.String)
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter: int[] mFrom
+android.support.v4.widget.SimpleCursorAdapter: int[] mTo
+android.support.v4.widget.SimpleCursorAdapter: int mStringConversionColumn
+android.support.v4.widget.SimpleCursorAdapter: android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter mCursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter: android.support.v4.widget.SimpleCursorAdapter$ViewBinder mViewBinder
+android.support.v4.widget.SimpleCursorAdapter: SimpleCursorAdapter(android.content.Context,int,android.database.Cursor,java.lang.String[],int[])
+android.support.v4.widget.SimpleCursorAdapter: SimpleCursorAdapter(android.content.Context,int,android.database.Cursor,java.lang.String[],int[],int)
+android.support.v4.widget.SimpleCursorAdapter: void bindView(android.view.View,android.content.Context,android.database.Cursor)
+android.support.v4.widget.SimpleCursorAdapter: android.support.v4.widget.SimpleCursorAdapter$ViewBinder getViewBinder()
+android.support.v4.widget.SimpleCursorAdapter: void setViewBinder(android.support.v4.widget.SimpleCursorAdapter$ViewBinder)
+android.support.v4.widget.SimpleCursorAdapter: void setViewImage(android.widget.ImageView,java.lang.String)
+android.support.v4.widget.SimpleCursorAdapter: void setViewText(android.widget.TextView,java.lang.String)
+android.support.v4.widget.SimpleCursorAdapter: int getStringConversionColumn()
+android.support.v4.widget.SimpleCursorAdapter: void setStringConversionColumn(int)
+android.support.v4.widget.SimpleCursorAdapter: android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter getCursorToStringConverter()
+android.support.v4.widget.SimpleCursorAdapter: void setCursorToStringConverter(android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter)
+android.support.v4.widget.SimpleCursorAdapter: java.lang.CharSequence convertToString(android.database.Cursor)
+android.support.v4.widget.SimpleCursorAdapter: void findColumns(java.lang.String[])
+android.support.v4.widget.SimpleCursorAdapter: android.database.Cursor swapCursor(android.database.Cursor)
+android.support.v4.widget.SimpleCursorAdapter: void changeCursorAndColumns(android.database.Cursor,java.lang.String[],int[])
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter: java.lang.CharSequence convertToString(android.database.Cursor)
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder: boolean setViewValue(android.view.View,android.database.Cursor,int)
+android.webkit.weibo.WebViewClient
+android.webkit.weibo.WebViewClient: WebViewClient()
+android.webkit.weibo.WebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+android.webkit.weibo.WebViewClient: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+android.webkit.weibo.WebViewClient: void onPageFinished(android.webkit.WebView,java.lang.String)
+android.webkit.weibo.WebViewClient: void onLoadResource(android.webkit.WebView,java.lang.String)
+android.webkit.weibo.WebViewClient: void onTooManyRedirects(android.webkit.WebView,android.os.Message,android.os.Message)
+android.webkit.weibo.WebViewClient: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+android.webkit.weibo.WebViewClient: void onFormResubmission(android.webkit.WebView,android.os.Message,android.os.Message)
+android.webkit.weibo.WebViewClient: void doUpdateVisitedHistory(android.webkit.WebView,java.lang.String,boolean)
+android.webkit.weibo.WebViewClient: void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.weibo.SslError)
+android.webkit.weibo.WebViewClient: void onReceivedHttpAuthRequest(android.webkit.WebView,android.webkit.HttpAuthHandler,java.lang.String,java.lang.String)
+android.webkit.weibo.WebViewClient: boolean shouldOverrideKeyEvent(android.webkit.WebView,android.view.KeyEvent)
+android.webkit.weibo.WebViewClient: void onUnhandledKeyEvent(android.webkit.WebView,android.view.KeyEvent)
+android.webkit.weibo.WebViewClient: void onScaleChanged(android.webkit.WebView,float,float)
+com.android.eatingornot.activitys.DirectorActivity
+com.android.eatingornot.activitys.DirectorActivity: DirectorActivity()
+com.android.eatingornot.activitys.EattingApplication
+com.android.eatingornot.activitys.EattingApplication: EattingApplication()
+com.android.eatingornot.activitys.EattingOrNotMainActivity
+com.android.eatingornot.activitys.EattingOrNotMainActivity: EattingOrNotMainActivity()
+com.android.eatingornot.activitys.FavorListActivity
+com.android.eatingornot.activitys.FavorListActivity: FavorListActivity()
+com.android.eatingornot.activitys.FeedbackActivity
+com.android.eatingornot.activitys.FeedbackActivity: FeedbackActivity()
+com.android.eatingornot.activitys.FoodDetailsActivity
+com.android.eatingornot.activitys.FoodDetailsActivity: FoodDetailsActivity()
+com.android.eatingornot.activitys.FoodDetailsActivity$FoodKind: com.android.eatingornot.activitys.FoodDetailsActivity$FoodKind[] values()
+com.android.eatingornot.activitys.FoodDetailsActivity$FoodKind: com.android.eatingornot.activitys.FoodDetailsActivity$FoodKind valueOf(java.lang.String)
+com.android.eatingornot.activitys.ForgetPswActivity
+com.android.eatingornot.activitys.ForgetPswActivity: ForgetPswActivity()
+com.android.eatingornot.activitys.R$anim
+com.android.eatingornot.activitys.R$anim: int fade_in
+com.android.eatingornot.activitys.R$anim: int fade_out
+com.android.eatingornot.activitys.R$anim: int in_from_left
+com.android.eatingornot.activitys.R$anim: int in_from_right
+com.android.eatingornot.activitys.R$anim: int left_to_right
+com.android.eatingornot.activitys.R$anim: int out_to_left
+com.android.eatingornot.activitys.R$anim: int out_to_right
+com.android.eatingornot.activitys.R$anim: int push_down
+com.android.eatingornot.activitys.R$anim: int push_up
+com.android.eatingornot.activitys.R$anim: int right_to_left
+com.android.eatingornot.activitys.R$anim: int zoom_enter
+com.android.eatingornot.activitys.R$anim: int zoom_exit
+com.android.eatingornot.activitys.R$anim: int zoom_out
+com.android.eatingornot.activitys.R$array
+com.android.eatingornot.activitys.R$array: int UMageList
+com.android.eatingornot.activitys.R$array: int UMgenderList
+com.android.eatingornot.activitys.R$attr
+com.android.eatingornot.activitys.R$color
+com.android.eatingornot.activitys.R$color: int dialog_title_blue
+com.android.eatingornot.activitys.R$color: int text_num_gray
+com.android.eatingornot.activitys.R$color: int trans_gray
+com.android.eatingornot.activitys.R$color: int transparent
+com.android.eatingornot.activitys.R$dimen
+com.android.eatingornot.activitys.R$dimen: int LFT_LAYOUT_HEIGHT
+com.android.eatingornot.activitys.R$dimen: int LFT_LAYOUT_WIDTH
+com.android.eatingornot.activitys.R$dimen: int LFT_marginRight_offset
+com.android.eatingornot.activitys.R$dimen: int LFT_marginTop_offset
+com.android.eatingornot.activitys.R$dimen: int MIN_LAYOUT_HEIGHT
+com.android.eatingornot.activitys.R$dimen: int MIN_LAYOUT_WIDTH
+com.android.eatingornot.activitys.R$dimen: int MIN_marginLeft_offset
+com.android.eatingornot.activitys.R$dimen: int MIN_marginTop_offset
+com.android.eatingornot.activitys.R$dimen: int RIT_LAYOUT_HEIGHT
+com.android.eatingornot.activitys.R$dimen: int RIT_LAYOUT_WIDTH
+com.android.eatingornot.activitys.R$dimen: int RIT_marginLeft_offset
+com.android.eatingornot.activitys.R$dimen: int RIT_marginTop_offset
+com.android.eatingornot.activitys.R$dimen: int TEXT_SIZE_FOR_IMGDESP
+com.android.eatingornot.activitys.R$dimen: int dialog_bottom_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_btn_close_right_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_btn_close_top_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_left_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_right_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_title_height
+com.android.eatingornot.activitys.R$dimen: int dialog_title_logo_left_margin
+com.android.eatingornot.activitys.R$dimen: int dialog_top_margin
+com.android.eatingornot.activitys.R$dimen: int rope_margin
+com.android.eatingornot.activitys.R$drawable
+com.android.eatingornot.activitys.R$drawable: int actv_item_seletor
+com.android.eatingornot.activitys.R$drawable: int arrow
+com.android.eatingornot.activitys.R$drawable: int arrow_left
+com.android.eatingornot.activitys.R$drawable: int arrow_left_press
+com.android.eatingornot.activitys.R$drawable: int arrow_right
+com.android.eatingornot.activitys.R$drawable: int arrow_right_press
+com.android.eatingornot.activitys.R$drawable: int back_to_home
+com.android.eatingornot.activitys.R$drawable: int bg
+com.android.eatingornot.activitys.R$drawable: int bg1
+com.android.eatingornot.activitys.R$drawable: int bg2
+com.android.eatingornot.activitys.R$drawable: int bg_btn
+com.android.eatingornot.activitys.R$drawable: int bg_btn_onclick
+com.android.eatingornot.activitys.R$drawable: int bg_button
+com.android.eatingornot.activitys.R$drawable: int bg_collected
+com.android.eatingornot.activitys.R$drawable: int bg_collected_click
+com.android.eatingornot.activitys.R$drawable: int bg_content
+com.android.eatingornot.activitys.R$drawable: int bg_content_title
+com.android.eatingornot.activitys.R$drawable: int bg_contents
+com.android.eatingornot.activitys.R$drawable: int bg_delwords
+com.android.eatingornot.activitys.R$drawable: int bg_delwords_nor
+com.android.eatingornot.activitys.R$drawable: int bg_delwords_sel
+com.android.eatingornot.activitys.R$drawable: int bg_editor
+com.android.eatingornot.activitys.R$drawable: int bg_favor_ill
+com.android.eatingornot.activitys.R$drawable: int bg_for_gallery
+com.android.eatingornot.activitys.R$drawable: int bg_not_collect
+com.android.eatingornot.activitys.R$drawable: int bg_not_collect_click
+com.android.eatingornot.activitys.R$drawable: int bg_search_box
+com.android.eatingornot.activitys.R$drawable: int bg_title
+com.android.eatingornot.activitys.R$drawable: int black_b
+com.android.eatingornot.activitys.R$drawable: int black_l
+com.android.eatingornot.activitys.R$drawable: int choose
+com.android.eatingornot.activitys.R$drawable: int close_normal
+com.android.eatingornot.activitys.R$drawable: int close_press
+com.android.eatingornot.activitys.R$drawable: int close_selector
+com.android.eatingornot.activitys.R$drawable: int collect_words
+com.android.eatingornot.activitys.R$drawable: int collected
+com.android.eatingornot.activitys.R$drawable: int collected_heart
+com.android.eatingornot.activitys.R$drawable: int content2_01_03
+com.android.eatingornot.activitys.R$drawable: int content2_01_05
+com.android.eatingornot.activitys.R$drawable: int content_divider
+com.android.eatingornot.activitys.R$drawable: int coronary_heart_disease
+com.android.eatingornot.activitys.R$drawable: int defaul_head
+com.android.eatingornot.activitys.R$drawable: int default_food
+com.android.eatingornot.activitys.R$drawable: int del_pic
+com.android.eatingornot.activitys.R$drawable: int diabetes
+com.android.eatingornot.activitys.R$drawable: int dialog_bg
+com.android.eatingornot.activitys.R$drawable: int direc1
+com.android.eatingornot.activitys.R$drawable: int direc2
+com.android.eatingornot.activitys.R$drawable: int direc3
+com.android.eatingornot.activitys.R$drawable: int divider
+com.android.eatingornot.activitys.R$drawable: int dot_cur_min
+com.android.eatingornot.activitys.R$drawable: int dot_default
+com.android.eatingornot.activitys.R$drawable: int dota
+com.android.eatingornot.activitys.R$drawable: int face
+com.android.eatingornot.activitys.R$drawable: int fatty_liver
+com.android.eatingornot.activitys.R$drawable: int favor_btn_seletor
+com.android.eatingornot.activitys.R$drawable: int feedback
+com.android.eatingornot.activitys.R$drawable: int fit
+com.android.eatingornot.activitys.R$drawable: int gao_xue_ya
+com.android.eatingornot.activitys.R$drawable: int gao_xue_ya_blue
+com.android.eatingornot.activitys.R$drawable: int grey
+com.android.eatingornot.activitys.R$drawable: int header
+com.android.eatingornot.activitys.R$drawable: int header_null
+com.android.eatingornot.activitys.R$drawable: int highlight
+com.android.eatingornot.activitys.R$drawable: int home
+com.android.eatingornot.activitys.R$drawable: int hyperlipedimia
+com.android.eatingornot.activitys.R$drawable: int hyperlipidemia
+com.android.eatingornot.activitys.R$drawable: int hypertensive
+com.android.eatingornot.activitys.R$drawable: int icon
+com.android.eatingornot.activitys.R$drawable: int icon_delwords
+com.android.eatingornot.activitys.R$drawable: int ill_item_seletor
+com.android.eatingornot.activitys.R$drawable: int illness_click
+com.android.eatingornot.activitys.R$drawable: int image_background
+com.android.eatingornot.activitys.R$drawable: int img_fail
+com.android.eatingornot.activitys.R$drawable: int item_pressed
+com.android.eatingornot.activitys.R$drawable: int ji
+com.android.eatingornot.activitys.R$drawable: int ke
+com.android.eatingornot.activitys.R$drawable: int left_shadow
+com.android.eatingornot.activitys.R$drawable: int left_wood
+com.android.eatingornot.activitys.R$drawable: int lei_feng_shi_xing_guan_jie_yan_1
+com.android.eatingornot.activitys.R$drawable: int lei_feng_shi_xing_guan_jie_yan_2
+com.android.eatingornot.activitys.R$drawable: int line
+com.android.eatingornot.activitys.R$drawable: int logo
+com.android.eatingornot.activitys.R$drawable: int my_favorite
+com.android.eatingornot.activitys.R$drawable: int navi_bar
+com.android.eatingornot.activitys.R$drawable: int navibar_seletor
+com.android.eatingornot.activitys.R$drawable: int next
+com.android.eatingornot.activitys.R$drawable: int next_onclick
+com.android.eatingornot.activitys.R$drawable: int next_seletor
+com.android.eatingornot.activitys.R$drawable: int not_collect_heart
+com.android.eatingornot.activitys.R$drawable: int not_collected
+com.android.eatingornot.activitys.R$drawable: int not_select_tap_left
+com.android.eatingornot.activitys.R$drawable: int not_select_tap_right
+com.android.eatingornot.activitys.R$drawable: int plus
+com.android.eatingornot.activitys.R$drawable: int pre
+com.android.eatingornot.activitys.R$drawable: int pre_onclick
+com.android.eatingornot.activitys.R$drawable: int pre_seletor
+com.android.eatingornot.activitys.R$drawable: int pregnant
+com.android.eatingornot.activitys.R$drawable: int publish_button
+com.android.eatingornot.activitys.R$drawable: int repeat_wood
+com.android.eatingornot.activitys.R$drawable: int right_arrow
+com.android.eatingornot.activitys.R$drawable: int right_hand
+com.android.eatingornot.activitys.R$drawable: int right_wood
+com.android.eatingornot.activitys.R$drawable: int rope
+com.android.eatingornot.activitys.R$drawable: int search_box
+com.android.eatingornot.activitys.R$drawable: int search_btn_seletor
+com.android.eatingornot.activitys.R$drawable: int search_button
+com.android.eatingornot.activitys.R$drawable: int search_button_press
+com.android.eatingornot.activitys.R$drawable: int search_icon
+com.android.eatingornot.activitys.R$drawable: int search_ret_item_pressed
+com.android.eatingornot.activitys.R$drawable: int search_ret_item_seletor
+com.android.eatingornot.activitys.R$drawable: int select_tap_left
+com.android.eatingornot.activitys.R$drawable: int select_tap_right
+com.android.eatingornot.activitys.R$drawable: int shadow_left
+com.android.eatingornot.activitys.R$drawable: int shadow_right
+com.android.eatingornot.activitys.R$drawable: int tip_for_favor
+com.android.eatingornot.activitys.R$drawable: int tip_for_feedback
+com.android.eatingornot.activitys.R$drawable: int title
+com.android.eatingornot.activitys.R$drawable: int title_btn_seletor
+com.android.eatingornot.activitys.R$drawable: int title_logo
+com.android.eatingornot.activitys.R$drawable: int tong_feng_1
+com.android.eatingornot.activitys.R$drawable: int tong_feng_2
+com.android.eatingornot.activitys.R$drawable: int touxiang
+com.android.eatingornot.activitys.R$drawable: int umeng_common_gradient_green
+com.android.eatingornot.activitys.R$drawable: int umeng_common_gradient_orange
+com.android.eatingornot.activitys.R$drawable: int umeng_common_gradient_red
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_bar_bg
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_blank_selector
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_bottom_banner
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_dev_bubble
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_gradient_green
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_gradient_orange
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_gray_frame
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_list_item
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_list_item_pressed
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_list_item_selector
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_point_new
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_point_normal
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_see_list_normal
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_see_list_pressed
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_see_list_selector
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_statusbar_icon
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_submit_selector
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_top_banner
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_user_bubble
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_write_normal
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_write_pressed
+com.android.eatingornot.activitys.R$drawable: int umeng_fb_write_selector
+com.android.eatingornot.activitys.R$drawable: int unfavor_btn_seletor
+com.android.eatingornot.activitys.R$drawable: int unfit
+com.android.eatingornot.activitys.R$drawable: int weibo
+com.android.eatingornot.activitys.R$drawable: int weibo_login
+com.android.eatingornot.activitys.R$drawable: int welcome
+com.android.eatingornot.activitys.R$drawable: int wood
+com.android.eatingornot.activitys.R$drawable: int xiala
+com.android.eatingornot.activitys.R$drawable: int yi
+com.android.eatingornot.activitys.R$id
+com.android.eatingornot.activitys.R$id: int advise
+com.android.eatingornot.activitys.R$id: int auto_cpl_text_view
+com.android.eatingornot.activitys.R$id: int bg_image
+com.android.eatingornot.activitys.R$id: int btnClose
+com.android.eatingornot.activitys.R$id: int btnFavor
+com.android.eatingornot.activitys.R$id: int btnSend
+com.android.eatingornot.activitys.R$id: int btn_appraise
+com.android.eatingornot.activitys.R$id: int btn_bangding
+com.android.eatingornot.activitys.R$id: int btn_feedcak
+com.android.eatingornot.activitys.R$id: int btn_left
+com.android.eatingornot.activitys.R$id: int btn_login
+com.android.eatingornot.activitys.R$id: int btn_login_out
+com.android.eatingornot.activitys.R$id: int btn_middle
+com.android.eatingornot.activitys.R$id: int btn_navi_1
+com.android.eatingornot.activitys.R$id: int btn_navi_1_bg_layout
+com.android.eatingornot.activitys.R$id: int btn_navi_2
+com.android.eatingornot.activitys.R$id: int btn_navi_2_bg_layout
+com.android.eatingornot.activitys.R$id: int btn_next
+com.android.eatingornot.activitys.R$id: int btn_prev
+com.android.eatingornot.activitys.R$id: int btn_register
+com.android.eatingornot.activitys.R$id: int btn_right
+com.android.eatingornot.activitys.R$id: int btn_search
+com.android.eatingornot.activitys.R$id: int btn_sec_left
+com.android.eatingornot.activitys.R$id: int btn_sec_middle
+com.android.eatingornot.activitys.R$id: int btn_sec_right
+com.android.eatingornot.activitys.R$id: int btn_submit
+com.android.eatingornot.activitys.R$id: int checkBox1
+com.android.eatingornot.activitys.R$id: int connect_weibo
+com.android.eatingornot.activitys.R$id: int content
+com.android.eatingornot.activitys.R$id: int content_title
+com.android.eatingornot.activitys.R$id: int content_view
+com.android.eatingornot.activitys.R$id: int current_ill
+com.android.eatingornot.activitys.R$id: int details_reason
+com.android.eatingornot.activitys.R$id: int director_img
+com.android.eatingornot.activitys.R$id: int disease_contener
+com.android.eatingornot.activitys.R$id: int dots
+com.android.eatingornot.activitys.R$id: int eat_action
+com.android.eatingornot.activitys.R$id: int eat_amount
+com.android.eatingornot.activitys.R$id: int eat_skill
+com.android.eatingornot.activitys.R$id: int edit_contact
+com.android.eatingornot.activitys.R$id: int edit_feedback
+com.android.eatingornot.activitys.R$id: int edit_layout
+com.android.eatingornot.activitys.R$id: int edt_email
+com.android.eatingornot.activitys.R$id: int email
+com.android.eatingornot.activitys.R$id: int etEdit
+com.android.eatingornot.activitys.R$id: int favor_bar
+com.android.eatingornot.activitys.R$id: int favor_list
+com.android.eatingornot.activitys.R$id: int favor_list_layout
+com.android.eatingornot.activitys.R$id: int favor_number
+com.android.eatingornot.activitys.R$id: int fit_img
+com.android.eatingornot.activitys.R$id: int flPic
+com.android.eatingornot.activitys.R$id: int food_1
+com.android.eatingornot.activitys.R$id: int food_2
+com.android.eatingornot.activitys.R$id: int food_match_layout
+com.android.eatingornot.activitys.R$id: int food_name
+com.android.eatingornot.activitys.R$id: int forget_psw
+com.android.eatingornot.activitys.R$id: int grid_view_imgs
+com.android.eatingornot.activitys.R$id: int home_layout
+com.android.eatingornot.activitys.R$id: int ill_item
+com.android.eatingornot.activitys.R$id: int ill_list
+com.android.eatingornot.activitys.R$id: int img_dscp
+com.android.eatingornot.activitys.R$id: int img_fit
+com.android.eatingornot.activitys.R$id: int img_text_bottom
+com.android.eatingornot.activitys.R$id: int info_source
+com.android.eatingornot.activitys.R$id: int is_fit_img
+com.android.eatingornot.activitys.R$id: int is_fit_reason
+com.android.eatingornot.activitys.R$id: int ivDelPic
+com.android.eatingornot.activitys.R$id: int ivImage
+com.android.eatingornot.activitys.R$id: int just_for_layout
+com.android.eatingornot.activitys.R$id: int llImage
+com.android.eatingornot.activitys.R$id: int ll_text_limit_unit
+com.android.eatingornot.activitys.R$id: int login_layout
+com.android.eatingornot.activitys.R$id: int over_button
+com.android.eatingornot.activitys.R$id: int password
+com.android.eatingornot.activitys.R$id: int rec_foods
+com.android.eatingornot.activitys.R$id: int rec_foods_macth
+com.android.eatingornot.activitys.R$id: int register_email
+com.android.eatingornot.activitys.R$id: int register_layout
+com.android.eatingornot.activitys.R$id: int register_password
+com.android.eatingornot.activitys.R$id: int resize_layout
+com.android.eatingornot.activitys.R$id: int right_wood
+com.android.eatingornot.activitys.R$id: int rlTitle
+com.android.eatingornot.activitys.R$id: int rlTotal
+com.android.eatingornot.activitys.R$id: int seach_ret_null
+com.android.eatingornot.activitys.R$id: int search_bar_bg
+com.android.eatingornot.activitys.R$id: int search_result_list
+com.android.eatingornot.activitys.R$id: int search_ret_item_fit
+com.android.eatingornot.activitys.R$id: int search_ret_item_img
+com.android.eatingornot.activitys.R$id: int search_ret_item_name
+com.android.eatingornot.activitys.R$id: int share_to_weibo
+com.android.eatingornot.activitys.R$id: int submit_forget_psw
+com.android.eatingornot.activitys.R$id: int submit_login
+com.android.eatingornot.activitys.R$id: int submit_register
+com.android.eatingornot.activitys.R$id: int tap_layout
+com.android.eatingornot.activitys.R$id: int text_hot_food
+com.android.eatingornot.activitys.R$id: int tip_laout
+com.android.eatingornot.activitys.R$id: int title
+com.android.eatingornot.activitys.R$id: int title_bar
+com.android.eatingornot.activitys.R$id: int title_btn_left
+com.android.eatingornot.activitys.R$id: int title_btn_right
+com.android.eatingornot.activitys.R$id: int title_rel_layout
+com.android.eatingornot.activitys.R$id: int title_text
+com.android.eatingornot.activitys.R$id: int tv_text_limit
+com.android.eatingornot.activitys.R$id: int umeng_common_app
+com.android.eatingornot.activitys.R$id: int umeng_common_appIcon
+com.android.eatingornot.activitys.R$id: int umeng_common_description
+com.android.eatingornot.activitys.R$id: int umeng_common_notification
+com.android.eatingornot.activitys.R$id: int umeng_common_notification_controller
+com.android.eatingornot.activitys.R$id: int umeng_common_progress_bar
+com.android.eatingornot.activitys.R$id: int umeng_common_progress_text
+com.android.eatingornot.activitys.R$id: int umeng_common_rich_notification_cancel
+com.android.eatingornot.activitys.R$id: int umeng_common_rich_notification_continue
+com.android.eatingornot.activitys.R$id: int umeng_common_title
+com.android.eatingornot.activitys.R$id: int umeng_fb_age_spinner
+com.android.eatingornot.activitys.R$id: int umeng_fb_atomLinearLayout
+com.android.eatingornot.activitys.R$id: int umeng_fb_atom_left_margin
+com.android.eatingornot.activitys.R$id: int umeng_fb_atom_right_margin
+com.android.eatingornot.activitys.R$id: int umeng_fb_atomtxt
+com.android.eatingornot.activitys.R$id: int umeng_fb_bottom_sub
+com.android.eatingornot.activitys.R$id: int umeng_fb_btnSendFb
+com.android.eatingornot.activitys.R$id: int umeng_fb_bubble
+com.android.eatingornot.activitys.R$id: int umeng_fb_content
+com.android.eatingornot.activitys.R$id: int umeng_fb_conversation_title
+com.android.eatingornot.activitys.R$id: int umeng_fb_dev_reply
+com.android.eatingornot.activitys.R$id: int umeng_fb_editTxtFb
+com.android.eatingornot.activitys.R$id: int umeng_fb_exitBtn
+com.android.eatingornot.activitys.R$id: int umeng_fb_feedbackpreview
+com.android.eatingornot.activitys.R$id: int umeng_fb_gender_spinner
+com.android.eatingornot.activitys.R$id: int umeng_fb_goback_btn
+com.android.eatingornot.activitys.R$id: int umeng_fb_imgBtn_submitFb
+com.android.eatingornot.activitys.R$id: int umeng_fb_new_dev_reply_box
+com.android.eatingornot.activitys.R$id: int umeng_fb_new_reply_alert_title
+com.android.eatingornot.activitys.R$id: int umeng_fb_new_reply_notifier
+com.android.eatingornot.activitys.R$id: int umeng_fb_rootId
+com.android.eatingornot.activitys.R$id: int umeng_fb_see_detail_btn
+com.android.eatingornot.activitys.R$id: int umeng_fb_see_list_btn
+com.android.eatingornot.activitys.R$id: int umeng_fb_stateOrTime
+com.android.eatingornot.activitys.R$id: int umeng_fb_state_or_date
+com.android.eatingornot.activitys.R$id: int umeng_fb_submit
+com.android.eatingornot.activitys.R$id: int user_head
+com.android.eatingornot.activitys.R$id: int username
+com.android.eatingornot.activitys.R$id: int view_papers
+com.android.eatingornot.activitys.R$id: int view_papers_directors
+com.android.eatingornot.activitys.R$id: int view_papers_layout
+com.android.eatingornot.activitys.R$id: int web_site
+com.android.eatingornot.activitys.R$id: int weibo_login
+com.android.eatingornot.activitys.R$id: int weibo_state
+com.android.eatingornot.activitys.R$id: int welcome
+com.android.eatingornot.activitys.R$layout
+com.android.eatingornot.activitys.R$layout: int auto_cpl_tv_item
+com.android.eatingornot.activitys.R$layout: int auto_cpl_tv_item_rich
+com.android.eatingornot.activitys.R$layout: int customs_image
+com.android.eatingornot.activitys.R$layout: int customs_image2
+com.android.eatingornot.activitys.R$layout: int customs_image_big
+com.android.eatingornot.activitys.R$layout: int customs_navibar
+com.android.eatingornot.activitys.R$layout: int customs_search_bar
+com.android.eatingornot.activitys.R$layout: int customs_titext
+com.android.eatingornot.activitys.R$layout: int customs_title
+com.android.eatingornot.activitys.R$layout: int director
+com.android.eatingornot.activitys.R$layout: int director_paper_item
+com.android.eatingornot.activitys.R$layout: int favor_list
+com.android.eatingornot.activitys.R$layout: int favor_list_item
+com.android.eatingornot.activitys.R$layout: int feedback
+com.android.eatingornot.activitys.R$layout: int food_details
+com.android.eatingornot.activitys.R$layout: int food_match_item
+com.android.eatingornot.activitys.R$layout: int forget_psw
+com.android.eatingornot.activitys.R$layout: int gallery_item
+com.android.eatingornot.activitys.R$layout: int home
+com.android.eatingornot.activitys.R$layout: int ill_list_view_item
+com.android.eatingornot.activitys.R$layout: int search_foods
+com.android.eatingornot.activitys.R$layout: int search_result
+com.android.eatingornot.activitys.R$layout: int search_result_item
+com.android.eatingornot.activitys.R$layout: int share_mblog_view
+com.android.eatingornot.activitys.R$layout: int share_view
+com.android.eatingornot.activitys.R$layout: int umeng_common_download_notification
+com.android.eatingornot.activitys.R$layout: int umeng_fb_atom
+com.android.eatingornot.activitys.R$layout: int umeng_fb_conversation
+com.android.eatingornot.activitys.R$layout: int umeng_fb_conversation_item
+com.android.eatingornot.activitys.R$layout: int umeng_fb_conversations
+com.android.eatingornot.activitys.R$layout: int umeng_fb_conversations_item
+com.android.eatingornot.activitys.R$layout: int umeng_fb_list_item
+com.android.eatingornot.activitys.R$layout: int umeng_fb_new_reply_alert_dialog
+com.android.eatingornot.activitys.R$layout: int umeng_fb_send_feedback
+com.android.eatingornot.activitys.R$layout: int user_center
+com.android.eatingornot.activitys.R$layout: int user_login
+com.android.eatingornot.activitys.R$layout: int welcome
+com.android.eatingornot.activitys.R$string
+com.android.eatingornot.activitys.R$string: int EattingOrNot
+com.android.eatingornot.activitys.R$string: int FavorList
+com.android.eatingornot.activitys.R$string: int FoodDetail
+com.android.eatingornot.activitys.R$string: int ForgetPsw
+com.android.eatingornot.activitys.R$string: int MARKET_NAME
+com.android.eatingornot.activitys.R$string: int SearchFood
+com.android.eatingornot.activitys.R$string: int SearchRet
+com.android.eatingornot.activitys.R$string: int UMAppUpdate
+com.android.eatingornot.activitys.R$string: int UMBreak_Network
+com.android.eatingornot.activitys.R$string: int UMContentTooLong
+com.android.eatingornot.activitys.R$string: int UMDeleteFeedback
+com.android.eatingornot.activitys.R$string: int UMDeleteMsg
+com.android.eatingornot.activitys.R$string: int UMDeleteThread
+com.android.eatingornot.activitys.R$string: int UMDialog_InstallAPK
+com.android.eatingornot.activitys.R$string: int UMEmptyFbNotAllowed
+com.android.eatingornot.activitys.R$string: int UMFbList_ListItem_State_Fail
+com.android.eatingornot.activitys.R$string: int UMFbList_ListItem_State_ReSend
+com.android.eatingornot.activitys.R$string: int UMFbList_ListItem_State_Resending
+com.android.eatingornot.activitys.R$string: int UMFbList_ListItem_State_Sending
+com.android.eatingornot.activitys.R$string: int UMFb_Atom_State_Fail
+com.android.eatingornot.activitys.R$string: int UMFb_Atom_State_Resending
+com.android.eatingornot.activitys.R$string: int UMFb_Atom_State_Sending
+com.android.eatingornot.activitys.R$string: int UMFeedbackContent
+com.android.eatingornot.activitys.R$string: int UMFeedbackConversationTitle
+com.android.eatingornot.activitys.R$string: int UMFeedbackGoBack
+com.android.eatingornot.activitys.R$string: int UMFeedbackGotIt
+com.android.eatingornot.activitys.R$string: int UMFeedbackListTitle
+com.android.eatingornot.activitys.R$string: int UMFeedbackSeeDetail
+com.android.eatingornot.activitys.R$string: int UMFeedbackSummit
+com.android.eatingornot.activitys.R$string: int UMFeedbackTitle
+com.android.eatingornot.activitys.R$string: int UMFeedbackUmengTitle
+com.android.eatingornot.activitys.R$string: int UMGprsCondition
+com.android.eatingornot.activitys.R$string: int UMNewReplyAlertTitle
+com.android.eatingornot.activitys.R$string: int UMNewReplyFlick
+com.android.eatingornot.activitys.R$string: int UMNewReplyHint
+com.android.eatingornot.activitys.R$string: int UMNewReplyTitle
+com.android.eatingornot.activitys.R$string: int UMNewVersion
+com.android.eatingornot.activitys.R$string: int UMNotNow
+com.android.eatingornot.activitys.R$string: int UMResendFeedback
+com.android.eatingornot.activitys.R$string: int UMToast_IsUpdating
+com.android.eatingornot.activitys.R$string: int UMUpdateNow
+com.android.eatingornot.activitys.R$string: int UMUpdateTitle
+com.android.eatingornot.activitys.R$string: int UMViewFeedback
+com.android.eatingornot.activitys.R$string: int UMViewThread
+com.android.eatingornot.activitys.R$string: int UserCenter
+com.android.eatingornot.activitys.R$string: int UserFeedback
+com.android.eatingornot.activitys.R$string: int UserLogin
+com.android.eatingornot.activitys.R$string: int UserLoginOut
+com.android.eatingornot.activitys.R$string: int UserRegister
+com.android.eatingornot.activitys.R$string: int action_appraise
+com.android.eatingornot.activitys.R$string: int action_search
+com.android.eatingornot.activitys.R$string: int action_setup
+com.android.eatingornot.activitys.R$string: int action_share
+com.android.eatingornot.activitys.R$string: int action_view
+com.android.eatingornot.activitys.R$string: int action_weibo_login
+com.android.eatingornot.activitys.R$string: int add_favor_failed
+com.android.eatingornot.activitys.R$string: int add_favor_success
+com.android.eatingornot.activitys.R$string: int all_disease
+com.android.eatingornot.activitys.R$string: int already_max_words
+com.android.eatingornot.activitys.R$string: int app_name
+com.android.eatingornot.activitys.R$string: int appraise_at_market
+com.android.eatingornot.activitys.R$string: int attention
+com.android.eatingornot.activitys.R$string: int back
+com.android.eatingornot.activitys.R$string: int bangding_weibo
+com.android.eatingornot.activitys.R$string: int bangding_weibo_failed
+com.android.eatingornot.activitys.R$string: int can_login_in_web
+com.android.eatingornot.activitys.R$string: int cancel
+com.android.eatingornot.activitys.R$string: int cancel_default_disease
+com.android.eatingornot.activitys.R$string: int cancel_failed
+com.android.eatingornot.activitys.R$string: int cancel_favor_failed
+com.android.eatingornot.activitys.R$string: int cancel_favor_success
+com.android.eatingornot.activitys.R$string: int cancel_success
+com.android.eatingornot.activitys.R$string: int change_weibo_user
+com.android.eatingornot.activitys.R$string: int click_again_to_qiut
+com.android.eatingornot.activitys.R$string: int click_to_change_img
+com.android.eatingornot.activitys.R$string: int close
+com.android.eatingornot.activitys.R$string: int del_pic
+com.android.eatingornot.activitys.R$string: int delected_favor_failed
+com.android.eatingornot.activitys.R$string: int delected_favor_suc
+com.android.eatingornot.activitys.R$string: int delecting_favor
+com.android.eatingornot.activitys.R$string: int delete_all
+com.android.eatingornot.activitys.R$string: int delete_selected
+com.android.eatingornot.activitys.R$string: int details_reason
+com.android.eatingornot.activitys.R$string: int eat_action
+com.android.eatingornot.activitys.R$string: int eat_amount
+com.android.eatingornot.activitys.R$string: int eat_skill
+com.android.eatingornot.activitys.R$string: int eating_or_not
+com.android.eatingornot.activitys.R$string: int email_had_reg
+com.android.eatingornot.activitys.R$string: int email_have_send
+com.android.eatingornot.activitys.R$string: int email_have_send_failed
+com.android.eatingornot.activitys.R$string: int email_name
+com.android.eatingornot.activitys.R$string: int email_name_error
+com.android.eatingornot.activitys.R$string: int email_sending
+com.android.eatingornot.activitys.R$string: int favor
+com.android.eatingornot.activitys.R$string: int feedback
+com.android.eatingornot.activitys.R$string: int fit_reason
+com.android.eatingornot.activitys.R$string: int food_detail_loading
+com.android.eatingornot.activitys.R$string: int foods_macth_fitornot
+com.android.eatingornot.activitys.R$string: int forget_psw
+com.android.eatingornot.activitys.R$string: int gao_xue_ya
+com.android.eatingornot.activitys.R$string: int gao_xue_zhi
+com.android.eatingornot.activitys.R$string: int get_info_in_web
+com.android.eatingornot.activitys.R$string: int give_us_appraise
+com.android.eatingornot.activitys.R$string: int guan_xin_bing
+com.android.eatingornot.activitys.R$string: int hello
+com.android.eatingornot.activitys.R$string: int hint_for_contact
+com.android.eatingornot.activitys.R$string: int hint_for_email_name
+com.android.eatingornot.activitys.R$string: int hint_for_feedback
+com.android.eatingornot.activitys.R$string: int hint_for_password
+com.android.eatingornot.activitys.R$string: int hint_for_share
+com.android.eatingornot.activitys.R$string: int hot_food
+com.android.eatingornot.activitys.R$string: int hot_food_download_failed
+com.android.eatingornot.activitys.R$string: int hot_food_downloading
+com.android.eatingornot.activitys.R$string: int info_source
+com.android.eatingornot.activitys.R$string: int is_doing
+com.android.eatingornot.activitys.R$string: int lei_feng_shi_xing_guan_jie_yan
+com.android.eatingornot.activitys.R$string: int loading
+com.android.eatingornot.activitys.R$string: int login_failed
+com.android.eatingornot.activitys.R$string: int login_out
+com.android.eatingornot.activitys.R$string: int login_scs
+com.android.eatingornot.activitys.R$string: int login_text
+com.android.eatingornot.activitys.R$string: int my_favor
+com.android.eatingornot.activitys.R$string: int network_is_not_ok
+com.android.eatingornot.activitys.R$string: int none
+com.android.eatingornot.activitys.R$string: int ok
+com.android.eatingornot.activitys.R$string: int password
+com.android.eatingornot.activitys.R$string: int password_error
+com.android.eatingornot.activitys.R$string: int password_text_error
+com.android.eatingornot.activitys.R$string: int please_logging
+com.android.eatingornot.activitys.R$string: int please_login
+com.android.eatingornot.activitys.R$string: int rec_eat_amount
+com.android.eatingornot.activitys.R$string: int rec_foods
+com.android.eatingornot.activitys.R$string: int rec_foods_macth
+com.android.eatingornot.activitys.R$string: int register_failed
+com.android.eatingornot.activitys.R$string: int register_scs
+com.android.eatingornot.activitys.R$string: int register_text
+com.android.eatingornot.activitys.R$string: int replace_foods
+com.android.eatingornot.activitys.R$string: int sb_favor
+com.android.eatingornot.activitys.R$string: int search
+com.android.eatingornot.activitys.R$string: int search_null_ret
+com.android.eatingornot.activitys.R$string: int search_ret
+com.android.eatingornot.activitys.R$string: int send
+com.android.eatingornot.activitys.R$string: int send_failed
+com.android.eatingornot.activitys.R$string: int send_sucess
+com.android.eatingornot.activitys.R$string: int server_connect_failed
+com.android.eatingornot.activitys.R$string: int set_default_disease
+com.android.eatingornot.activitys.R$string: int set_failed
+com.android.eatingornot.activitys.R$string: int set_success
+com.android.eatingornot.activitys.R$string: int share_dialog_title
+com.android.eatingornot.activitys.R$string: int submit
+com.android.eatingornot.activitys.R$string: int sweat_tip
+com.android.eatingornot.activitys.R$string: int tang_niao_bing
+com.android.eatingornot.activitys.R$string: int test_string
+com.android.eatingornot.activitys.R$string: int text_edit
+com.android.eatingornot.activitys.R$string: int tip_food_name
+com.android.eatingornot.activitys.R$string: int tip_for_input_null
+com.android.eatingornot.activitys.R$string: int tip_for_login_out
+com.android.eatingornot.activitys.R$string: int tip_for_searching
+com.android.eatingornot.activitys.R$string: int tip_for_set_default_disease
+com.android.eatingornot.activitys.R$string: int tip_for_share
+com.android.eatingornot.activitys.R$string: int tip_for_share2
+com.android.eatingornot.activitys.R$string: int tip_search
+com.android.eatingornot.activitys.R$string: int tip_text
+com.android.eatingornot.activitys.R$string: int tong_feng
+com.android.eatingornot.activitys.R$string: int umeng_common_action_cancel
+com.android.eatingornot.activitys.R$string: int umeng_common_action_continue
+com.android.eatingornot.activitys.R$string: int umeng_common_action_info_exist
+com.android.eatingornot.activitys.R$string: int umeng_common_action_pause
+com.android.eatingornot.activitys.R$string: int umeng_common_download_failed
+com.android.eatingornot.activitys.R$string: int umeng_common_download_notification_prefix
+com.android.eatingornot.activitys.R$string: int umeng_common_info_interrupt
+com.android.eatingornot.activitys.R$string: int umeng_common_network_break_alert
+com.android.eatingornot.activitys.R$string: int un_bangding_weibo
+com.android.eatingornot.activitys.R$string: int un_bangding_weibo_failed
+com.android.eatingornot.activitys.R$string: int un_bangding_weibo_suc
+com.android.eatingornot.activitys.R$string: int uploading_failed
+com.android.eatingornot.activitys.R$string: int uploading_feedback
+com.android.eatingornot.activitys.R$string: int uploading_suc
+com.android.eatingornot.activitys.R$string: int user_center
+com.android.eatingornot.activitys.R$string: int user_img_is_not_open
+com.android.eatingornot.activitys.R$string: int user_login
+com.android.eatingornot.activitys.R$string: int user_name
+com.android.eatingornot.activitys.R$string: int user_name_text_error
+com.android.eatingornot.activitys.R$string: int user_register
+com.android.eatingornot.activitys.R$string: int want_to_login_out_weibo
+com.android.eatingornot.activitys.R$string: int want_to_un_bangding_weibo
+com.android.eatingornot.activitys.R$string: int web_site
+com.android.eatingornot.activitys.R$string: int weibo_author_scs
+com.android.eatingornot.activitys.R$string: int weibo_loggin_error
+com.android.eatingornot.activitys.R$string: int weibo_loggin_scs
+com.android.eatingornot.activitys.R$string: int weibo_logging
+com.android.eatingornot.activitys.R$string: int weibo_repeat_content
+com.android.eatingornot.activitys.R$string: int your_contact
+com.android.eatingornot.activitys.R$string: int your_feedback
+com.android.eatingornot.activitys.R$string: int yun_qi
+com.android.eatingornot.activitys.R$string: int zhi_fang_gan
+com.android.eatingornot.activitys.R$style
+com.android.eatingornot.activitys.R$style: int ContentOverlay
+com.android.eatingornot.activitys.SeachFoodsActivity
+com.android.eatingornot.activitys.SeachFoodsActivity: SeachFoodsActivity()
+com.android.eatingornot.activitys.SeachFoodsActivity$DownLoadFlg: com.android.eatingornot.activitys.SeachFoodsActivity$DownLoadFlg[] values()
+com.android.eatingornot.activitys.SeachFoodsActivity$DownLoadFlg: com.android.eatingornot.activitys.SeachFoodsActivity$DownLoadFlg valueOf(java.lang.String)
+com.android.eatingornot.activitys.SearchResultActivity
+com.android.eatingornot.activitys.SearchResultActivity: SearchResultActivity()
+com.android.eatingornot.activitys.ShareActivity
+com.android.eatingornot.activitys.ShareActivity: ShareActivity()
+com.android.eatingornot.activitys.ShareActivity: void onClick(android.view.View)
+com.android.eatingornot.activitys.UserCenterActivity
+com.android.eatingornot.activitys.UserCenterActivity: UserCenterActivity()
+com.android.eatingornot.activitys.UserLoginActivity
+com.android.eatingornot.activitys.UserLoginActivity: UserLoginActivity()
+com.android.eatingornot.activitys.WelcomeActivity
+com.android.eatingornot.activitys.WelcomeActivity: WelcomeActivity()
+com.android.eatingornot.datamodel.Disease
+com.android.eatingornot.datamodel.Disease: java.lang.Integer _id
+com.android.eatingornot.datamodel.Disease: java.lang.String name
+com.android.eatingornot.datamodel.Disease: Disease(java.lang.Integer,java.lang.String)
+com.android.eatingornot.datamodel.Disease: java.lang.Integer get_id()
+com.android.eatingornot.datamodel.Disease: void set_id(java.lang.Integer)
+com.android.eatingornot.datamodel.Disease: java.lang.String getName()
+com.android.eatingornot.datamodel.Disease: void setName(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.Integer _id
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String disease_name
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String food_name
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String can_eat
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.Integer can_eat_int
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String reason
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String recommend_eat_amount
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String recommend_food_mix
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String recommend_food
+com.android.eatingornot.datamodel.DiseaseWithFood: DiseaseWithFood(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.Integer get_id()
+com.android.eatingornot.datamodel.DiseaseWithFood: void set_id(java.lang.Integer)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getCan_eat()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setCan_eat(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getReason()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setReason(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getRecommend_food_mix()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setRecommend_food_mix(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getRecommend_food()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setRecommend_food(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getDisease_name()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setDisease_name(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getFood_name()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setFood_name(java.lang.String)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.Integer getCan_eat_int()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setCan_eat_int(java.lang.Integer)
+com.android.eatingornot.datamodel.DiseaseWithFood: java.lang.String getRecommend_eat_amount()
+com.android.eatingornot.datamodel.DiseaseWithFood: void setRecommend_eat_amount(java.lang.String)
+com.android.eatingornot.datamodel.Food
+com.android.eatingornot.datamodel.Food: java.lang.String foodImgURL
+com.android.eatingornot.datamodel.Food: java.lang.String foodName
+com.android.eatingornot.datamodel.Food: int foodID
+com.android.eatingornot.datamodel.Food: int canEatInt
+com.android.eatingornot.datamodel.Food: java.lang.String relatedDisease
+com.android.eatingornot.datamodel.Food: boolean isSelected
+com.android.eatingornot.datamodel.Food: Food()
+com.android.eatingornot.datamodel.Food: boolean isSelected()
+com.android.eatingornot.datamodel.Food: void setSelected(boolean)
+com.android.eatingornot.datamodel.Food: java.lang.String getRelatedDisease()
+com.android.eatingornot.datamodel.Food: void setRelatedDisease(java.lang.String)
+com.android.eatingornot.datamodel.Food: int getCanEatInt()
+com.android.eatingornot.datamodel.Food: void setCanEatInt(int)
+com.android.eatingornot.datamodel.Food: java.lang.String getFoodName()
+com.android.eatingornot.datamodel.Food: void setFoodName(java.lang.String)
+com.android.eatingornot.datamodel.Food: int getFoodImgResId()
+com.android.eatingornot.datamodel.Food: void setFoodImgResId(int)
+com.android.eatingornot.datamodel.Food: java.lang.String getFoodImgURL()
+com.android.eatingornot.datamodel.Food: void setFoodImgURL(java.lang.String)
+com.android.eatingornot.datamodel.FoodDBEntity
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.Integer _id
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.String name
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.Integer search_time
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.String image_url
+com.android.eatingornot.datamodel.FoodDBEntity: FoodDBEntity(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.Integer get_id()
+com.android.eatingornot.datamodel.FoodDBEntity: void set_id(java.lang.Integer)
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.String getName()
+com.android.eatingornot.datamodel.FoodDBEntity: void setName(java.lang.String)
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.String getImage_url()
+com.android.eatingornot.datamodel.FoodDBEntity: void setImage_url(java.lang.String)
+com.android.eatingornot.datamodel.FoodDBEntity: java.lang.Integer getSearch_time()
+com.android.eatingornot.datamodel.FoodDBEntity: void setSearch_time(java.lang.Integer)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.Integer id
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String diseaseName
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String foodName
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String canEat
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.Integer canEatInt
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String reason
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String recommendEatAmount
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String recommend_food_mix
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String replaceFood
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String infoSource
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String eatAction
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String eatSkill
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String recommend_food
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.util.ArrayList Recommend_foods
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: FoodOfDiseaseBean()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.util.ArrayList getRecommend_foods()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setRecommend_foods(java.util.ArrayList)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getRecommend_food()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setRecommend_food(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.Integer getId()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setId(java.lang.Integer)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getDiseaseName()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setDiseaseName(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getFoodName()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setFoodName(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getCanEat()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setCanEat(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.Integer getCanEatInt()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setCanEatInt(java.lang.Integer)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getReason()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setReason(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getRecommendEatAmount()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setRecommendEatAmount(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getRecommend_food_mix()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setRecommend_food_mix(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getReplaceFood()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setReplaceFood(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getInfoSource()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setInfoSource(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getEatAction()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setEatAction(java.lang.String)
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: java.lang.String getEatSkill()
+com.android.eatingornot.datamodel.FoodOfDiseaseBean: void setEatSkill(java.lang.String)
+com.android.eatingornot.datamodel.RequestRetMsg
+com.android.eatingornot.datamodel.RequestRetMsg: boolean ActionCode
+com.android.eatingornot.datamodel.RequestRetMsg: boolean errorMsg
+com.android.eatingornot.datamodel.RequestRetMsg: RequestRetMsg()
+com.android.eatingornot.datamodel.RequestRetMsg: boolean isErrorMsg()
+com.android.eatingornot.datamodel.RequestRetMsg: void setErrorMsg(boolean)
+com.android.eatingornot.datamodel.RequestRetMsg: boolean isActionCode()
+com.android.eatingornot.datamodel.RequestRetMsg: void setActionCode(boolean)
+com.android.eatingornot.datamodel.TokenInfo
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String uid
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String appkey
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String scope
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String create_at
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String expire_in
+com.android.eatingornot.datamodel.TokenInfo: TokenInfo()
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String getUid()
+com.android.eatingornot.datamodel.TokenInfo: void setUid(java.lang.String)
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String getAppkey()
+com.android.eatingornot.datamodel.TokenInfo: void setAppkey(java.lang.String)
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String getScope()
+com.android.eatingornot.datamodel.TokenInfo: void setScope(java.lang.String)
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String getCreate_at()
+com.android.eatingornot.datamodel.TokenInfo: void setCreate_at(java.lang.String)
+com.android.eatingornot.datamodel.TokenInfo: java.lang.String getExpire_in()
+com.android.eatingornot.datamodel.TokenInfo: void setExpire_in(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo
+com.android.eatingornot.datamodel.UserInfo: java.lang.String userID
+com.android.eatingornot.datamodel.UserInfo: java.lang.String userName
+com.android.eatingornot.datamodel.UserInfo: java.lang.String email
+com.android.eatingornot.datamodel.UserInfo: java.lang.String PWD
+com.android.eatingornot.datamodel.UserInfo: java.lang.String registerDate
+com.android.eatingornot.datamodel.UserInfo: int userState
+com.android.eatingornot.datamodel.UserInfo: java.lang.String userImgUrl
+com.android.eatingornot.datamodel.UserInfo: int errorMsg
+com.android.eatingornot.datamodel.UserInfo: java.lang.String weiboId
+com.android.eatingornot.datamodel.UserInfo: java.lang.String weiboName
+com.android.eatingornot.datamodel.UserInfo: java.lang.String weiboToken
+com.android.eatingornot.datamodel.UserInfo: java.lang.String weiboExpiresIn
+com.android.eatingornot.datamodel.UserInfo: java.lang.String weiboImgUrl
+com.android.eatingornot.datamodel.UserInfo: long weiboAuthorTime
+com.android.eatingornot.datamodel.UserInfo: UserInfo()
+com.android.eatingornot.datamodel.UserInfo: long getWeiboAuthorTime()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboAuthorTime(long)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getWeiboExpiresIn()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboExpiresIn(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getWeiboImgUrl()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboImgUrl(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getWeiboId()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboId(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getWeiboName()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboName(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: int getErrorMsg()
+com.android.eatingornot.datamodel.UserInfo: void setErrorMsg(int)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getUserID()
+com.android.eatingornot.datamodel.UserInfo: void setUserID(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getUserName()
+com.android.eatingornot.datamodel.UserInfo: void setUserName(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getEmail()
+com.android.eatingornot.datamodel.UserInfo: void setEmail(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getPWD()
+com.android.eatingornot.datamodel.UserInfo: void setPWD(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getRegisterDate()
+com.android.eatingornot.datamodel.UserInfo: void setRegisterDate(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getWeiboToken()
+com.android.eatingornot.datamodel.UserInfo: void setWeiboToken(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: int getUserState()
+com.android.eatingornot.datamodel.UserInfo: void setUserState(int)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String getUserImgUrl()
+com.android.eatingornot.datamodel.UserInfo: void setUserImgUrl(java.lang.String)
+com.android.eatingornot.datamodel.UserInfo: java.lang.String toString()
+com.android.eatingornot.datamodel.WeiBoUserData
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String authorTime
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String life
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String accessToken
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String weiboId
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String name
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String profile_image_url
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String email
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String screen_name
+com.android.eatingornot.datamodel.WeiBoUserData: WeiBoUserData()
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getScreen_name()
+com.android.eatingornot.datamodel.WeiBoUserData: void setScreen_name(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getWeiboId()
+com.android.eatingornot.datamodel.WeiBoUserData: void setWeiboId(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getName()
+com.android.eatingornot.datamodel.WeiBoUserData: void setName(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getProfile_image_url()
+com.android.eatingornot.datamodel.WeiBoUserData: void setProfile_image_url(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getEmail()
+com.android.eatingornot.datamodel.WeiBoUserData: void setEmail(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getAuthorTime()
+com.android.eatingornot.datamodel.WeiBoUserData: void setAuthorTime(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getLifeTime()
+com.android.eatingornot.datamodel.WeiBoUserData: void setLifeTime(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String getAccessToken()
+com.android.eatingornot.datamodel.WeiBoUserData: void setAccessToken(java.lang.String)
+com.android.eatingornot.datamodel.WeiBoUserData: java.lang.String toString()
+com.android.eatingornot.widget.CustomsScrollView
+com.android.eatingornot.widget.CustomsScrollView: CustomsScrollView(android.content.Context,android.util.AttributeSet)
+com.android.eatingornot.widget.ResizeLayout
+com.android.eatingornot.widget.ResizeLayout: ResizeLayout(android.content.Context)
+com.android.eatingornot.widget.ResizeLayout: ResizeLayout(android.content.Context,android.util.AttributeSet)
+com.android.eatingornot.widget.ResizeLayout: com.android.eatingornot.widget.ResizeLayout$OnResizeListner getOnResizeListner()
+com.android.eatingornot.widget.ResizeLayout: void setOnResizeListner(com.android.eatingornot.widget.ResizeLayout$OnResizeListner)
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.gson.internal.JsonReaderInternalAccess: com.google.gson.internal.JsonReaderInternalAccess INSTANCE
+com.google.gson.internal.JsonReaderInternalAccess: JsonReaderInternalAccess()
+com.google.gson.internal.JsonReaderInternalAccess: void promoteNameToValue(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader
+com.google.gson.stream.JsonReader: char[] NON_EXECUTE_PREFIX
+com.google.gson.stream.JsonReader: java.lang.String TRUE
+com.google.gson.stream.JsonReader: java.lang.String FALSE
+com.google.gson.stream.JsonReader: com.google.gson.stream.StringPool stringPool
+com.google.gson.stream.JsonReader: java.io.Reader in
+com.google.gson.stream.JsonReader: boolean lenient
+com.google.gson.stream.JsonReader: char[] buffer
+com.google.gson.stream.JsonReader: int pos
+com.google.gson.stream.JsonReader: int limit
+com.google.gson.stream.JsonReader: int bufferStartLine
+com.google.gson.stream.JsonReader: int bufferStartColumn
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonScope[] stack
+com.google.gson.stream.JsonReader: int stackSize
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken token
+com.google.gson.stream.JsonReader: java.lang.String name
+com.google.gson.stream.JsonReader: java.lang.String value
+com.google.gson.stream.JsonReader: int valuePos
+com.google.gson.stream.JsonReader: int valueLength
+com.google.gson.stream.JsonReader: boolean skipping
+com.google.gson.stream.JsonReader: JsonReader(java.io.Reader)
+com.google.gson.stream.JsonReader: void setLenient(boolean)
+com.google.gson.stream.JsonReader: boolean isLenient()
+com.google.gson.stream.JsonReader: void beginArray()
+com.google.gson.stream.JsonReader: void endArray()
+com.google.gson.stream.JsonReader: void beginObject()
+com.google.gson.stream.JsonReader: void endObject()
+com.google.gson.stream.JsonReader: void expect(com.google.gson.stream.JsonToken)
+com.google.gson.stream.JsonReader: boolean hasNext()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken peek()
+com.google.gson.stream.JsonReader: void consumeNonExecutePrefix()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken advance()
+com.google.gson.stream.JsonReader: java.lang.String nextName()
+com.google.gson.stream.JsonReader: java.lang.String nextString()
+com.google.gson.stream.JsonReader: boolean nextBoolean()
+com.google.gson.stream.JsonReader: void nextNull()
+com.google.gson.stream.JsonReader: double nextDouble()
+com.google.gson.stream.JsonReader: long nextLong()
+com.google.gson.stream.JsonReader: int nextInt()
+com.google.gson.stream.JsonReader: void close()
+com.google.gson.stream.JsonReader: void skipValue()
+com.google.gson.stream.JsonReader: void push(com.google.gson.stream.JsonScope)
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken nextInArray(boolean)
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken nextInObject(boolean)
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken objectValue()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken nextValue()
+com.google.gson.stream.JsonReader: boolean fillBuffer(int)
+com.google.gson.stream.JsonReader: int getLineNumber()
+com.google.gson.stream.JsonReader: int getColumnNumber()
+com.google.gson.stream.JsonReader: int nextNonWhitespace(boolean)
+com.google.gson.stream.JsonReader: void checkLenient()
+com.google.gson.stream.JsonReader: void skipToEndOfLine()
+com.google.gson.stream.JsonReader: boolean skipTo(java.lang.String)
+com.google.gson.stream.JsonReader: java.lang.String nextString(char)
+com.google.gson.stream.JsonReader: java.lang.String nextLiteral(boolean)
+com.google.gson.stream.JsonReader: java.lang.String toString()
+com.google.gson.stream.JsonReader: char readEscapeCharacter()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken readLiteral()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken decodeLiteral()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken decodeNumber(char[],int,int)
+com.google.gson.stream.JsonReader: java.io.IOException syntaxError(java.lang.String)
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken access$000(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: int access$100(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: int access$200(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: java.lang.String access$302(com.google.gson.stream.JsonReader,java.lang.String)
+com.google.gson.stream.JsonReader: java.lang.String access$400(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: java.lang.String access$402(com.google.gson.stream.JsonReader,java.lang.String)
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken access$002(com.google.gson.stream.JsonReader,com.google.gson.stream.JsonToken)
+com.google.gson.stream.JsonReader: void <clinit>()
+com.google.gson.stream.JsonReader$1
+com.google.gson.stream.JsonReader$1: JsonReader$1()
+com.google.gson.stream.JsonReader$1: void promoteNameToValue(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader$2
+com.google.gson.stream.JsonReader$2: int[] $SwitchMap$com$google$gson$stream$JsonScope
+com.google.gson.stream.JsonReader$2: void <clinit>()
+com.google.gson.stream.JsonScope
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope EMPTY_ARRAY
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope NONEMPTY_ARRAY
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope EMPTY_OBJECT
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope DANGLING_NAME
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope NONEMPTY_OBJECT
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope EMPTY_DOCUMENT
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope NONEMPTY_DOCUMENT
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope CLOSED
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope[] $VALUES
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope[] values()
+com.google.gson.stream.JsonScope: com.google.gson.stream.JsonScope valueOf(java.lang.String)
+com.google.gson.stream.JsonScope: JsonScope(java.lang.String,int)
+com.google.gson.stream.JsonScope: void <clinit>()
+com.google.gson.stream.JsonToken
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BEGIN_ARRAY
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_ARRAY
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BEGIN_OBJECT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_OBJECT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NAME
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken STRING
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NUMBER
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BOOLEAN
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NULL
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_DOCUMENT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] $VALUES
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
+com.google.gson.stream.JsonToken: JsonToken(java.lang.String,int)
+com.google.gson.stream.JsonToken: void <clinit>()
+com.google.gson.stream.JsonWriter
+com.google.gson.stream.JsonWriter: java.lang.String[] REPLACEMENT_CHARS
+com.google.gson.stream.JsonWriter: java.lang.String[] HTML_SAFE_REPLACEMENT_CHARS
+com.google.gson.stream.JsonWriter: java.io.Writer out
+com.google.gson.stream.JsonWriter: java.util.List stack
+com.google.gson.stream.JsonWriter: java.lang.String indent
+com.google.gson.stream.JsonWriter: java.lang.String separator
+com.google.gson.stream.JsonWriter: boolean lenient
+com.google.gson.stream.JsonWriter: boolean htmlSafe
+com.google.gson.stream.JsonWriter: java.lang.String deferredName
+com.google.gson.stream.JsonWriter: boolean serializeNulls
+com.google.gson.stream.JsonWriter: JsonWriter(java.io.Writer)
+com.google.gson.stream.JsonWriter: void setIndent(java.lang.String)
+com.google.gson.stream.JsonWriter: void setLenient(boolean)
+com.google.gson.stream.JsonWriter: boolean isLenient()
+com.google.gson.stream.JsonWriter: void setHtmlSafe(boolean)
+com.google.gson.stream.JsonWriter: boolean isHtmlSafe()
+com.google.gson.stream.JsonWriter: void setSerializeNulls(boolean)
+com.google.gson.stream.JsonWriter: boolean getSerializeNulls()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter beginArray()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter endArray()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter beginObject()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter endObject()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(com.google.gson.stream.JsonScope,java.lang.String)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(com.google.gson.stream.JsonScope,com.google.gson.stream.JsonScope,java.lang.String)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonScope peek()
+com.google.gson.stream.JsonWriter: void replaceTop(com.google.gson.stream.JsonScope)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter name(java.lang.String)
+com.google.gson.stream.JsonWriter: void writeDeferredName()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.String)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)
+com.google.gson.stream.JsonWriter: void flush()
+com.google.gson.stream.JsonWriter: void close()
+com.google.gson.stream.JsonWriter: void string(java.lang.String)
+com.google.gson.stream.JsonWriter: void newline()
+com.google.gson.stream.JsonWriter: void beforeName()
+com.google.gson.stream.JsonWriter: void beforeValue(boolean)
+com.google.gson.stream.JsonWriter: void <clinit>()
+com.google.gson.stream.JsonWriter$1
+com.google.gson.stream.JsonWriter$1: int[] $SwitchMap$com$google$gson$stream$JsonScope
+com.google.gson.stream.JsonWriter$1: void <clinit>()
+com.google.gson.stream.MalformedJsonException
+com.google.gson.stream.MalformedJsonException: long serialVersionUID
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.String)
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.String,java.lang.Throwable)
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.Throwable)
+com.google.gson.stream.StringPool
+com.google.gson.stream.StringPool: java.lang.String[] pool
+com.google.gson.stream.StringPool: StringPool()
+com.google.gson.stream.StringPool: java.lang.String get(char[],int,int)
+com.umeng.analytics.Gender: com.umeng.analytics.Gender[] values()
+com.umeng.analytics.Gender: com.umeng.analytics.Gender valueOf(java.lang.String)
+com.umeng.common.net.DownloadingService
+com.umeng.common.net.DownloadingService: DownloadingService()
+com.umeng.common.net.o: o(org.json.JSONObject)
+com.umeng.common.net.o$a: com.umeng.common.net.o$a[] values()
+com.umeng.common.net.o$a: com.umeng.common.net.o$a valueOf(java.lang.String)
+com.umeng.common.net.p$b: com.umeng.common.net.p$b[] values()
+com.umeng.common.net.p$b: com.umeng.common.net.p$b valueOf(java.lang.String)
+com.umeng.common.net.t: t(org.json.JSONObject)
+com.umeng.fb.NotificationType: com.umeng.fb.NotificationType[] values()
+com.umeng.fb.NotificationType: com.umeng.fb.NotificationType valueOf(java.lang.String)
+com.umeng.fb.a: a(org.json.JSONObject)
+com.umeng.fb.a$a: com.umeng.fb.a$a[] values()
+com.umeng.fb.a$a: com.umeng.fb.a$a valueOf(java.lang.String)
+com.umeng.fb.a$b: com.umeng.fb.a$b[] values()
+com.umeng.fb.a$b: com.umeng.fb.a$b valueOf(java.lang.String)
+com.umeng.fb.a.c: c(org.json.JSONObject)
+com.umeng.fb.b$a: com.umeng.fb.b$a[] values()
+com.umeng.fb.b$a: com.umeng.fb.b$a valueOf(java.lang.String)
+com.umeng.fb.ui.FeedbackConversation
+com.umeng.fb.ui.FeedbackConversations
+com.umeng.fb.ui.SendFeedback
+com.umeng.fb.ui.ThreadView
+com.umeng.fb.ui.ThreadView: ThreadView(android.content.Context,android.util.AttributeSet)
+com.umeng.update.UpdateResponse: UpdateResponse(org.json.JSONObject)
+com.weibo.android.R$color: int dialog_title_blue
+com.weibo.android.R$color: int text_num_gray
+com.weibo.android.R$color: int transparent
+com.weibo.android.R$dimen: int dialog_bottom_margin
+com.weibo.android.R$dimen: int dialog_btn_close_right_margin
+com.weibo.android.R$dimen: int dialog_btn_close_top_margin
+com.weibo.android.R$dimen: int dialog_left_margin
+com.weibo.android.R$dimen: int dialog_right_margin
+com.weibo.android.R$dimen: int dialog_title_height
+com.weibo.android.R$dimen: int dialog_title_logo_left_margin
+com.weibo.android.R$dimen: int dialog_top_margin
+com.weibo.android.R$drawable: int bg
+com.weibo.android.R$drawable: int bg1
+com.weibo.android.R$drawable: int bg_btn
+com.weibo.android.R$drawable: int bg_btn_onclick
+com.weibo.android.R$drawable: int bg_button
+com.weibo.android.R$drawable: int bg_content
+com.weibo.android.R$drawable: int bg_contents
+com.weibo.android.R$drawable: int bg_delwords
+com.weibo.android.R$drawable: int bg_delwords_nor
+com.weibo.android.R$drawable: int bg_delwords_sel
+com.weibo.android.R$drawable: int bg_editor
+com.weibo.android.R$drawable: int bg_title
+com.weibo.android.R$drawable: int close_normal
+com.weibo.android.R$drawable: int close_press
+com.weibo.android.R$drawable: int close_selector
+com.weibo.android.R$drawable: int del_pic
+com.weibo.android.R$drawable: int dialog_bg
+com.weibo.android.R$drawable: int dota
+com.weibo.android.R$drawable: int header_null
+com.weibo.android.R$drawable: int icon
+com.weibo.android.R$drawable: int icon_delwords
+com.weibo.android.R$drawable: int image_background
+com.weibo.android.R$drawable: int search_btn_seletor
+com.weibo.android.R$drawable: int search_button
+com.weibo.android.R$drawable: int search_button_press
+com.weibo.android.R$drawable: int title_btn_seletor
+com.weibo.android.R$drawable: int title_logo
+com.weibo.android.R$id: int btnClose
+com.weibo.android.R$id: int btnSend
+com.weibo.android.R$id: int connect_weibo
+com.weibo.android.R$id: int etEdit
+com.weibo.android.R$id: int flPic
+com.weibo.android.R$id: int home_layout
+com.weibo.android.R$id: int ivDelPic
+com.weibo.android.R$id: int ivImage
+com.weibo.android.R$id: int llImage
+com.weibo.android.R$id: int ll_text_limit_unit
+com.weibo.android.R$id: int rlTitle
+com.weibo.android.R$id: int rlTotal
+com.weibo.android.R$id: int tv_text_limit
+com.weibo.android.R$id: int weibo_state
+com.weibo.android.R$layout: int share_mblog_view
+com.weibo.android.R$layout: int share_view
+com.weibo.android.R$string: int already_max_words
+com.weibo.android.R$string: int app_name
+com.weibo.android.R$string: int attention
+com.weibo.android.R$string: int cancel
+com.weibo.android.R$string: int close
+com.weibo.android.R$string: int del_pic
+com.weibo.android.R$string: int delete_all
+com.weibo.android.R$string: int hello
+com.weibo.android.R$string: int ok
+com.weibo.android.R$string: int please_login
+com.weibo.android.R$string: int send
+com.weibo.android.R$string: int send_failed
+com.weibo.android.R$string: int send_sucess
+com.weibo.android.R$string: int share_dialog_title
+com.weibo.android.R$style: int ContentOverlay
+com.weibo.net.OldShareActivity
+com.weibo.net.OldShareActivity: void onClick(android.view.View)
+com.weibo.net.ShareActivity
+com.weibo.net.ShareActivity: ShareActivity()
+com.weibo.net.ShareActivity: void onClick(android.view.View)

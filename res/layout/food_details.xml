@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+   <include layout="@layout/customs_title" android:id="@+id/title_bar"></include>
+<com.android.eatingornot.widget.CustomsScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg"
+  android:scrollbars="none"
+  android:layout_marginBottom="50dp"
+  android:layout_below="@id/title_bar"
+  >
+  <LinearLayout
+      android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical"
+	  >
+
+  	<include layout="@layout/customs_image_big"></include>
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="10dp"
+	    />
+  	<include layout="@layout/customs_titext" android:id="@+id/advise"></include>
+  	<include layout="@layout/customs_titext" android:id="@+id/details_reason"></include>
+  	
+    <include layout="@layout/customs_titext" android:id="@+id/eat_amount"></include>  	
+    <include layout="@layout/customs_titext" android:id="@+id/eat_action"></include>
+    <include layout="@layout/customs_titext" android:id="@+id/eat_skill"></include>
+    
+	<include layout="@layout/customs_titext" android:id="@+id/rec_foods_macth" android:visibility="gone"></include>
+    <include layout="@layout/customs_titext" android:id="@+id/rec_foods"></include>
+    
+    <include layout="@layout/customs_titext" android:id="@+id/info_source" android:visibility="gone"></include>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="20dp"
+	    />
+	
+  </LinearLayout>
+</com.android.eatingornot.widget.CustomsScrollView>
+<LinearLayout 
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/customs_navibar"/>    
+</LinearLayout>
+</RelativeLayout>

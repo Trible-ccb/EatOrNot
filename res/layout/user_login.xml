@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+     >
+
+  <include layout="@layout/customs_title" android:id="@+id/title"/>
+  
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:layout_below="@id/title"
+  android:id="@+id/disease_contener"
+  >
+	  			<LinearLayout
+	  			  	android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:orientation="horizontal"
+	  				android:layout_marginLeft="20dip"
+	  				android:layout_marginTop="10dip"
+	  				android:id="@+id/tip_laout"
+	  				>
+	  				
+		  			<ImageView 
+				  			android:layout_width="wrap_content"
+				  			android:layout_height="wrap_content"
+				  			android:src="@drawable/collect_words"
+				  			android:scaleType="centerInside"
+				  		></ImageView>
+
+  				</LinearLayout>
+	
+	  			<LinearLayout 
+	  			    android:layout_width="fill_parent"
+	  			    android:layout_height="wrap_content"
+	  			    android:gravity="center"
+	  			    android:layout_marginTop="10dp"
+					android:layout_below="@id/tip_laout"
+					android:id="@+id/just_for_layout"
+					android:visibility="invisible"
+	  			    >
+
+	  				<Button
+	  				    android:layout_width="wrap_content"
+	  				    android:layout_height="wrap_content"
+	  				    android:text="@string/login_text" 
+	  				    android:paddingRight="50dp"
+	  				    android:paddingLeft="50dp"
+	  				    android:layout_marginRight="-15dp"
+	  				    
+	  				    />
+
+	  			    <Button 
+	  			        android:layout_width="wrap_content"
+	  			        android:layout_height="wrap_content"
+	  			        android:text="@string/register_text"
+	  			        android:paddingLeft="50dp"
+	  			        android:paddingRight="50dp"
+	  			        />
+	  			</LinearLayout>
+	  	<ScrollView
+	  	    	android:layout_width="fill_parent"
+		  		android:layout_height="fill_parent"
+		  		android:layout_below="@id/just_for_layout"
+		  		android:id="@+id/sv_layout"
+		  		android:layout_marginTop="-9dp"
+		  		android:background="@drawable/bg1"
+
+		  		>
+		<RelativeLayout 
+	        	android:layout_width="fill_parent"
+		  		android:layout_height="fill_parent"
+		  		android:id="@+id/rl_contener"
+	    		>
+				<LinearLayout 
+	    	  	android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:orientation="vertical"
+		  		android:id="@+id/lv_login_and_register"
+	  		
+    			>			
+<!-- 登录页面 -->	 
+		    <LinearLayout 
+	  			    android:layout_width="fill_parent"
+	  			    android:layout_height="wrap_content"
+	  			    android:orientation="vertical"
+	  			    android:padding="20dp"
+					android:gravity="center"
+	  			    android:id="@+id/login_layout"
+	  			    >
+	  			    
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/email"
+	  			        android:hint="@string/email_name"
+	  			        android:inputType="textEmailAddress"
+	  			        android:layout_margin="5dp"
+	  			        android:background="@drawable/bg_editor"
+	  			        />
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/password"
+	  			        android:hint="@string/password"
+	  			        android:inputType="textPassword"
+	  			        android:layout_margin="5dp"
+	  			        android:background="@drawable/bg_editor"
+	  			        />
+	  			    <Button 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:paddingLeft="40dp"
+					    android:paddingRight="40dp"
+					    android:textColor="#FFF"
+					    android:id="@+id/submit_login"
+					    android:text="@string/login_text"
+					    android:layout_marginTop="10dp"
+					    android:background="@drawable/title_btn_seletor"
+					    android:shadowColor="#000"
+						android:shadowDx="0"
+						android:shadowDy="1"
+						android:shadowRadius="1"
+					    />
+	  			    <TextView 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:id="@+id/forget_psw"
+					    android:layout_marginTop="20dp"
+					    android:text="@string/forget_psw"
+					    android:autoLink="all"
+					    />
+
+	  			</LinearLayout>
+<!-- 登录页面结束 -->	  
+<!-- 注册页面 -->	  			
+		    	<LinearLayout 
+	  			    android:layout_width="fill_parent"
+	  			    android:layout_height="wrap_content"
+	  			    android:orientation="vertical"
+	  			    android:padding="20dp"
+	  			    android:id="@+id/register_layout"
+	  			    android:gravity="center"
+	  			    android:visibility="gone"
+	  			    >
+	  			    
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/register_email"
+	  			        android:hint="@string/hint_for_email_name"
+	  			        android:inputType="textEmailAddress"
+	  			        android:layout_margin="5dp"
+	  			        android:background="@drawable/bg_editor"
+	  			        
+	  			        />
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/username"
+	  			        android:hint="@string/user_name"
+	  			        android:layout_margin="5dp"
+	  			        android:background="@drawable/bg_editor"
+	  			        android:inputType="text"
+	  			        android:singleLine="true"
+	  			        />
+	  			    <EditText 
+	  			        android:layout_width="fill_parent"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/register_password"
+	  			        android:hint="@string/hint_for_password"
+	  			        android:inputType="textVisiblePassword"
+	  			        android:layout_margin="5dp"
+	  			        android:background="@drawable/bg_editor"
+	  			        />
+	  			   <Button 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:paddingLeft="40dp"
+					    android:paddingRight="40dp"
+					    android:textColor="#FFF"
+					    android:id="@+id/submit_register"
+					    android:text="@string/register_text"
+					    android:layout_marginTop="10dp"
+					    android:background="@drawable/title_btn_seletor"
+					    android:shadowColor="#000"
+						android:shadowDx="0"
+						android:shadowDy="1"
+						android:shadowRadius="1"
+					    />
+
+	  			</LinearLayout>
+<!-- 注册页面结束 -->
+
+	  			</LinearLayout>
+	  			<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/bg_white"
+				    android:layout_alignParentBottom="true"
+				    android:layout_below="@+id/lv_login_and_register"
+				    android:orientation="vertical"
+				    android:padding="20dp"
+				    android:gravity="center"
+				    android:layout_gravity="bottom"
+				    >
+	  			   <LinearLayout
+	  			       android:layout_width="wrap_content"
+	  			       android:layout_height="wrap_content"
+	  			       android:orientation="vertical"
+	  			       android:gravity="left"
+	  			       >
+	  			   <Button 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:id="@+id/weibo_login"
+					    android:background="@drawable/weibo_login"
+					    />
+	  				<Button
+	  			    	android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:id="@+id/btn_create_us"
+					    android:drawableLeft="@drawable/chek_seletor"
+					    android:text="@string/create_us_at_weibo"
+					    android:background="@color/transparent"
+					    android:layout_marginTop="20dp"
+					    android:layout_marginBottom="20dp"
+					    android:drawablePadding="5dp"
+					    android:textColor="#752"
+					    android:textSize="16sp"
+					    android:gravity="center"
+					    /> 
+				<Button
+	  			    	android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:id="@+id/btn_share_to_weibo"
+					    android:drawableLeft="@drawable/chek_seletor"
+					    android:text="@string/share_app_to_weibo"
+					    android:background="@color/transparent"
+					    android:drawablePadding="5dp"
+					    android:textColor="#752"
+					    android:textSize="16sp"
+					    android:gravity="center"
+					    />	
+	  			</LinearLayout>
+				      
+	  			</LinearLayout> 
+	</RelativeLayout>
+	</ScrollView>
+	  			<LinearLayout 
+	  			    android:layout_width="fill_parent"
+	  			    android:layout_height="wrap_content"
+	  			    android:gravity="center|bottom"
+	  			    android:layout_marginTop="10dp"
+					android:layout_below="@id/tip_laout"
+					android:layout_above="@id/sv_layout"
+					android:id="@+id/tap_layout"
+					
+	  			    >
+
+	  				<Button
+	  				    android:id="@+id/btn_login"
+	  				    android:layout_width="wrap_content"
+	  				    android:layout_height="wrap_content"
+	  				    android:text="@string/login_text" 
+	  				    android:background="@drawable/select_tap_left"
+	  				    android:paddingRight="50dp"
+	  				    android:paddingLeft="50dp"
+	  				    android:layout_marginRight="0dp"
+	  				    android:layout_weight="1.0"
+	  				    android:layout_marginLeft="40dp"
+	  				    android:singleLine="true"
+	  				    />
+
+	  			    <Button 
+	  			        android:layout_width="wrap_content"
+	  			        android:layout_height="wrap_content"
+	  			        android:id="@+id/btn_register"
+	  			        android:text="@string/register_text"
+	  			        android:background="@drawable/not_select_tap_right"
+	  			        android:paddingLeft="50dp"
+	  			        android:paddingRight="50dp"
+	  			        android:layout_weight="1.0"
+	  			        android:layout_marginRight="40dp"
+	  			        android:singleLine="true"
+	  			        />
+	  			</LinearLayout>
+  		</RelativeLayout>
+<LinearLayout 
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+    <include layout="@layout/customs_navibar"/>    
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="EatOrNot Auto builder" basedir="./../">
+
+	<property   environment= "env"/>
+
+	<property name="filepath" value="${basedir}/build-setting"/>
+
+	<property file="${filepath}/build.properties"/>	 	
+	<property file="${filepath}/local.properties"/>	 
+	<property file="${filepath}/default.properties"/>
+
+    <property name="out-unsigned-package" value="${basedir}/bin/${out-unsigned-file-name}" />
+	
+    <property name="build.resources.dir" value="${basedir}/build-resources"/>
+ 	
+    <condition property="out-unsigned-package-ospath"
+            value="${basedir}/${out-unsigned-package}"
+            else="${basedir}/${out-unsigned-package}" >
+        <os family="windows"/>
+    </condition>
+	<tstamp>
+	    <format property="build.date" pattern="yyyyMMdd"/>
+	</tstamp>
+
+    <!-- Tools -->
+    <condition property="jarsigner" value="${env.JAVA_HOME}/bin/jarsigner.exe" else="${env.JAVA_HOME}/bin/jarsigner" >
+        <os family="windows"/>
+    </condition>
+
+    <condition property="zipalign" value="${sdk.dir}/tools/zipalign.exe" else="${sdk.dir}/tools/zipalign" >
+        <os family="windows"/>
+    </condition>
+	
+	<property name="manifest.dir" value="${basedir}/AndroidManifest.xml"/>
+	<property name="manifest.backup.dir" value="${basedir}/AndroidManifest.xml.backup"/>
+	
+	
+ 	<target name="build" depends="setup-release-files">
+ 		<ant antfile="${filepath}/build.xml" target="release"/> 
+	</target>
+	<target name="setup-release-files" depends="increase-build-number">
+		<echo>Backup AndroidManifest.xml...</echo>
+		<copy file="${manifest.dir}" tofile="${manifest.backup.dir}" overwrite="true"/>
+	</target>
+	
+	<target name="increase-build-number">
+	   	<property name="out-signed-package-name" value="${project.name}-${project.version}-${name}.apk" />
+	 	<property name="out-signed-package" value="apk/${out-signed-package-name}" />
+	    <condition property="out-signed-package-ospath"
+	            value="${basedir}\${out-signed-package}"
+	            else="${basedir}/${out-signed-package}" >
+	        <os family="windows"/>
+	    </condition>
+	   	<property name="out-signed-package-name-before-align" value="${out-signed-package-name}.unaligned" />
+	   	<property name="out-signed-package-before-align" value="${out-signed-package}.unaligned"/>
+		<property name="out-signed-package-ospath-before-align" value="${out-signed-package-ospath}.unaligned"/>
+
+	</target>
+
+	<target name="signapp" depends="build">
+		<copy tofile="${out-signed-package-before-align}" file="${out-unsigned-package}"/>
+        <echo>Signing ${out-signed-package} for release...</echo>
+	
+        <exec executable="${jarsigner}" failonerror="true">
+            <arg value="-verbose" />
+            <arg value="-keypass" />
+            <arg value="${keypass}" />
+            <arg value="-storepass" />
+            <arg value="${storepass}" />
+            <arg value="-keystore" />
+            <arg value="${keystore-ospath}" />
+            <arg value="${out-signed-package-ospath-before-align}" />
+            <arg value="${alias_name}" />
+        </exec>
+		<delete file="${basedir}/${out-signed-package}" /> 
+        <echo>zipaligning ${out-signed-package}...</echo>
+		
+        <exec executable="${zipalign}" failonerror="true">
+            <arg value="-v" />
+            <arg value="4" />
+            <arg value="${out-signed-package-ospath-before-align}" />
+            <arg value="${out-signed-package-ospath}" />
+        </exec>
+        
+		<copy todir="${release.apk.dir}" file="${out-signed-package-ospath}"/>
+		
+		<echo>Deleting unaligned apk...</echo>
+		<delete file="${out-signed-package-ospath-before-align}"/>
+		<echo>Deleting bin directory...</echo>
+		<delete dir="${basedir}/bin"/>
+		<echo>Restoring AndroidManifest.xml...</echo>
+		<copy file="${manifest.backup.dir}" tofile="${manifest.dir}" overwrite="true"/>
+		<delete file="${manifest.backup.dir}" />
+	</target>
+	
+    <target name="eatornot" >
+			<antcall target="buildMarket" >
+	            <param name="name" value="${market}" /> 
+	    	</antcall>
+			<antcall target="signapp" > 
+		            <param name="name" value="${market}" /> 
+    		</antcall>	
+        <echo>build all ok</echo> 
+    </target>
+ 
+	<target name="buildMarket" >		
+		<delete file="${basedir}/res/values/market.xml"/>		
+		<echo file="${basedir}/res/values/market.xml" message="&lt;?xml version= &quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;
+		&lt;resources&gt;&#10;
+		    &lt;string name= &quot;MARKET_NAME&quot;&gt;${name}&lt;/string&gt;&#10;
+		&lt;/resources&gt;"/>
+		<echo message="buildMarket ok ${name}"/>
+	</target>
+</project>

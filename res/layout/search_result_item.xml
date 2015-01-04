@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@drawable/search_ret_item_seletor" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_ret_item_img"
+        android:scaleType="centerInside"
+        android:background="#fff"
+        android:padding="1dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_ret_item_name"
+        android:textColor="#752"
+        android:text="dd"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/search_ret_item_img"
+        android:layout_centerVertical="true"
+        />
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_ret_item_fit"
+        android:src="@drawable/fit"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        />
+
+
+</RelativeLayout>

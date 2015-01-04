@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+ >
+
+  <include layout="@layout/customs_title" android:id="@+id/title"/>
+  
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_below="@id/title"
+  android:id="@+id/disease_contener"
+  >
+	  			<LinearLayout
+	  			  	android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:orientation="horizontal"
+	  				android:layout_marginLeft="20dip"
+	  				android:layout_marginTop="10dip"
+	  				>
+	  				
+		  			<ImageView 
+				  			android:layout_width="wrap_content"
+				  			android:layout_height="wrap_content"
+				  			android:src="@drawable/choose"
+				  			android:scaleType="centerInside"
+				  				
+				  		></ImageView>
+			  		<ImageView 
+			  			android:layout_width="wrap_content"
+			  			android:layout_height="wrap_content"
+			  			android:src="@drawable/arrow"
+			  			android:scaleType="centerInside"
+			  			android:layout_marginTop="10dip"
+			  			></ImageView>
+  				</LinearLayout>
+  			<!-- 第一排的病 -->	
+  			<RelativeLayout
+  			  	android:layout_width="fill_parent"
+			  	android:layout_height="wrap_content"
+			  	>
+			  	<ImageView
+	  			  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:src="@drawable/rope"
+				  android:scaleType="centerInside"
+				  android:layout_marginTop="@dimen/rope_margin"  	
+				  ></ImageView>
+  			<LinearLayout
+  			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="horizontal"
+			  android:gravity="center_horizontal"		  
+			  >
+			  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_left"
+				  android:src="@drawable/pregnant"
+				  android:scaleType="centerInside"
+				  android:background="#0000"
+				  android:layout_marginTop="@dimen/LFT_marginTop_offset"
+				  android:layout_marginRight="@dimen/LFT_marginRight_offset"
+				  ></ImageButton>
+
+				  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_middle" 
+				  android:src="@drawable/hypertensive"
+				  android:scaleType="centerInside"
+				  android:background="#0000"
+				  android:layout_marginLeft="@dimen/MIN_marginLeft_offset"
+				  android:layout_marginTop="@dimen/MIN_marginTop_offset"
+				  ></ImageButton>
+
+				  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_right"
+				  android:src="@drawable/diabetes"
+				  android:background="#0000"
+				  android:scaleType="centerInside"
+				  android:layout_marginLeft="@dimen/RIT_marginLeft_offset"
+				  android:layout_marginTop="@dimen/RIT_marginTop_offset"
+				  ></ImageButton>
+			  </LinearLayout>
+			  </RelativeLayout>
+			  
+  			
+  		<!-- 第二排的病 -->	
+  		<RelativeLayout
+  			  	android:layout_width="fill_parent"
+			  	android:layout_height="wrap_content"
+			  	android:layout_marginTop="15dip"
+			  	>
+			  	<ImageView
+	  			  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:src="@drawable/rope"
+				  android:scaleType="centerInside"
+				  android:layout_marginTop="@dimen/rope_margin"  	
+				  ></ImageView>
+  			<LinearLayout
+  			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="horizontal"
+			  android:gravity="center_horizontal"		  
+			  >
+			  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_sec_left"
+				  android:src="@drawable/hyperlipidemia"
+				  android:scaleType="centerInside"
+				  android:background="#0000"
+				  android:layout_marginTop="@dimen/LFT_marginTop_offset"
+				  android:layout_marginRight="@dimen/LFT_marginRight_offset"				  
+				  ></ImageButton>
+
+				  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_sec_middle" 
+				  android:src="@drawable/coronary_heart_disease"
+				  android:scaleType="centerInside"
+				  android:background="#0000"
+				  android:layout_marginLeft="@dimen/MIN_marginLeft_offset"
+				  android:layout_marginTop="@dimen/MIN_marginTop_offset"
+				  ></ImageButton>
+
+				  <ImageButton
+			      android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/btn_sec_right"
+				  android:src="@drawable/fatty_liver"
+				  android:background="#0000"
+				  android:scaleType="centerInside"
+				  android:layout_marginLeft="@dimen/RIT_marginLeft_offset"
+				  android:layout_marginTop="@dimen/RIT_marginTop_offset"
+				  ></ImageButton>
+			  </LinearLayout>
+			  </RelativeLayout>
+  </LinearLayout>
+<LinearLayout 
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/customs_navibar"/>    
+</LinearLayout>
+</RelativeLayout>
